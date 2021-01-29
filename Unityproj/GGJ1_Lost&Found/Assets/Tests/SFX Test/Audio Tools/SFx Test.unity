@@ -272,6 +272,18 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 55237c21f96d3fc44b8e8468a179000e, type: 2}
+  CharacterSelect:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 14e74b8442c8eff46b80af7ffb9e536b, type: 2}
+  EmotionSelect:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cfc57c3b48ce17142b86932bd0312192, type: 2}
 --- !u!4 &1146734972
 Transform:
   m_ObjectHideFlags: 0

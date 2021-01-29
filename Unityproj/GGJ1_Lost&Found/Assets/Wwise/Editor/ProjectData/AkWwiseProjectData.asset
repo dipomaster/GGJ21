@@ -246,5 +246,9 @@ MonoBehaviour:
   - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit/Dialogue
   - /GGJ1_Lost&Found_WwiseProject/SoundBanks
   - /GGJ1_Lost&Found_WwiseProject/SoundBanks/Default Work Unit
+  - /GGJ1_Lost&Found_WwiseProject/Switches
+  - /GGJ1_Lost&Found_WwiseProject/Switches/Default Work Unit
+  - /GGJ1_Lost&Found_WwiseProject/Switches/Default Work Unit/Character
+  - /GGJ1_Lost&Found_WwiseProject/Switches/Default Work Unit/Emotion
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
