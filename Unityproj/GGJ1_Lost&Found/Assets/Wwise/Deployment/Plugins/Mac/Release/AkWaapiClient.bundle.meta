@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 5d084e5261491144499254f6bc02c6f0
-=======
-guid: e74522bb083d95742a2bee3be2a2a21d
->>>>>>> Sound
 folderAsset: yes
 PluginImporter:
   externalObjects: {}
@@ -24,11 +20,7 @@ PluginImporter:
   - first:
       Editor: Editor
     second:
-<<<<<<< HEAD
-      enabled: 1
-=======
       enabled: 0
->>>>>>> Sound
       settings:
         DefaultValueInitialized: true
   - first:
