@@ -63,3 +63,5 @@ crashlytics-build.properties
     /pathToWwiseProject/Originals/SFX/*.akd
     /pathToWwiseProject/.cache/
 
+#layouts
+*.dwlt
