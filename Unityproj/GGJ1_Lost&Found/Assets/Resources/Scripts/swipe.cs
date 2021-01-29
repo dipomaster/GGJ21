@@ -33,39 +33,20 @@ public class swipe : MonoBehaviour
     private void Awake()
     {
         PrevButton.interactable = false;
-        //SelectMenuItem(0);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
-
-
-        //if (runIt)
-        //{
-        //    GecisiDuzenle(distance, pos, takeTheBtn);
-        //    time += Time.deltaTime;
-
-        //    if (time > 1f)
-        //    {
-        //        time = 0;
-        //        runIt = false;
-        //    }
-        //}
-
-
-
         if (Input.GetMouseButton(0))
         {
-
             if (scrollbar.GetComponent<Scrollbar>().value != scroll_pos)
             {
                 scroll_pos = scrollbar.GetComponent<Scrollbar>().value;
 
 
             }
-
         }
         else
         {
@@ -77,10 +58,8 @@ public class swipe : MonoBehaviour
                     currentItem = i;
                 }
             }
-
-
         }
-        //Debug.LogAssertion("scroll position " + scroll_pos);
+        
 
         OnInput();
 
@@ -88,22 +67,11 @@ public class swipe : MonoBehaviour
 
 
     private void  OnInput( )
-    {
-        
-
-
-
+    {   
         for (int i = 0; i < pos.Length; i++)
         {
-            //PrevButton.interactable = (i != 0);
-            //NextButton.interactable = (i != transform.childCount - 1);
             if (scroll_pos < pos[i] + (distance / 2) && scroll_pos > pos[i] - (distance / 2))
-            {
-                // Debug.LogWarning("Current Selected Level" + i);
-                //currentItem = i;
-                //print("pos[i]= "+pos[i]);
-                //print("[i]= " + i);
-                // SelectMenuItem(i);
+            {                
                 transform.GetChild(i).localScale = Vector2.Lerp(transform.GetChild(i).localScale, new Vector2(1f, 1f), 0.1f);
                 items_description.GetComponentInChildren<TextMeshProUGUI>().text = transform.GetChild(i).gameObject.GetComponent<Item_Script>().Item_Description;
             }
@@ -113,27 +81,7 @@ public class swipe : MonoBehaviour
                 
             }
         }
-
     }
-    //private void GecisiDuzenle(float distance, float[] pos, Button btn)
-    //{
-    //    // btnSayi = System.Int32.Parse(btn.transform.name);
-
-    //    for (int i = 0; i < pos.Length; i++)
-    //    {
-    //        if (scroll_pos < pos[i] + (distance / 2) && scroll_pos > pos[i] - (distance / 2))
-    //        {
-    //            scrollbar.GetComponent<Scrollbar>().value = Mathf.Lerp(scrollbar.GetComponent<Scrollbar>().value, pos[btnNumber], 1f * Time.deltaTime);
-
-    //        }
-    //    }
-
-    //    for (int i = 0; i < btn.transform.parent.transform.childCount; i++)
-    //    {
-    //        btn.transform.name = ".";
-    //    }
-
-    //}
 
 
     private void SelectMenuItem(int _index)
@@ -154,5 +102,5 @@ public class swipe : MonoBehaviour
     }
 
 
-
+    
 }
