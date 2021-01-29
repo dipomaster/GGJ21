@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Dialogue" ID="{F3427946-4052-416D-82D4-F5503C56C8E7}" OwnerID="{2C591439-1E5C-41C0-BA19-DB5432F12040}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="talk" ID="{2F38150B-CFDC-431D-ABBC-EA18BC1BBF91}">
+				<Event Name="start_talking" ID="{2F38150B-CFDC-431D-ABBC-EA18BC1BBF91}">
 					<ChildrenList>
 						<Action Name="" ID="{EC1FEA89-E92C-4991-9556-9937DEF62584}" ShortID="676631349">
 							<ReferenceList>

@@ -6,19 +6,27 @@
 				<SoundcasterSession Name="Speech" ID="{4A6B77AB-D8A5-4113-B137-2FE737A26E96}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="talk" ID="{2F38150B-CFDC-431D-ABBC-EA18BC1BBF91}" WorkUnitID="{F3427946-4052-416D-82D4-F5503C56C8E7}"/>
+							<ObjectRef Name="start_talking" ID="{2F38150B-CFDC-431D-ABBC-EA18BC1BBF91}" WorkUnitID="{F3427946-4052-416D-82D4-F5503C56C8E7}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="stop_talking" ID="{5A0FCDBF-6C82-4D1B-99EF-22380A173CA6}" WorkUnitID="{F3427946-4052-416D-82D4-F5503C56C8E7}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="start_ambience" ID="{E6A5D991-E630-4D43-911D-9976E2E90401}" WorkUnitID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="stop_ambience" ID="{11423F78-E7E8-49EB-B5DF-9122492F8A7A}" WorkUnitID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Normal" ID="{74B6060F-8130-4710-904E-6D8C465B8F58}"/>
-						<CurrentSwitchRef Name="Goth" ID="{AB73EBC2-DCB3-4247-80FC-41180777FF63}"/>
+						<CurrentSwitchRef Name="Magic_Girl" ID="{4EB27B1F-3D68-4C93-913C-544D8EB6E348}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
