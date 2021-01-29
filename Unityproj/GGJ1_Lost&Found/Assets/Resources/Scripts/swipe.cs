@@ -86,7 +86,7 @@ public class swipe : MonoBehaviour
     }
 
 
-    private IEnumerator  OnInput( )
+    private void  OnInput( )
     {
         
 
@@ -112,7 +112,7 @@ public class swipe : MonoBehaviour
                 
             }
         }
-        return new;
+
     }
     //private void GecisiDuzenle(float distance, float[] pos, Button btn)
     //{
