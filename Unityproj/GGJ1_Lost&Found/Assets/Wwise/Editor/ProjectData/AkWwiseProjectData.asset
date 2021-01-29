@@ -238,6 +238,11 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585896715502699882
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /GGJ1_Lost&Found_WwiseProject
+  - /GGJ1_Lost&Found_WwiseProject/Events
+  - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit
+  - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit/Ambience
+  - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit/Dialogue
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
