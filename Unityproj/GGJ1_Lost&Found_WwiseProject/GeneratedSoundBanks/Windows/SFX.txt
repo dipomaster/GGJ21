@@ -1,0 +1,48 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2173668446	stop_talking			\Default Work Unit\Dialogue\stop_talking	
+	3173192383	talk			\Default Work Unit\Dialogue\talk	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	436743010	Character			\Default Work Unit\Character	
+	3146275604	Emotion			\Default Work Unit\Emotion	
+
+Switch	ID	Name	Switch Group			Notes
+	594300751	Magic_Girl	Character			
+	786076171	Goth	Character			
+	1160234136	Normal	Emotion			
+	1206605712	Angry	Emotion			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	428529380	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Silence\Wwise Silence	
+	500294116	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	23008695	Voice_MagicGirl-013	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-013_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-013		20438
+	111484944	Voice_MagicGirl-014	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-014_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-014		20438
+	126065340	Voice_Goth-007	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-007		20976
+	129796359	Voice_MagicGirl-002	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-002		20438
+	185558973	Voice_Goth-011	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-011		20976
+	200172906	Voice_Goth-006	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-006		20976
+	291830038	Voice_Goth-014	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-014_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-014		20976
+	305140195	Voice_MagicGirl-006	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-006		20438
+	340763941	Voice_MagicGirl-001	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-001		20438
+	342232500	Voice_MagicGirl-012	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-012_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-012		20438
+	395511421	Voice_Goth-003	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-003		20976
+	489216646	Voice_MagicGirl-010	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-010		20438
+	509435193	Voice_MagicGirl-008	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-008_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-008		20438
+	575785758	Voice_Goth-005	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-005		20976
+	577161600	Voice_MagicGirl-009	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-009		20438
+	653258815	Voice_Goth-001	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-001_27FC77D3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-001		20868
+	657116648	Voice_Goth-008	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-008_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-008		20976
+	735715599	Voice_Goth-002	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-002		20976
+	736311000	Voice_MagicGirl-005	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-005		20438
+	753204222	Voice_MagicGirl-011	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-011		20438
+	833008248	Voice_MagicGirl-004	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-004		20438
+	843338892	Voice_MagicGirl-007	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-007		20438
+	857332575	Voice_Goth-004	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-004		20976
+	956334779	Voice_Goth-012	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-012_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-012		20976
+	1007005394	Voice_Goth-009	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-009		20976
+	1043796004	Voice_Goth-010	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-010		20976
+	1044172914	Voice_Goth-013	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-013_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-013		20976
+	1060186332	Voice_MagicGirl-003	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-003		20438
+

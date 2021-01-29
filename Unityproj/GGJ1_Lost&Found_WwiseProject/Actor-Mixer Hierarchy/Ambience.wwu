@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{82C0E9B4-6A2F-4627-94EB-4EAB47D2C4C5}" SchemaVersion="97" RootDocumentID="{DFD43077-EEC4-4F5C-BACD-705D2EAB767C}">
+	<AudioObjects>
+		<WorkUnit Name="Ambience" ID="{82C0E9B4-6A2F-4627-94EB-4EAB47D2C4C5}" OwnerID="{DFD43077-EEC4-4F5C-BACD-705D2EAB767C}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Crowd" ID="{EFE01DFA-7A06-4ECA-A1DC-67605D97B2E0}" ShortID="859924732">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Crowd" ID="{D763872A-4DDA-4597-BA00-38D16DE849DB}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="2306.958"/>
+								<Property Name="LoopBegin" Type="Real64" Value="1.31005308219178"/>
+								<Property Name="LoopEnd" Type="Real64" Value="14.6562188570205"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Crowd.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="793664074"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Crowd" ID="{D763872A-4DDA-4597-BA00-38D16DE849DB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

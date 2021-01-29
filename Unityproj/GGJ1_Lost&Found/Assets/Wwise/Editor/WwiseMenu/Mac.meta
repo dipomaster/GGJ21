@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 79629e36c8042874a950cd2295614cd8
+=======
+guid: 7625a8126ba0c8b41922f25682320aa3
+>>>>>>> Sound
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

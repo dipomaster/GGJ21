@@ -8,6 +8,7 @@ public class Item_Script : MonoBehaviour
 {
     //[SerializeField] private TextMeshPro Item_Description;
     public int ObjectValue;
+    public string Item_Description;
     // Start is called before the first frame update
     void Start() {
        
