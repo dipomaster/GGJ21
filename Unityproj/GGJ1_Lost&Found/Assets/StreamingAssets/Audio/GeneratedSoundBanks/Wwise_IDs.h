@@ -29,6 +29,7 @@ namespace AK
             {
                 static const AkUniqueID GOTH = 786076171U;
                 static const AkUniqueID MAGIC_GIRL = 594300751U;
+                static const AkUniqueID SOFT_GECKO = 4269433141U;
             } // namespace SWITCH
         } // namespace CHARACTER
 
@@ -39,7 +40,7 @@ namespace AK
             namespace SWITCH
             {
                 static const AkUniqueID ANGRY = 1206605712U;
-                static const AkUniqueID NORMAL = 1160234136U;
+                static const AkUniqueID NEUTRAL = 670611050U;
             } // namespace SWITCH
         } // namespace EMOTION
 

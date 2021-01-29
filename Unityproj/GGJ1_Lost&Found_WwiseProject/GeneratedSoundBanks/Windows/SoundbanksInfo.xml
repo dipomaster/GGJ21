@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1924001464">
+		<SoundBank Id="393239870" Language="SFX" Hash="1623749080">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -38,6 +38,22 @@
 					<ShortName>Voice_MagicGirl-002.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl-002_10C4C929.wem</Path>
 				</File>
+				<File Id="139034261" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-011.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-011_10C4C929.wem</Path>
+				</File>
+				<File Id="143035506" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-013.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-013_10C4C929.wem</Path>
+				</File>
+				<File Id="152936119" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-003.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-003_10C4C929.wem</Path>
+				</File>
+				<File Id="168707402" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-002.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-002_10C4C929.wem</Path>
+				</File>
 				<File Id="185558973" Language="SFX">
 					<ShortName>Voice_Goth-011.wav</ShortName>
 					<Path>SFX\Voice_Goth-011_10C4C929.wem</Path>
@@ -45,6 +61,18 @@
 				<File Id="200172906" Language="SFX">
 					<ShortName>Voice_Goth-006.wav</ShortName>
 					<Path>SFX\Voice_Goth-006_10C4C929.wem</Path>
+				</File>
+				<File Id="211679224" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-006.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-006_10C4C929.wem</Path>
+				</File>
+				<File Id="281745253" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-002.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-002_10C4C929.wem</Path>
+				</File>
+				<File Id="284334202" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-011.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-011_10C4C929.wem</Path>
 				</File>
 				<File Id="291830038" Language="SFX">
 					<ShortName>Voice_Goth-014.wav</ShortName>
@@ -54,6 +82,14 @@
 					<ShortName>Voice_MagicGirl-006.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl-006_10C4C929.wem</Path>
 				</File>
+				<File Id="311040433" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-009.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-009_10C4C929.wem</Path>
+				</File>
+				<File Id="311085411" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-001.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-001_10C4C929.wem</Path>
+				</File>
 				<File Id="340763941" Language="SFX">
 					<ShortName>Voice_MagicGirl-001.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl-001_10C4C929.wem</Path>
@@ -62,9 +98,25 @@
 					<ShortName>Voice_MagicGirl-012.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl-012_10C4C929.wem</Path>
 				</File>
+				<File Id="366727429" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-013.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-013_10C4C929.wem</Path>
+				</File>
+				<File Id="367134137" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-007.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-007_10C4C929.wem</Path>
+				</File>
 				<File Id="395511421" Language="SFX">
 					<ShortName>Voice_Goth-003.wav</ShortName>
 					<Path>SFX\Voice_Goth-003_10C4C929.wem</Path>
+				</File>
+				<File Id="417245529" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-014.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-014_10C4C929.wem</Path>
+				</File>
+				<File Id="424029510" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-010.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-010_10C4C929.wem</Path>
 				</File>
 				<File Id="489216646" Language="SFX">
 					<ShortName>Voice_MagicGirl-010.wav</ShortName>
@@ -74,6 +126,18 @@
 					<ShortName>Voice_MagicGirl-008.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl-008_10C4C929.wem</Path>
 				</File>
+				<File Id="522942894" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-005.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-005_10C4C929.wem</Path>
+				</File>
+				<File Id="538527459" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-008.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-008_10C4C929.wem</Path>
+				</File>
+				<File Id="547170555" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-010.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-010_10C4C929.wem</Path>
+				</File>
 				<File Id="575785758" Language="SFX">
 					<ShortName>Voice_Goth-005.wav</ShortName>
 					<Path>SFX\Voice_Goth-005_10C4C929.wem</Path>
@@ -81,6 +145,10 @@
 				<File Id="577161600" Language="SFX">
 					<ShortName>Voice_MagicGirl-009.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl-009_10C4C929.wem</Path>
+				</File>
+				<File Id="620495843" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-006.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-006_10C4C929.wem</Path>
 				</File>
 				<File Id="653258815" Language="SFX">
 					<ShortName>Voice_Goth-001.wav</ShortName>
@@ -90,6 +158,26 @@
 					<ShortName>Voice_Goth-008.wav</ShortName>
 					<Path>SFX\Voice_Goth-008_10C4C929.wem</Path>
 				</File>
+				<File Id="665342026" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-009.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-009_10C4C929.wem</Path>
+				</File>
+				<File Id="679045120" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-008.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-008_10C4C929.wem</Path>
+				</File>
+				<File Id="724773952" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-004.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-004_10C4C929.wem</Path>
+				</File>
+				<File Id="725410329" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-014.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-014_10C4C929.wem</Path>
+				</File>
+				<File Id="730863197" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-001.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-001_10C4C929.wem</Path>
+				</File>
 				<File Id="735715599" Language="SFX">
 					<ShortName>Voice_Goth-002.wav</ShortName>
 					<Path>SFX\Voice_Goth-002_10C4C929.wem</Path>
@@ -98,13 +186,25 @@
 					<ShortName>Voice_MagicGirl-005.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl-005_10C4C929.wem</Path>
 				</File>
+				<File Id="738300030" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-003.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-003_10C4C929.wem</Path>
+				</File>
 				<File Id="753204222" Language="SFX">
 					<ShortName>Voice_MagicGirl-011.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl-011_10C4C929.wem</Path>
 				</File>
+				<File Id="763233900" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-004.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-004_10C4C929.wem</Path>
+				</File>
 				<File Id="793664074" Language="SFX">
 					<ShortName>Crowd.wav</ShortName>
 					<Path>SFX\Crowd_B3961EDA.wem</Path>
+				</File>
+				<File Id="811033853" Language="SFX">
+					<ShortName>Voice_SoftGecko_Angry-012.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Angry-012_10C4C929.wem</Path>
 				</File>
 				<File Id="833008248" Language="SFX">
 					<ShortName>Voice_MagicGirl-004.wav</ShortName>
@@ -114,6 +214,10 @@
 					<ShortName>Voice_MagicGirl-007.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl-007_10C4C929.wem</Path>
 				</File>
+				<File Id="855808163" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-012.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-012_10C4C929.wem</Path>
+				</File>
 				<File Id="857332575" Language="SFX">
 					<ShortName>Voice_Goth-004.wav</ShortName>
 					<Path>SFX\Voice_Goth-004_10C4C929.wem</Path>
@@ -121,6 +225,10 @@
 				<File Id="956334779" Language="SFX">
 					<ShortName>Voice_Goth-012.wav</ShortName>
 					<Path>SFX\Voice_Goth-012_10C4C929.wem</Path>
+				</File>
+				<File Id="957307610" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-005.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-005_10C4C929.wem</Path>
 				</File>
 				<File Id="1007005394" Language="SFX">
 					<ShortName>Voice_Goth-009.wav</ShortName>
@@ -138,17 +246,22 @@
 					<ShortName>Voice_MagicGirl-003.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl-003_10C4C929.wem</Path>
 				</File>
+				<File Id="1068231313" Language="SFX">
+					<ShortName>Voice_SoftGecko_Neutral-007.wav</ShortName>
+					<Path>SFX\Voice_SoftGecko_Neutral-007_10C4C929.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 			<SwitchGroups>
 				<SwitchGroup Id="436743010" Name="Character" ObjectPath="\Switches\Default Work Unit\Character">
 					<Switches>
 						<Switch Id="786076171" Name="Goth" ObjectPath="\Switches\Default Work Unit\Character\Goth"/>
 						<Switch Id="594300751" Name="Magic_Girl" ObjectPath="\Switches\Default Work Unit\Character\Magic_Girl"/>
+						<Switch Id="4269433141" Name="Soft_Gecko" ObjectPath="\Switches\Default Work Unit\Character\Soft_Gecko"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3146275604" Name="Emotion" ObjectPath="\Switches\Default Work Unit\Emotion">
 					<Switches>
-						<Switch Id="1160234136" Name="Normal" ObjectPath="\Switches\Default Work Unit\Emotion\Normal"/>
+						<Switch Id="670611050" Name="Neutral" ObjectPath="\Switches\Default Work Unit\Emotion\Neutral"/>
 						<Switch Id="1206605712" Name="Angry" ObjectPath="\Switches\Default Work Unit\Emotion\Angry"/>
 					</Switches>
 				</SwitchGroup>
