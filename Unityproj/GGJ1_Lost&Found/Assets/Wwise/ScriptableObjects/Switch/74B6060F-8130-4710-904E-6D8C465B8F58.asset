@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd161e494bf8ac4aaf0f37321b125c9, type: 3}
   m_Name: 74B6060F-8130-4710-904E-6D8C465B8F58
   m_EditorClassIdentifier: 
-  objectName: Normal
-  id: 1160234136
+  objectName: Neutral
+  id: 670611050
   guid: 74B6060F-8130-4710-904E-6D8C465B8F58
   WwiseSwitchGroupReference: {fileID: 11400000, guid: 28d0b16e40b91144f915353fd80212d0, type: 2}
