@@ -28,11 +28,12 @@ public class swipe : MonoBehaviour
         {
             pos[i] = distance * i;
         }
-        //OnInput(distance);
+        
     }
     private void Awake()
     {
-        //SelectMenuItem(currentItem);
+        PrevButton.interactable = false;
+        //SelectMenuItem(0);
     }
 
     // Update is called once per frame
@@ -55,33 +56,33 @@ public class swipe : MonoBehaviour
 
 
 
-        //if (Input.GetMouseButton(0))
-        //{
+        if (Input.GetMouseButton(0))
+        {
 
-        //    if (scrollbar.GetComponent<Scrollbar>().value != scroll_pos)
-        //    {
-        //        scroll_pos = scrollbar.GetComponent<Scrollbar>().value;
-
-
-        //    }
-
-        //}
-        //else
-        //{
-        //    for (int i = 0; i < pos.Length; i++)
-        //    {
-        //        if (scroll_pos < pos[i] + (distance / 2) && scroll_pos > pos[i] - (distance / 2))
-        //        {
-        //           // scrollbar.GetComponent<Scrollbar>().value = Mathf.Lerp(scrollbar.GetComponent<Scrollbar>().value, pos[i], 0.1f);
-        //            SelectMenuItem(i);
-        //        }
-        //    }
+            if (scrollbar.GetComponent<Scrollbar>().value != scroll_pos)
+            {
+                scroll_pos = scrollbar.GetComponent<Scrollbar>().value;
 
 
-        //}
-        //Debug.LogAssertion("scroll position "+ scroll_pos);
-        
-       // OnInput();
+            }
+
+        }
+        else
+        {
+            for (int i = 0; i < pos.Length; i++)
+            {
+                if (scroll_pos < pos[i] + (distance / 2) && scroll_pos > pos[i] - (distance / 2))
+                {
+                    scrollbar.GetComponent<Scrollbar>().value = Mathf.Lerp(scrollbar.GetComponent<Scrollbar>().value, pos[i], 0.1f);
+                    currentItem = i;
+                }
+            }
+
+
+        }
+        //Debug.LogAssertion("scroll position " + scroll_pos);
+
+        OnInput();
 
     }
 
@@ -100,11 +101,11 @@ public class swipe : MonoBehaviour
             {
                 // Debug.LogWarning("Current Selected Level" + i);
                 //currentItem = i;
-                print("pos[i]= "+pos[i]);
-                print("[i]= " + i);
+                //print("pos[i]= "+pos[i]);
+                //print("[i]= " + i);
                 // SelectMenuItem(i);
                 transform.GetChild(i).localScale = Vector2.Lerp(transform.GetChild(i).localScale, new Vector2(1f, 1f), 0.1f);
-                items_description.GetComponentInChildren<TextMeshProUGUI>().text = transform.GetChild(i).gameObject.GetComponent<TextMeshPro>().text;
+                items_description.GetComponentInChildren<TextMeshProUGUI>().text = transform.GetChild(i).gameObject.GetComponent<Item_Script>().Item_Description;
             }
             else
             {
@@ -137,53 +138,21 @@ public class swipe : MonoBehaviour
 
     private void SelectMenuItem(int _index)
     {
-
-        //float distance = 1f / (pos.Length - 1f);
         PrevButton.interactable = (_index != 0);
         NextButton.interactable = (_index != transform.childCount - 1);
-        
 
-
-        if (scroll_pos < pos[_index] + (distance / 2) && scroll_pos > pos[_index] - (distance / 2))
-        {
-            scrollbar.GetComponent<Scrollbar>().value = Mathf.Lerp(scrollbar.GetComponent<Scrollbar>().value, pos[_index], 0.1f);
-            //SelectMenuItem(i);
-        }
-
-        OnInput();
-        //OnInput(_index * 1f / (transform.childCount - 1f));
+        scroll_pos = pos[_index];    
 
     }
 
 
     public void ChangeItem(int _change)
-    {
-        
+    {        
         currentItem += _change ;
-        //print(currentItem);
-        scroll_pos = scrollbar.GetComponent<Scrollbar>().value;
         SelectMenuItem(currentItem);
-
 
     }
 
 
-    //public void WhichBtnClicked(Button btn)
-    //{
-    //    btn.transform.name = "clicked";
-    //    for (int i = 0; i < btn.transform.parent.transform.childCount; i++)
-    //    {
-    //        if (btn.transform.parent.transform.GetChild(i).transform.name == "clicked")
-    //        {
-    //            btnNumber = i;
-    //            takeTheBtn = btn;
-    //            time = 0;
-    //            scroll_pos = (pos[btnNumber]);
-    //            runIt = true;
-    //        }
-    //    }
-
-
-    //}
 
 }
