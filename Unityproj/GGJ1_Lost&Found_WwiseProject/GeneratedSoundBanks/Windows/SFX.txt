@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1672006336	start_talking			\Default Work Unit\Dialogue\start_talking	
 	2173668446	stop_talking			\Default Work Unit\Dialogue\stop_talking	
-	3173192383	talk			\Default Work Unit\Dialogue\talk	
+	2477713992	stop_ambience			\Default Work Unit\Ambience\stop_ambience	
+	3626999974	start_ambience			\Default Work Unit\Ambience\start_ambience	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	436743010	Character			\Default Work Unit\Character	
@@ -37,6 +39,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	735715599	Voice_Goth-002	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-002		20976
 	736311000	Voice_MagicGirl-005	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-005		20438
 	753204222	Voice_MagicGirl-011	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-011		20438
+	793664074	Crowd	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Crowd_B3961EDA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Crowd		3060412
 	833008248	Voice_MagicGirl-004	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-004		20438
 	843338892	Voice_MagicGirl-007	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_MagicGirl-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Normal\Voice_MagicGirl-007		20438
 	857332575	Voice_Goth-004	I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Voice_Goth-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Normal\Voice_Goth-004		20976

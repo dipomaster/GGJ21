@@ -11,13 +11,15 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="1500970809">
+		<SoundBank Id="393239870" Language="SFX" Hash="1924001464">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3626999974" Name="start_ambience" ObjectPath="\Events\Default Work Unit\Ambience\start_ambience" DurationType="Infinite"/>
+				<Event Id="1672006336" Name="start_talking" ObjectPath="\Events\Default Work Unit\Dialogue\start_talking" DurationType="Mixed" DurationMin="0.000000" DurationMax="Infinite"/>
+				<Event Id="2477713992" Name="stop_ambience" ObjectPath="\Events\Default Work Unit\Ambience\stop_ambience" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2173668446" Name="stop_talking" ObjectPath="\Events\Default Work Unit\Dialogue\stop_talking" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3173192383" Name="talk" ObjectPath="\Events\Default Work Unit\Dialogue\talk" DurationType="Mixed" DurationMin="0.000000" DurationMax="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="23008695" Language="SFX">
@@ -99,6 +101,10 @@
 				<File Id="753204222" Language="SFX">
 					<ShortName>Voice_MagicGirl-011.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl-011_10C4C929.wem</Path>
+				</File>
+				<File Id="793664074" Language="SFX">
+					<ShortName>Crowd.wav</ShortName>
+					<Path>SFX\Crowd_B3961EDA.wem</Path>
 				</File>
 				<File Id="833008248" Language="SFX">
 					<ShortName>Voice_MagicGirl-004.wav</ShortName>

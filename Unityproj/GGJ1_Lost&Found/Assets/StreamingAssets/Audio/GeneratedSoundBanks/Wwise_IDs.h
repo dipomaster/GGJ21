@@ -13,8 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID START_AMBIENCE = 3626999974U;
+        static const AkUniqueID START_TALKING = 1672006336U;
+        static const AkUniqueID STOP_AMBIENCE = 2477713992U;
         static const AkUniqueID STOP_TALKING = 2173668446U;
-        static const AkUniqueID TALK = 3173192383U;
     } // namespace EVENTS
 
     namespace SWITCHES

@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 4b6be930bb54c64f8dbefdcd8635fe50
     GuidInternal: 
-    m_lastTime: -8585896715502689883
+    m_lastTime: -8585896710283020228
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 5ac70ec509e31a4cbdec23609f8a126c
     GuidInternal: 
-    m_lastTime: -8585896715506963465
+    m_lastTime: -8585896710283750464
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: dbcd0dfda64dec4aa21b03e49abcb8df
     GuidInternal: 
-    m_lastTime: -8585896715502809847
+    m_lastTime: -8585896710283040474
     List:
     - name: SFX
       guid: ce91e64f1e7d2849b5b4ed9b41c8a976
@@ -70,7 +70,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Ambience
     guid: b407c0ce6cd5f746831b9ca7bcfd2856
     GuidInternal: 
-    m_lastTime: -8585896715507534125
+    m_lastTime: -8585896710283930466
     List:
     - name: start_ambience
       guid: 91d9a5e630e6434d911d9976e2e90401
@@ -98,8 +98,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Ambience\stop_ambience
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -107,7 +107,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3914592c5c1ec041ba19db5432f12040
     GuidInternal: 
-    m_lastTime: -8585896715507474136
+    m_lastTime: -8585896710283930466
     List: []
   - PhysicalPath: Events\Dialogue.wwu
     PathAndIcons:
@@ -118,7 +118,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Dialogue
     guid: 467942f352406d4182d4f5503c56c8e7
     GuidInternal: 
-    m_lastTime: -8585896715507454147
+    m_lastTime: -8585896667214547085
     List:
     - name: start_talking
       guid: 0b15382fdccf1d43abbcea18bc1bbf91
@@ -132,8 +132,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Dialogue\start_talking
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: Infinity
+      minDuration: 0
     - name: stop_talking
       guid: bfcd0f5a826c1b4d99ef22380a173ca6
       id: 2173668446
@@ -156,7 +156,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fc1c117247a7944e8a0fe9037f13f05a
     GuidInternal: 
-    m_lastTime: -8585896715507414163
+    m_lastTime: -8585896710283890154
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -166,7 +166,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 49318894f7b9534a997789defaca71f0
     GuidInternal: 
-    m_lastTime: -8585896715502759865
+    m_lastTime: -8585896710283030356
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -176,7 +176,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fb55b826d4cf474399223a6c268ade90
     GuidInternal: 
-    m_lastTime: -8585896715502749870
+    m_lastTime: -8585896710283030356
     List:
     - name: Character
       guid: cfe8b12d9fb6544490d61897b50246cf
@@ -236,7 +236,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 09999f6f123d8f4383631193a84bc548
     GuidInternal: 
-    m_lastTime: -8585896715502699882
+    m_lastTime: -8585896710283030356
     List: []
   ExpandedItems:
   - /GGJ1_Lost&Found_WwiseProject
@@ -244,5 +244,7 @@ MonoBehaviour:
   - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit
   - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit/Ambience
   - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit/Dialogue
+  - /GGJ1_Lost&Found_WwiseProject/SoundBanks
+  - /GGJ1_Lost&Found_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
