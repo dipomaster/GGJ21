@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2C591439-1E5C-41C0-BA19-DB5432F12040}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2C591439-1E5C-41C0-BA19-DB5432F12040}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Dialogue" ID="{F3427946-4052-416D-82D4-F5503C56C8E7}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

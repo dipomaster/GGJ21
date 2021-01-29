@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX" Hash="1500970809">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2173668446" Name="stop_talking" ObjectPath="\Events\Default Work Unit\Dialogue\stop_talking" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3173192383" Name="talk" ObjectPath="\Events\Default Work Unit\Dialogue\talk" DurationType="Mixed" DurationMin="0.000000" DurationMax="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="23008695" Language="SFX">
+					<ShortName>Voice_MagicGirl-013.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-013_10C4C929.wem</Path>
+				</File>
+				<File Id="111484944" Language="SFX">
+					<ShortName>Voice_MagicGirl-014.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-014_10C4C929.wem</Path>
+				</File>
+				<File Id="126065340" Language="SFX">
+					<ShortName>Voice_Goth-007.wav</ShortName>
+					<Path>SFX\Voice_Goth-007_10C4C929.wem</Path>
+				</File>
+				<File Id="129796359" Language="SFX">
+					<ShortName>Voice_MagicGirl-002.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-002_10C4C929.wem</Path>
+				</File>
+				<File Id="185558973" Language="SFX">
+					<ShortName>Voice_Goth-011.wav</ShortName>
+					<Path>SFX\Voice_Goth-011_10C4C929.wem</Path>
+				</File>
+				<File Id="200172906" Language="SFX">
+					<ShortName>Voice_Goth-006.wav</ShortName>
+					<Path>SFX\Voice_Goth-006_10C4C929.wem</Path>
+				</File>
+				<File Id="291830038" Language="SFX">
+					<ShortName>Voice_Goth-014.wav</ShortName>
+					<Path>SFX\Voice_Goth-014_10C4C929.wem</Path>
+				</File>
+				<File Id="305140195" Language="SFX">
+					<ShortName>Voice_MagicGirl-006.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-006_10C4C929.wem</Path>
+				</File>
+				<File Id="340763941" Language="SFX">
+					<ShortName>Voice_MagicGirl-001.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-001_10C4C929.wem</Path>
+				</File>
+				<File Id="342232500" Language="SFX">
+					<ShortName>Voice_MagicGirl-012.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-012_10C4C929.wem</Path>
+				</File>
+				<File Id="395511421" Language="SFX">
+					<ShortName>Voice_Goth-003.wav</ShortName>
+					<Path>SFX\Voice_Goth-003_10C4C929.wem</Path>
+				</File>
+				<File Id="489216646" Language="SFX">
+					<ShortName>Voice_MagicGirl-010.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-010_10C4C929.wem</Path>
+				</File>
+				<File Id="509435193" Language="SFX">
+					<ShortName>Voice_MagicGirl-008.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-008_10C4C929.wem</Path>
+				</File>
+				<File Id="575785758" Language="SFX">
+					<ShortName>Voice_Goth-005.wav</ShortName>
+					<Path>SFX\Voice_Goth-005_10C4C929.wem</Path>
+				</File>
+				<File Id="577161600" Language="SFX">
+					<ShortName>Voice_MagicGirl-009.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-009_10C4C929.wem</Path>
+				</File>
+				<File Id="653258815" Language="SFX">
+					<ShortName>Voice_Goth-001.wav</ShortName>
+					<Path>SFX\Voice_Goth-001_27FC77D3.wem</Path>
+				</File>
+				<File Id="657116648" Language="SFX">
+					<ShortName>Voice_Goth-008.wav</ShortName>
+					<Path>SFX\Voice_Goth-008_10C4C929.wem</Path>
+				</File>
+				<File Id="735715599" Language="SFX">
+					<ShortName>Voice_Goth-002.wav</ShortName>
+					<Path>SFX\Voice_Goth-002_10C4C929.wem</Path>
+				</File>
+				<File Id="736311000" Language="SFX">
+					<ShortName>Voice_MagicGirl-005.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-005_10C4C929.wem</Path>
+				</File>
+				<File Id="753204222" Language="SFX">
+					<ShortName>Voice_MagicGirl-011.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-011_10C4C929.wem</Path>
+				</File>
+				<File Id="833008248" Language="SFX">
+					<ShortName>Voice_MagicGirl-004.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-004_10C4C929.wem</Path>
+				</File>
+				<File Id="843338892" Language="SFX">
+					<ShortName>Voice_MagicGirl-007.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-007_10C4C929.wem</Path>
+				</File>
+				<File Id="857332575" Language="SFX">
+					<ShortName>Voice_Goth-004.wav</ShortName>
+					<Path>SFX\Voice_Goth-004_10C4C929.wem</Path>
+				</File>
+				<File Id="956334779" Language="SFX">
+					<ShortName>Voice_Goth-012.wav</ShortName>
+					<Path>SFX\Voice_Goth-012_10C4C929.wem</Path>
+				</File>
+				<File Id="1007005394" Language="SFX">
+					<ShortName>Voice_Goth-009.wav</ShortName>
+					<Path>SFX\Voice_Goth-009_10C4C929.wem</Path>
+				</File>
+				<File Id="1043796004" Language="SFX">
+					<ShortName>Voice_Goth-010.wav</ShortName>
+					<Path>SFX\Voice_Goth-010_10C4C929.wem</Path>
+				</File>
+				<File Id="1044172914" Language="SFX">
+					<ShortName>Voice_Goth-013.wav</ShortName>
+					<Path>SFX\Voice_Goth-013_10C4C929.wem</Path>
+				</File>
+				<File Id="1060186332" Language="SFX">
+					<ShortName>Voice_MagicGirl-003.wav</ShortName>
+					<Path>SFX\Voice_MagicGirl-003_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<SwitchGroups>
+				<SwitchGroup Id="436743010" Name="Character" ObjectPath="\Switches\Default Work Unit\Character">
+					<Switches>
+						<Switch Id="786076171" Name="Goth" ObjectPath="\Switches\Default Work Unit\Character\Goth"/>
+						<Switch Id="594300751" Name="Magic_Girl" ObjectPath="\Switches\Default Work Unit\Character\Magic_Girl"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3146275604" Name="Emotion" ObjectPath="\Switches\Default Work Unit\Emotion">
+					<Switches>
+						<Switch Id="1160234136" Name="Normal" ObjectPath="\Switches\Default Work Unit\Emotion\Normal"/>
+						<Switch Id="1206605712" Name="Angry" ObjectPath="\Switches\Default Work Unit\Emotion\Angry"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4097661515">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

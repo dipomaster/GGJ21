@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F3427946-4052-416D-82D4-F5503C56C8E7}" SchemaVersion="97" RootDocumentID="{2C591439-1E5C-41C0-BA19-DB5432F12040}">
+	<Events>
+		<WorkUnit Name="Dialogue" ID="{F3427946-4052-416D-82D4-F5503C56C8E7}" OwnerID="{2C591439-1E5C-41C0-BA19-DB5432F12040}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="talk" ID="{2F38150B-CFDC-431D-ABBC-EA18BC1BBF91}">
+					<ChildrenList>
+						<Action Name="" ID="{EC1FEA89-E92C-4991-9556-9937DEF62584}" ShortID="676631349">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Character" ID="{8883F434-97C3-4472-8894-ADED88881D01}" WorkUnitID="{56E0785D-D220-4732-8140-4D5ED535630C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_talking" ID="{5A0FCDBF-6C82-4D1B-99EF-22380A173CA6}">
+					<ChildrenList>
+						<Action Name="" ID="{28EAD5E8-BDF1-46C4-8F16-0ECFD32515DE}" ShortID="893587279">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="34"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Character" ID="{8883F434-97C3-4472-8894-ADED88881D01}" WorkUnitID="{56E0785D-D220-4732-8140-4D5ED535630C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
