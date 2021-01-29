@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{26B855FB-CFD4-4347-9922-3A6C268ADE90}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{26B855FB-CFD4-4347-9922-3A6C268ADE90}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Emotion" ID="{DABB31B6-02EC-40FB-A856-165F4DF55322}">
+					<ChildrenList>
+						<Switch Name="Normal" ID="{74B6060F-8130-4710-904E-6D8C465B8F58}"/>
+						<Switch Name="Angry" ID="{7C0B3B18-92C4-4193-9C0F-BFA95147ABE2}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Character" ID="{2DB1E8CF-B69F-4454-90D6-1897B50246CF}">
+					<ChildrenList>
+						<Switch Name="Goth" ID="{AB73EBC2-DCB3-4247-80FC-41180777FF63}"/>
+						<Switch Name="Magic_Girl" ID="{4EB27B1F-3D68-4C93-913C-544D8EB6E348}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

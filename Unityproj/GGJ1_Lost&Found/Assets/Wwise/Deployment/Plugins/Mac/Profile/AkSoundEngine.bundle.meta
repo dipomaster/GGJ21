@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: a67bdffef6430c44b9b50f5bf0e0ad28
+=======
+guid: 3b4ea1920805082468c6879ec245dcd4
+>>>>>>> Sound
 folderAsset: yes
 PluginImporter:
   externalObjects: {}
@@ -22,7 +26,13 @@ PluginImporter:
     second:
       enabled: 1
       settings:
+<<<<<<< HEAD
         DefaultValueInitialized: true
+=======
+        CPU: AnyCPU
+        DefaultValueInitialized: true
+        OS: OSX
+>>>>>>> Sound
   - first:
       Standalone: OSXUniversal
     second:

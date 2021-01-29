@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}" SchemaVersion="97" RootDocumentID="{2C591439-1E5C-41C0-BA19-DB5432F12040}">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}" OwnerID="{2C591439-1E5C-41C0-BA19-DB5432F12040}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="start_ambience" ID="{E6A5D991-E630-4D43-911D-9976E2E90401}">
+					<ChildrenList>
+						<Action Name="" ID="{BD00544F-BA27-4B89-9799-AAB241D308C0}" ShortID="403700136">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd" ID="{EFE01DFA-7A06-4ECA-A1DC-67605D97B2E0}" WorkUnitID="{82C0E9B4-6A2F-4627-94EB-4EAB47D2C4C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_ambience" ID="{11423F78-E7E8-49EB-B5DF-9122492F8A7A}">
+					<ChildrenList>
+						<Action Name="" ID="{EA509534-5A1D-40FC-8F40-3F8E6A8CFFE0}" ShortID="38283169">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd" ID="{EFE01DFA-7A06-4ECA-A1DC-67605D97B2E0}" WorkUnitID="{82C0E9B4-6A2F-4627-94EB-4EAB47D2C4C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
