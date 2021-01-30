@@ -70,7 +70,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Ambience
     guid: b407c0ce6cd5f746831b9ca7bcfd2856
     GuidInternal: 
-    m_lastTime: -8585895681325015553
+    m_lastTime: -8585895783622963163
     List:
     - name: Start_Ambience
       guid: 91d9a5e630e6434d911d9976e2e90401
@@ -107,8 +107,20 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3914592c5c1ec041ba19db5432f12040
     GuidInternal: 
-    m_lastTime: -8585895681325015553
-    List: []
+    m_lastTime: -8585895585184326217
+    List:
+    - name: Alert
+      guid: 71e5084bccff194c841681c6e98428cd
+      id: 721787521
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Alert
+        ObjectType: 3
+      Path: Default Work Unit\Alert
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Dialogue.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -118,7 +130,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Dialogue
     guid: 467942f352406d4182d4f5503c56c8e7
     GuidInternal: 
-    m_lastTime: -8585895681325015553
+    m_lastTime: -8585895783622953192
     List:
     - name: Start_Talking
       guid: 0b15382fdccf1d43abbcea18bc1bbf91
@@ -157,7 +169,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\UI
     guid: d7533f6b014d8441a3d03fbc99fa31b6
     GuidInternal: 
-    m_lastTime: -8585895681325015553
+    m_lastTime: -8585895783622953192
     List:
     - name: Inventory_Scroll
       guid: f5ab782101ca144fa323f19ea51fcd81

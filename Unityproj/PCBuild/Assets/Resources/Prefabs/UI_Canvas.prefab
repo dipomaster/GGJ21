@@ -1619,6 +1619,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5242470793570896752}
     m_Modifications:
+    - target: {fileID: 6230127632010797912, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: Item_Description
+      value: For gamers only (it glows in the dark)
+      objectReference: {fileID: 0}
     - target: {fileID: 6230127632010797918, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: m_Name
       value: Item_Prefab
@@ -1707,6 +1711,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e56818671ee563b478dc693e7a585dd6, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
 --- !u!224 &5801250949979944027 stripped
@@ -1721,6 +1733,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5242470793570896752}
     m_Modifications:
+    - target: {fileID: 6230127632010797912, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: Item_Description
+      value: "This wig\u2019s power level\u2026 It\u2019s under 9000!"
+      objectReference: {fileID: 0}
     - target: {fileID: 6230127632010797918, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: m_Name
       value: Item_Prefab
@@ -1809,6 +1825,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 76f3310c5413f0d40b4b230ede3303fc, type: 3}
     - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1925,7 +1949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6230127632010797912, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: Item_Description
-      value: This is a hat
+      value: "Used by a K-Pop star\u2019s body double?"
       objectReference: {fileID: 0}
     - target: {fileID: 6230127632010797918, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: m_Name
@@ -2015,6 +2039,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 30f5128ee3942bc48a8f3c6cd28131a0, type: 3}
     - target: {fileID: 7840218862104869411, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: m_SizeDelta.x
       value: 500
@@ -2123,7 +2155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6230127632010797912, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: Item_Description
-      value: This is a 747
+      value: "Brings the whole \u2018femboy\u2019 look together"
       objectReference: {fileID: 0}
     - target: {fileID: 6230127632010797918, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: m_Name
@@ -2213,6 +2245,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 22ef5e8a959ad4d41ae900d1e3cacc53, type: 3}
     - target: {fileID: 7840218862104869411, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: m_SizeDelta.x
       value: 500
@@ -2321,7 +2361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6230127632010797912, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: Item_Description
-      value: This is a 565
+      value: A worse cosplay than a logo t-shirt
       objectReference: {fileID: 0}
     - target: {fileID: 6230127632010797918, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: m_Name
@@ -2411,6 +2451,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 48fe46f1af35dec43b30f4f964efeba7, type: 3}
     - target: {fileID: 7840218862104869411, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: m_SizeDelta.x
       value: 500
@@ -2523,7 +2571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6230127632010797912, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: Item_Description
-      value: This is a 22
+      value: Like wearing sparkly cheerleader pom poms
       objectReference: {fileID: 0}
     - target: {fileID: 6230127632010797918, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: m_Name
@@ -2613,6 +2661,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 36cc9c3ac2f328e4281b6cf3f50efa7c, type: 3}
     - target: {fileID: 7840218862104869411, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: m_SizeDelta.x
       value: 500
@@ -2715,6 +2771,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5242470793570896752}
     m_Modifications:
+    - target: {fileID: 6230127632010797912, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: Item_Description
+      value: Represents good Christian anime values
+      objectReference: {fileID: 0}
     - target: {fileID: 6230127632010797918, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
       propertyPath: m_Name
       value: Item_Prefab
@@ -2803,6 +2863,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840218862104869409, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 193a9b9902387214185fd079384a3e74, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c717a9a4e0dd7c74ea6f9aede2cabbf1, type: 3}
 --- !u!224 &3162420832556320315 stripped

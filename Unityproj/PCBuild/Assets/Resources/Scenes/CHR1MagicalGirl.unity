@@ -879,6 +879,10 @@ PrefabInstance:
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 486785225}
+    - target: {fileID: 3226271428781883120, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 376.60568
+      objectReference: {fileID: 0}
     - target: {fileID: 3362633039911298136, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: targetObject
       value: 
@@ -1408,10 +1412,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2212713805262597935, guid: dea5a211a975a7845b63043607f238c5, type: 3}
-      propertyPath: Item_Description
-      value: "This wig\u2019s power level\u2026 It\u2019s under 9000!"
-      objectReference: {fileID: 0}
     - target: {fileID: 2212713805374169042, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1427,10 +1427,6 @@ PrefabInstance:
     - target: {fileID: 2212713805374169042, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2212713805374169045, guid: dea5a211a975a7845b63043607f238c5, type: 3}
-      propertyPath: Item_Description
-      value: "Used by a K-Pop star\u2019s body double?"
       objectReference: {fileID: 0}
     - target: {fileID: 2212713806097261314, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1464,10 +1460,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2212713807161570225, guid: dea5a211a975a7845b63043607f238c5, type: 3}
-      propertyPath: Item_Description
-      value: Like wearing sparkly cheerleader pom poms.
-      objectReference: {fileID: 0}
     - target: {fileID: 2212713807161570230, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1484,30 +1476,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2598281135039743660, guid: dea5a211a975a7845b63043607f238c5, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598281135039743660, guid: dea5a211a975a7845b63043607f238c5, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 1ca0c86df2d9bea40ba1abfbd7e5b284, type: 3}
-    - target: {fileID: 2598281135130490454, guid: dea5a211a975a7845b63043607f238c5, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598281135130490454, guid: dea5a211a975a7845b63043607f238c5, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 76f3310c5413f0d40b4b230ede3303fc, type: 3}
-    - target: {fileID: 2598281136492587720, guid: dea5a211a975a7845b63043607f238c5, type: 3}
-      propertyPath: m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2598281136492587720, guid: dea5a211a975a7845b63043607f238c5, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 5d911ddeb23ae33419c2f205e38cb122, type: 3}
     - target: {fileID: 3162420832556320315, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
