@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SwitchGroup Name="Emotion" ID="{DABB31B6-02EC-40FB-A856-165F4DF55322}">
 					<ChildrenList>
-						<Switch Name="Normal" ID="{74B6060F-8130-4710-904E-6D8C465B8F58}"/>
+						<Switch Name="Neutral" ID="{74B6060F-8130-4710-904E-6D8C465B8F58}"/>
 						<Switch Name="Angry" ID="{7C0B3B18-92C4-4193-9C0F-BFA95147ABE2}"/>
 					</ChildrenList>
 				</SwitchGroup>
@@ -13,6 +13,7 @@
 					<ChildrenList>
 						<Switch Name="Goth" ID="{AB73EBC2-DCB3-4247-80FC-41180777FF63}"/>
 						<Switch Name="Magic_Girl" ID="{4EB27B1F-3D68-4C93-913C-544D8EB6E348}"/>
+						<Switch Name="Soft_Gecko" ID="{254BF2AB-ED14-4614-9916-A8206D5A93F1}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

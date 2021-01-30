@@ -25,7 +25,7 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Normal" ID="{74B6060F-8130-4710-904E-6D8C465B8F58}"/>
+						<CurrentSwitchRef Name="Neutral" ID="{74B6060F-8130-4710-904E-6D8C465B8F58}"/>
 						<CurrentSwitchRef Name="Magic_Girl" ID="{4EB27B1F-3D68-4C93-913C-544D8EB6E348}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

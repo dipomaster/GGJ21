@@ -176,7 +176,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fb55b826d4cf474399223a6c268ade90
     GuidInternal: 
-    m_lastTime: -8585896710283030356
+    m_lastTime: -8585896432365241348
     List:
     - name: Character
       guid: cfe8b12d9fb6544490d61897b50246cf
@@ -200,6 +200,12 @@ MonoBehaviour:
         PathAndIcons:
         - ElementName: Magic_Girl
           ObjectType: 10
+      - name: Soft_Gecko
+        guid: abf24b2514ed14469916a8206d5a93f1
+        id: 4269433141
+        PathAndIcons:
+        - ElementName: Soft_Gecko
+          ObjectType: 10
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -219,11 +225,11 @@ MonoBehaviour:
         PathAndIcons:
         - ElementName: Angry
           ObjectType: 10
-      - name: Normal
+      - name: Neutral
         guid: 0f06b67430811047904e6d8c465b8f58
-        id: 1160234136
+        id: 670611050
         PathAndIcons:
-        - ElementName: Normal
+        - ElementName: Neutral
           ObjectType: 10
       ValueGuids: []
       ValueIcons: []
@@ -240,12 +246,6 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /GGJ1_Lost&Found_WwiseProject
-  - /GGJ1_Lost&Found_WwiseProject/Events
-  - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit
-  - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit/Ambience
-  - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit/Dialogue
-  - /GGJ1_Lost&Found_WwiseProject/SoundBanks
-  - /GGJ1_Lost&Found_WwiseProject/SoundBanks/Default Work Unit
   - /GGJ1_Lost&Found_WwiseProject/Switches
   - /GGJ1_Lost&Found_WwiseProject/Switches/Default Work Unit
   - /GGJ1_Lost&Found_WwiseProject/Switches/Default Work Unit/Character

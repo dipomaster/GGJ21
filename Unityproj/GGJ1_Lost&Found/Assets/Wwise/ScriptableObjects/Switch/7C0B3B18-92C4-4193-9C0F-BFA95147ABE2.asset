@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Angry
   id: 1206605712
   guid: 7C0B3B18-92C4-4193-9C0F-BFA95147ABE2
-  WwiseSwitchGroupReference: {fileID: 0}
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 28d0b16e40b91144f915353fd80212d0, type: 2}
