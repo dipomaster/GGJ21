@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+//this script manages all the interactions in the item menu
 public class swipe : MonoBehaviour
 {
 
