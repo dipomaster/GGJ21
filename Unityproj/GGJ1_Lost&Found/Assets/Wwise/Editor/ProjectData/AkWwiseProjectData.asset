@@ -70,7 +70,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Ambience
     guid: b407c0ce6cd5f746831b9ca7bcfd2856
     GuidInternal: 
-    m_lastTime: -8585895912997961324
+    m_lastTime: -8585895873637233790
     List:
     - name: Start_Ambience
       guid: 91d9a5e630e6434d911d9976e2e90401
@@ -107,7 +107,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3914592c5c1ec041ba19db5432f12040
     GuidInternal: 
-    m_lastTime: -8585895944116910899
+    m_lastTime: -8585895873637213797
     List: []
   - PhysicalPath: Events\Dialogue.wwu
     PathAndIcons:
@@ -118,7 +118,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Dialogue
     guid: 467942f352406d4182d4f5503c56c8e7
     GuidInternal: 
-    m_lastTime: -8585895912997841186
+    m_lastTime: -8585895873637163814
     List:
     - name: Start_Talking
       guid: 0b15382fdccf1d43abbcea18bc1bbf91
@@ -157,7 +157,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\UI
     guid: d7533f6b014d8441a3d03fbc99fa31b6
     GuidInternal: 
-    m_lastTime: -8585895912997551079
+    m_lastTime: -8585895873637083840
     List:
     - name: Inventory_Scroll
       guid: f5ab782101ca144fa323f19ea51fcd81
@@ -215,7 +215,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fb55b826d4cf474399223a6c268ade90
     GuidInternal: 
-    m_lastTime: -8585896004648992482
+    m_lastTime: -8585895931046901630
     List:
     - name: Character
       guid: cfe8b12d9fb6544490d61897b50246cf
