@@ -29,6 +29,7 @@ namespace AK
             {
                 static const AkUniqueID GOTH = 786076171U;
                 static const AkUniqueID MAGIC_GIRL = 594300751U;
+                static const AkUniqueID MOM = 1082004790U;
                 static const AkUniqueID SOFT_GECKO = 4269433141U;
             } // namespace SWITCH
         } // namespace CHARACTER

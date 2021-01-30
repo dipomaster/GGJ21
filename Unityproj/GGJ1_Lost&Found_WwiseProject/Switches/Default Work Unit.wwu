@@ -14,6 +14,7 @@
 						<Switch Name="Goth" ID="{AB73EBC2-DCB3-4247-80FC-41180777FF63}"/>
 						<Switch Name="Magic_Girl" ID="{4EB27B1F-3D68-4C93-913C-544D8EB6E348}"/>
 						<Switch Name="Soft_Gecko" ID="{254BF2AB-ED14-4614-9916-A8206D5A93F1}"/>
+						<Switch Name="Mom" ID="{77750584-57AB-4980-BC3A-451969317C8B}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

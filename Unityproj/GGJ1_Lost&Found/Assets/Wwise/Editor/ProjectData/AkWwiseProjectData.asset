@@ -176,7 +176,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fb55b826d4cf474399223a6c268ade90
     GuidInternal: 
-    m_lastTime: -8585896432365241348
+    m_lastTime: -8585896041296748560
     List:
     - name: Character
       guid: cfe8b12d9fb6544490d61897b50246cf
@@ -199,6 +199,12 @@ MonoBehaviour:
         id: 594300751
         PathAndIcons:
         - ElementName: Magic_Girl
+          ObjectType: 10
+      - name: Mom
+        guid: 84057577ab578049bc3a451969317c8b
+        id: 1082004790
+        PathAndIcons:
+        - ElementName: Mom
           ObjectType: 10
       - name: Soft_Gecko
         guid: abf24b2514ed14469916a8206d5a93f1
@@ -246,9 +252,11 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /GGJ1_Lost&Found_WwiseProject
+  - /GGJ1_Lost&Found_WwiseProject/Events
+  - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit
+  - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit/Dialogue
   - /GGJ1_Lost&Found_WwiseProject/Switches
   - /GGJ1_Lost&Found_WwiseProject/Switches/Default Work Unit
   - /GGJ1_Lost&Found_WwiseProject/Switches/Default Work Unit/Character
-  - /GGJ1_Lost&Found_WwiseProject/Switches/Default Work Unit/Emotion
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

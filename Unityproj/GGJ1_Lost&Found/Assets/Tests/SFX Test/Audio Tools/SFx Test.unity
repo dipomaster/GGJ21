@@ -264,22 +264,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3542931ee132f0b4daedd428d77177d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartEvent:
+  StartTalking:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a6504fac3c37e1842890880866091b09, type: 2}
-  StopEvent:
+  StopTalking:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 55237c21f96d3fc44b8e8468a179000e, type: 2}
-  CharacterSelect:
-    idInternal: 0
+  SelectCharacter:
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 993273ee0d489a440938c2ad1a6d3b8a, type: 2}
+  - idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 14e74b8442c8eff46b80af7ffb9e536b, type: 2}
-  EmotionSelect:
-    idInternal: 0
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 27e1984ef8a4b6a4bad4ca745539b296, type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 355e7255b92e0d24484613b2b193d559, type: 2}
+  SelectEmotion:
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2fc32b96da84419458d32460cc8ce408, type: 2}
+  - idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
