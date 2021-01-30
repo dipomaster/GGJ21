@@ -8,6 +8,7 @@
 				<Property Name="Event Action List\{1633F933-900F-47A2-863C-728C711BA890}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2178ABF5-CA01-4F14-A323-F19EA51FCD81}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2F38150B-CFDC-431D-ABBC-EA18BC1BBF91}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4B08E571-FFCC-4C19-8416-81C6E98428CD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{515C3782-71B0-4FC7-A146-F119C2D28559}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5A0FCDBF-6C82-4D1B-99EF-22380A173CA6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{96F42113-B5CC-4A95-812E-3107BC2A875E}\x64_Expand States" Type="string" Value=""/>
@@ -35,7 +36,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="8JgmZQUKcEubMXJnfY/RFA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="zpHmTx59KEm1tO2bQcipdg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="t3ZMReeK00mDYLHZD/fFbAGJEKz/////b1ogrEIoNUCAGwT/oS3MbgGJEKz/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="b1ogrEIoNUCAGwT/oS3MbgGJNpL/////t3ZMReeK00mDYLHZD/fFbAGJNpL/////"/>
 				<Property Name="IntegrityReport\AudioFilesAndSources" Type="bool" Value="True"/>
 				<Property Name="IntegrityReport\BrokenReferences" Type="bool" Value="True"/>
 				<Property Name="IntegrityReport\EnableLanguages" Type="bool" Value="True"/>
@@ -64,7 +65,7 @@
 				<Property Name="ProjectExplorer\FirstVisible_11_0" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_0" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{8883F434-97C3-4472-8894-ADED88881D01}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_0" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_0" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
@@ -100,7 +101,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_0" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="6JhNbhJXKECnM/ozQTWeFhGAhfPYAypDicw/s8LO9I/sYGIy0wnTQ5kYJNp5egy+NPSDiMOXckSIlK3tiIgdAUnFKJkn6ZxEkmqHtsPYAWm6akwnhosmRbvLSgqRAn8QdbL46AQ3L0WYkLba9b9Y87TpwIIvaidGlOtOq0fSxMWK5nISDXlgRohRJKHnG4D0dSU81b7w+kab9jBDu2HGfl144FYg0jJHgUBNXtU1YwwPD252asLdR4zI9oLj1R7tkhSFgoEmjkuJ0ELONL7F3/Tykb9Zt+9Mkw1iMy0b8YRoH55CoEirTYnbYzI7AnHMdzDU38TuXE+6zXBdLqt2fA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="EYCF89gDKkOJzD+zws70j+xgYjLTCdNDmRgk2nl6DL409IOIw5dyRIiUre2IiB0BScUomSfpnESSaoe2w9gBabTpwIIvaidGlOtOq0fSxMWK5nISDXlgRohRJKHnG4D0XXjgViDSMkeBQE1e1TVjDA8PbnZqwt1HjMj2guPVHu308pG/WbfvTJMNYjMtG/GEdzDU38TuXE+6zXBdLqt2fA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="RnlC81JAbUGC1PVQPFbI59dTP2sBTYRBo9A/vJn6MbY5FFksXB7AQboZ21Qy8SBAtAfAzmzV90aDG5ynvP0oVg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_0" Type="string" Value=""/>

@@ -6,6 +6,17 @@
 				<WorkUnit Name="Dialogue" ID="{F3427946-4052-416D-82D4-F5503C56C8E7}" PersistMode="Reference"/>
 				<WorkUnit Name="Ambience" ID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}" PersistMode="Reference"/>
 				<WorkUnit Name="UI" ID="{6B3F53D7-4D01-4184-A3D0-3FBC99FA31B6}" PersistMode="Reference"/>
+				<Event Name="Alert" ID="{4B08E571-FFCC-4C19-8416-81C6E98428CD}">
+					<ChildrenList>
+						<Action Name="" ID="{9A267276-CA7E-4093-91A0-DA94C9A04F3F}" ShortID="874784927">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Alert Ripoff" ID="{E34A903E-662B-49B8-B582-2680C151814F}" WorkUnitID="{326260EC-09D3-43D3-9918-24DA797A0CBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

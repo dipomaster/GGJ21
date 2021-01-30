@@ -26,6 +26,10 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Alert" ID="{4B08E571-FFCC-4C19-8416-81C6E98428CD}" WorkUnitID="{2C591439-1E5C-41C0-BA19-DB5432F12040}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Stop_Ambience" ID="{11423F78-E7E8-49EB-B5DF-9122492F8A7A}" WorkUnitID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -33,8 +37,8 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Nervous" ID="{738A3F5C-9703-4C39-AE4C-FD29B2F23A3D}"/>
-						<CurrentSwitchRef Name="Mom" ID="{77750584-57AB-4980-BC3A-451969317C8B}"/>
+						<CurrentSwitchRef Name="Angry" ID="{7C0B3B18-92C4-4193-9C0F-BFA95147ABE2}"/>
+						<CurrentSwitchRef Name="Goth" ID="{AB73EBC2-DCB3-4247-80FC-41180777FF63}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

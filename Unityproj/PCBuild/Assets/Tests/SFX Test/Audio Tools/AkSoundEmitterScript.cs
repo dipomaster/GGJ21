@@ -26,7 +26,6 @@ public class AkSoundEmitterScript : MonoBehaviour
         SelectCharacter.SetValue(gameObject);
     }
 
-
     private void ManageEmotion()
     
         {

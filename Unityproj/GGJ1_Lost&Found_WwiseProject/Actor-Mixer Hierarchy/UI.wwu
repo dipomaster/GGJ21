@@ -383,6 +383,28 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="Alert Ripoff" ID="{E34A903E-662B-49B8-B582-2680C151814F}" ShortID="1063540067">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Alert Ripoff" ID="{E69D34F4-8CE1-4E6E-A0ED-0B764105773D}">
+							<Language>SFX</Language>
+							<AudioFile>Alert Ripoff.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="196635109"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Alert Ripoff" ID="{E69D34F4-8CE1-4E6E-A0ED-0B764105773D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
