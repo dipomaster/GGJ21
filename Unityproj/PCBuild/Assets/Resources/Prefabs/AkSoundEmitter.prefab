@@ -43,23 +43,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3542931ee132f0b4daedd428d77177d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartEvent:
+  StartTalking:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a6504fac3c37e1842890880866091b09, type: 2}
-  StopEvent:
+  StopTalking:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 55237c21f96d3fc44b8e8468a179000e, type: 2}
-  CharacterSelect:
+  SelectCharacter:
     idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 14e74b8442c8eff46b80af7ffb9e536b, type: 2}
-  EmotionSelect:
-    idInternal: 0
+  SelectEmotion:
+  - idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: cfc57c3b48ce17142b86932bd0312192, type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ad2b28c1e89e1ee49bc48ac1b41183dd, type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2fc32b96da84419458d32460cc8ce408, type: 2}

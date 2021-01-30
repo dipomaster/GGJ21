@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 
 public class AkSoundEmitterScript : MonoBehaviour
 {
@@ -9,31 +10,28 @@ public class AkSoundEmitterScript : MonoBehaviour
     public AK.Wwise.Event StopTalking;
     public AK.Wwise.Switch SelectCharacter;
     public AK.Wwise.Switch[] SelectEmotion;
+    public GameObject flowchrt;
+    public int emotion_state=0;
 
     private void Update()
     {
-        SelectCharacter.SetValue(gameObject);
+        emotion_state = flowchrt.GetComponent<Flowchart>().GetIntegerVariable("emotion_state");
         ManageEmotion();
+
+        
     }
 
-    private void ManageEmotion()
+    private void Start()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        SelectCharacter.SetValue(gameObject);
+    }
+
+
+    private void ManageEmotion()
+    
         {
-            SelectEmotion[0].SetValue(gameObject);
-        }
-        else if (Input.GetKeyDown(KeyCode.W))
-        {
-            SelectEmotion[1].SetValue(gameObject);
-        }
-        else if (Input.GetKeyDown(KeyCode.E))
-        {
-            SelectEmotion[2].SetValue(gameObject);
-        }
-        else if (Input.GetKeyDown(KeyCode.R))
-        {
-            SelectEmotion[3].SetValue(gameObject);
-        }
+            SelectEmotion[emotion_state].SetValue(gameObject);
+        
     }
 
     public void StartSpeech()
