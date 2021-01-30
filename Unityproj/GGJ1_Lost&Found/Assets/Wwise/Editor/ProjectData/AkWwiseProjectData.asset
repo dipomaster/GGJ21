@@ -176,7 +176,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fb55b826d4cf474399223a6c268ade90
     GuidInternal: 
-    m_lastTime: -8585896041296748560
+    m_lastTime: -8585896004648992482
     List:
     - name: Character
       guid: cfe8b12d9fb6544490d61897b50246cf
@@ -231,6 +231,12 @@ MonoBehaviour:
         PathAndIcons:
         - ElementName: Angry
           ObjectType: 10
+      - name: Nervous
+        guid: 5c3f8a730397394cae4cfd29b2f23a3d
+        id: 1717373301
+        PathAndIcons:
+        - ElementName: Nervous
+          ObjectType: 10
       - name: Neutral
         guid: 0f06b67430811047904e6d8c465b8f58
         id: 670611050
@@ -258,5 +264,6 @@ MonoBehaviour:
   - /GGJ1_Lost&Found_WwiseProject/Switches
   - /GGJ1_Lost&Found_WwiseProject/Switches/Default Work Unit
   - /GGJ1_Lost&Found_WwiseProject/Switches/Default Work Unit/Character
+  - /GGJ1_Lost&Found_WwiseProject/Switches/Default Work Unit/Emotion
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

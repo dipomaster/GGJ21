@@ -25,8 +25,8 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Neutral" ID="{74B6060F-8130-4710-904E-6D8C465B8F58}"/>
-						<CurrentSwitchRef Name="Magic_Girl" ID="{4EB27B1F-3D68-4C93-913C-544D8EB6E348}"/>
+						<CurrentSwitchRef Name="Nervous" ID="{738A3F5C-9703-4C39-AE4C-FD29B2F23A3D}"/>
+						<CurrentSwitchRef Name="Soft_Gecko" ID="{254BF2AB-ED14-4614-9916-A8206D5A93F1}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
