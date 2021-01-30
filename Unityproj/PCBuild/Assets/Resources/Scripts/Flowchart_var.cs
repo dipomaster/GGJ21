@@ -7,12 +7,18 @@ public class Flowchart_var : MonoBehaviour
 {
 
     public GameObject PrevFlowchart;
+    public string[] inheritVar;
    // public GameObject NextFlowchart;
     int karmaValue;
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Flowchart>().SetIntegerVariable("karma", PrevFlowchart.GetComponent<Flowchart>().GetIntegerVariable("karma") );
+        foreach(string var in inheritVar){
+
+            GetComponent<Flowchart>().SetIntegerVariable(var, PrevFlowchart.GetComponent<Flowchart>().GetIntegerVariable(var) );
+        }
+        
+
     }
 
     // Update is called once per frame
