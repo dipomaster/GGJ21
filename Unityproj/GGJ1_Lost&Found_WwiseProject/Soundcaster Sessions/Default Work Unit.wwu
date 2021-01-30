@@ -25,8 +25,8 @@
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Angry" ID="{7C0B3B18-92C4-4193-9C0F-BFA95147ABE2}"/>
-						<CurrentSwitchRef Name="Mom" ID="{77750584-57AB-4980-BC3A-451969317C8B}"/>
+						<CurrentSwitchRef Name="Neutral" ID="{74B6060F-8130-4710-904E-6D8C465B8F58}"/>
+						<CurrentSwitchRef Name="Magic_Girl" ID="{4EB27B1F-3D68-4C93-913C-544D8EB6E348}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
