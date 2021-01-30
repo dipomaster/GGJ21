@@ -6,19 +6,27 @@
 				<SoundcasterSession Name="Speech" ID="{4A6B77AB-D8A5-4113-B137-2FE737A26E96}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="start_talking" ID="{2F38150B-CFDC-431D-ABBC-EA18BC1BBF91}" WorkUnitID="{F3427946-4052-416D-82D4-F5503C56C8E7}"/>
+							<ObjectRef Name="Start_Talking" ID="{2F38150B-CFDC-431D-ABBC-EA18BC1BBF91}" WorkUnitID="{F3427946-4052-416D-82D4-F5503C56C8E7}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="stop_talking" ID="{5A0FCDBF-6C82-4D1B-99EF-22380A173CA6}" WorkUnitID="{F3427946-4052-416D-82D4-F5503C56C8E7}"/>
+							<ObjectRef Name="Inventory_Scroll" ID="{2178ABF5-CA01-4F14-A323-F19EA51FCD81}" WorkUnitID="{6B3F53D7-4D01-4184-A3D0-3FBC99FA31B6}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Talking" ID="{5A0FCDBF-6C82-4D1B-99EF-22380A173CA6}" WorkUnitID="{F3427946-4052-416D-82D4-F5503C56C8E7}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="start_ambience" ID="{E6A5D991-E630-4D43-911D-9976E2E90401}" WorkUnitID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}"/>
+							<ObjectRef Name="UI_Click" ID="{515C3782-71B0-4FC7-A146-F119C2D28559}" WorkUnitID="{6B3F53D7-4D01-4184-A3D0-3FBC99FA31B6}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Start_Ambience" ID="{E6A5D991-E630-4D43-911D-9976E2E90401}" WorkUnitID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="stop_ambience" ID="{11423F78-E7E8-49EB-B5DF-9122492F8A7A}" WorkUnitID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}"/>
+							<ObjectRef Name="Stop_Ambience" ID="{11423F78-E7E8-49EB-B5DF-9122492F8A7A}" WorkUnitID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 					</ModuleList>
@@ -26,7 +34,7 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Nervous" ID="{738A3F5C-9703-4C39-AE4C-FD29B2F23A3D}"/>
-						<CurrentSwitchRef Name="Soft_Gecko" ID="{254BF2AB-ED14-4614-9916-A8206D5A93F1}"/>
+						<CurrentSwitchRef Name="Mom" ID="{77750584-57AB-4980-BC3A-451969317C8B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

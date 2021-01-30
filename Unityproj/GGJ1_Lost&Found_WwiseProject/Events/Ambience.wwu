@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Ambience" ID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}" OwnerID="{2C591439-1E5C-41C0-BA19-DB5432F12040}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="start_ambience" ID="{E6A5D991-E630-4D43-911D-9976E2E90401}">
+				<Event Name="Start_Ambience" ID="{E6A5D991-E630-4D43-911D-9976E2E90401}">
 					<ChildrenList>
 						<Action Name="" ID="{BD00544F-BA27-4B89-9799-AAB241D308C0}" ShortID="403700136">
 							<ReferenceList>
@@ -14,7 +14,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="stop_ambience" ID="{11423F78-E7E8-49EB-B5DF-9122492F8A7A}">
+				<Event Name="Stop_Ambience" ID="{11423F78-E7E8-49EB-B5DF-9122492F8A7A}">
 					<ChildrenList>
 						<Action Name="" ID="{EA509534-5A1D-40FC-8F40-3F8E6A8CFFE0}" ShortID="38283169">
 							<PropertyList>

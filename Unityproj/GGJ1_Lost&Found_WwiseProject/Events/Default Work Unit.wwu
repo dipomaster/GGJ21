@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="Dialogue" ID="{F3427946-4052-416D-82D4-F5503C56C8E7}" PersistMode="Reference"/>
 				<WorkUnit Name="Ambience" ID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{6B3F53D7-4D01-4184-A3D0-3FBC99FA31B6}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

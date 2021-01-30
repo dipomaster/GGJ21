@@ -13,10 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID INVENTORY_SCROLL = 1144759537U;
         static const AkUniqueID START_AMBIENCE = 3626999974U;
         static const AkUniqueID START_TALKING = 1672006336U;
         static const AkUniqueID STOP_AMBIENCE = 2477713992U;
         static const AkUniqueID STOP_TALKING = 2173668446U;
+        static const AkUniqueID UI_CLICK = 2249769530U;
     } // namespace EVENTS
 
     namespace SWITCHES

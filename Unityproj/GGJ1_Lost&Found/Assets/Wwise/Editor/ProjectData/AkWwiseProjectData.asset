@@ -70,9 +70,9 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Ambience
     guid: b407c0ce6cd5f746831b9ca7bcfd2856
     GuidInternal: 
-    m_lastTime: -8585896710283930466
+    m_lastTime: -8585895912997961324
     List:
-    - name: start_ambience
+    - name: Start_Ambience
       guid: 91d9a5e630e6434d911d9976e2e90401
       id: 3626999974
       PathAndIcons:
@@ -80,13 +80,13 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Ambience
         ObjectType: 12
-      - ElementName: start_ambience
+      - ElementName: Start_Ambience
         ObjectType: 3
-      Path: Default Work Unit\Ambience\start_ambience
+      Path: Default Work Unit\Ambience\Start_Ambience
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: stop_ambience
+    - name: Stop_Ambience
       guid: 783f4211e8e7eb49b5df9122492f8a7a
       id: 2477713992
       PathAndIcons:
@@ -94,9 +94,9 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Ambience
         ObjectType: 12
-      - ElementName: stop_ambience
+      - ElementName: Stop_Ambience
         ObjectType: 3
-      Path: Default Work Unit\Ambience\stop_ambience
+      Path: Default Work Unit\Ambience\Stop_Ambience
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -107,7 +107,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3914592c5c1ec041ba19db5432f12040
     GuidInternal: 
-    m_lastTime: -8585896710283930466
+    m_lastTime: -8585895944116910899
     List: []
   - PhysicalPath: Events\Dialogue.wwu
     PathAndIcons:
@@ -118,9 +118,9 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Dialogue
     guid: 467942f352406d4182d4f5503c56c8e7
     GuidInternal: 
-    m_lastTime: -8585896667214547085
+    m_lastTime: -8585895912997841186
     List:
-    - name: start_talking
+    - name: Start_Talking
       guid: 0b15382fdccf1d43abbcea18bc1bbf91
       id: 1672006336
       PathAndIcons:
@@ -128,13 +128,13 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Dialogue
         ObjectType: 12
-      - ElementName: start_talking
+      - ElementName: Start_Talking
         ObjectType: 3
-      Path: Default Work Unit\Dialogue\start_talking
+      Path: Default Work Unit\Dialogue\Start_Talking
       maxAttenuation: 0
-      maxDuration: Infinity
-      minDuration: 0
-    - name: stop_talking
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Talking
       guid: bfcd0f5a826c1b4d99ef22380a173ca6
       id: 2173668446
       PathAndIcons:
@@ -142,12 +142,51 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Dialogue
         ObjectType: 12
-      - ElementName: stop_talking
+      - ElementName: Stop_Talking
         ObjectType: 3
-      Path: Default Work Unit\Dialogue\stop_talking
+      Path: Default Work Unit\Dialogue\Stop_Talking
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+  - PhysicalPath: Events\UI.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: UI
+      ObjectType: 12
+    ParentPath: Default Work Unit\UI
+    guid: d7533f6b014d8441a3d03fbc99fa31b6
+    GuidInternal: 
+    m_lastTime: -8585895912997551079
+    List:
+    - name: Inventory_Scroll
+      guid: f5ab782101ca144fa323f19ea51fcd81
+      id: 1144759537
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: Inventory_Scroll
+        ObjectType: 3
+      Path: Default Work Unit\UI\Inventory_Scroll
+      maxAttenuation: 0
+      maxDuration: 0.349181
+      minDuration: 0.26159
+    - name: UI_Click
+      guid: 82375c51b071c74fa146f119c2d28559
+      id: 2249769530
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: UI_Click
+        ObjectType: 3
+      Path: Default Work Unit\UI\UI_Click
+      maxAttenuation: 0
+      maxDuration: 0.142146
+      minDuration: 0.142146
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

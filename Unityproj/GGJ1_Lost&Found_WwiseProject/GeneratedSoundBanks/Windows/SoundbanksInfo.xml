@@ -11,15 +11,17 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="140027233">
+		<SoundBank Id="393239870" Language="SFX" Hash="1887139725">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3626999974" Name="start_ambience" ObjectPath="\Events\Default Work Unit\Ambience\start_ambience" DurationType="Infinite"/>
-				<Event Id="1672006336" Name="start_talking" ObjectPath="\Events\Default Work Unit\Dialogue\start_talking" DurationType="Infinite"/>
-				<Event Id="2477713992" Name="stop_ambience" ObjectPath="\Events\Default Work Unit\Ambience\stop_ambience" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2173668446" Name="stop_talking" ObjectPath="\Events\Default Work Unit\Dialogue\stop_talking" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1144759537" Name="Inventory_Scroll" ObjectPath="\Events\Default Work Unit\UI\Inventory_Scroll" DurationType="OneShot" DurationMin="0.261590" DurationMax="0.349181"/>
+				<Event Id="3626999974" Name="Start_Ambience" ObjectPath="\Events\Default Work Unit\Ambience\Start_Ambience" DurationType="Infinite"/>
+				<Event Id="1672006336" Name="Start_Talking" ObjectPath="\Events\Default Work Unit\Dialogue\Start_Talking" DurationType="Infinite"/>
+				<Event Id="2477713992" Name="Stop_Ambience" ObjectPath="\Events\Default Work Unit\Ambience\Stop_Ambience" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2173668446" Name="Stop_Talking" ObjectPath="\Events\Default Work Unit\Dialogue\Stop_Talking" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2249769530" Name="UI_Click" ObjectPath="\Events\Default Work Unit\UI\UI_Click" DurationType="OneShot" DurationMin="0.142146" DurationMax="0.142146"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="31515180" Language="SFX">
@@ -65,6 +67,10 @@
 				<File Id="129796359" Language="SFX">
 					<ShortName>Voice_MagicGirl-002.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl-002_10C4C929.wem</Path>
+				</File>
+				<File Id="131321023" Language="SFX">
+					<ShortName>UI_Click-005.wav</ShortName>
+					<Path>SFX\UI_Click-005_10C4C929.wem</Path>
 				</File>
 				<File Id="144135093" Language="SFX">
 					<ShortName>Voice_Mom_Angry-003.wav</ShortName>
@@ -158,6 +164,10 @@
 					<ShortName>Voice_SoftGecko_Angry-007.wav</ShortName>
 					<Path>SFX\Voice_SoftGecko_Angry-007_10C4C929.wem</Path>
 				</File>
+				<File Id="372296218" Language="SFX">
+					<ShortName>UI_Inventory_Scroll2.wav</ShortName>
+					<Path>SFX\UI_Inventory_Scroll2_10C4C929.wem</Path>
+				</File>
 				<File Id="374576615" Language="SFX">
 					<ShortName>Voice_MagicGirl_Nervous-001.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl_Nervous-001_10C4C929.wem</Path>
@@ -194,6 +204,10 @@
 					<ShortName>Voice_MagicGirl_Angry-006.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl_Angry-006_10C4C929.wem</Path>
 				</File>
+				<File Id="505726344" Language="SFX">
+					<ShortName>UI_Click-001.wav</ShortName>
+					<Path>SFX\UI_Click-001_10C4C929.wem</Path>
+				</File>
 				<File Id="522942894" Language="SFX">
 					<ShortName>Voice_SoftGecko_Angry-005.wav</ShortName>
 					<Path>SFX\Voice_SoftGecko_Angry-005_10C4C929.wem</Path>
@@ -226,6 +240,10 @@
 					<ShortName>Voice_MagicGirl_Nervous-006.wav</ShortName>
 					<Path>SFX\Voice_MagicGirl_Nervous-006_10C4C929.wem</Path>
 				</File>
+				<File Id="637773337" Language="SFX">
+					<ShortName>UI_Click-002.wav</ShortName>
+					<Path>SFX\UI_Click-002_10C4C929.wem</Path>
+				</File>
 				<File Id="639313634" Language="SFX">
 					<ShortName>Voice_Mom_Neutral-005.wav</ShortName>
 					<Path>SFX\Voice_Mom_Neutral-005_10C4C929.wem</Path>
@@ -245,6 +263,10 @@
 				<File Id="706536524" Language="SFX">
 					<ShortName>Voice_SoftGecko_Nervous-002.wav</ShortName>
 					<Path>SFX\Voice_SoftGecko_Nervous-002_10C4C929.wem</Path>
+				</File>
+				<File Id="714783429" Language="SFX">
+					<ShortName>UI_Click-003.wav</ShortName>
+					<Path>SFX\UI_Click-003_10C4C929.wem</Path>
 				</File>
 				<File Id="724773952" Language="SFX">
 					<ShortName>Voice_SoftGecko_Angry-004.wav</ShortName>
@@ -277,6 +299,10 @@
 				<File Id="763233900" Language="SFX">
 					<ShortName>Voice_SoftGecko_Neutral-004.wav</ShortName>
 					<Path>SFX\Voice_SoftGecko_Neutral-004_10C4C929.wem</Path>
+				</File>
+				<File Id="770297672" Language="SFX">
+					<ShortName>UI_Click-006.wav</ShortName>
+					<Path>SFX\UI_Click-006_10C4C929.wem</Path>
 				</File>
 				<File Id="774852538" Language="SFX">
 					<ShortName>Voice_Mom_Neutral-001.wav</ShortName>
@@ -342,6 +368,10 @@
 					<ShortName>Goth Nervous\Voice_Goth_Nervous-005.wav</ShortName>
 					<Path>SFX\Goth Nervous\Voice_Goth_Nervous-005_10C4C929.wem</Path>
 				</File>
+				<File Id="1005790775" Language="SFX">
+					<ShortName>UI_Click-004.wav</ShortName>
+					<Path>SFX\UI_Click-004_10C4C929.wem</Path>
+				</File>
 				<File Id="1015157319" Language="SFX">
 					<ShortName>Goth Nervous\Voice_Goth_Nervous-006.wav</ShortName>
 					<Path>SFX\Goth Nervous\Voice_Goth_Nervous-006_10C4C929.wem</Path>
@@ -349,6 +379,10 @@
 				<File Id="1032098969" Language="SFX">
 					<ShortName>Voice_SoftGecko_Nervous-004.wav</ShortName>
 					<Path>SFX\Voice_SoftGecko_Nervous-004_10C4C929.wem</Path>
+				</File>
+				<File Id="1036645091" Language="SFX">
+					<ShortName>UI_Inventory_Scroll.wav</ShortName>
+					<Path>SFX\UI_Inventory_Scroll_10C4C929.wem</Path>
 				</File>
 				<File Id="1060186332" Language="SFX">
 					<ShortName>Voice_MagicGirl-003.wav</ShortName>

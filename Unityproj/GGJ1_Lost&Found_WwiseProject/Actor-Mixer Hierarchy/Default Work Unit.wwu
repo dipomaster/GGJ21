@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="Dialogue" ID="{56E0785D-D220-4732-8140-4D5ED535630C}" PersistMode="Reference"/>
 				<WorkUnit Name="Ambience" ID="{82C0E9B4-6A2F-4627-94EB-4EAB47D2C4C5}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{326260EC-09D3-43D3-9918-24DA797A0CBE}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

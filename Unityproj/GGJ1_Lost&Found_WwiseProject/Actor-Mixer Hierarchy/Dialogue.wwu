@@ -20,6 +20,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<SwitchContainer Name="Goth" ID="{766E0F0F-C26A-47DD-8CC8-F682E3D51EED}" ShortID="793508895">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>500</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
@@ -43,9 +50,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>600</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{593725C6-528F-4B0D-85FA-D1DDB610EA42}">
@@ -332,9 +336,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>600</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{2164213D-CC24-422A-9941-A211CAB655FD}">
@@ -635,11 +636,6 @@
 												<Value>1</Value>
 											</ValueList>
 										</Property>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>600</Value>
-											</ValueList>
-										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
@@ -931,6 +927,13 @@
 							</GroupingInfo>
 						</SwitchContainer>
 						<SwitchContainer Name="Magic Girl" ID="{9928C549-E927-449C-926A-87B6C3D80169}" ShortID="229166541">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>200</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
@@ -2629,6 +2632,18 @@
 							</GroupingInfo>
 						</SwitchContainer>
 						<SwitchContainer Name="Mom" ID="{BF91F2F4-B759-4CEF-930D-62332D1BF184}" ShortID="143938601">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>300</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
@@ -2651,11 +2666,6 @@
 												<Value>1</Value>
 											</ValueList>
 										</Property>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>200</Value>
-											</ValueList>
-										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
@@ -2665,6 +2675,11 @@
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2931,7 +2946,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3183,11 +3198,6 @@
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
 												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>200</Value>
 											</ValueList>
 										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>

@@ -6,7 +6,9 @@
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="I:\Reaper Media\GGJ 2020\Voices\Goth\"/>
 				<Property Name="Event Action List\{11423F78-E7E8-49EB-B5DF-9122492F8A7A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1633F933-900F-47A2-863C-728C711BA890}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2178ABF5-CA01-4F14-A323-F19EA51FCD81}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2F38150B-CFDC-431D-ABBC-EA18BC1BBF91}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{515C3782-71B0-4FC7-A146-F119C2D28559}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5A0FCDBF-6C82-4D1B-99EF-22380A173CA6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C499C809-A539-4B7F-B67F-B2EB716665ED}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E6A5D991-E630-4D43-911D-9976E2E90401}\x64_Expand States" Type="string" Value=""/>
@@ -32,7 +34,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="8JgmZQUKcEubMXJnfY/RFA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="zpHmTx59KEm1tO2bQcipdg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="t3ZMReeK00mDYLHZD/fFbAGJg9b/////b1ogrEIoNUCAGwT/oS3MbgGJg9b/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="t3ZMReeK00mDYLHZD/fFbAGJ2qz/////b1ogrEIoNUCAGwT/oS3MbgGJ2qz/////"/>
 				<Property Name="IntegrityReport\AudioFilesAndSources" Type="bool" Value="True"/>
 				<Property Name="IntegrityReport\BrokenReferences" Type="bool" Value="True"/>
 				<Property Name="IntegrityReport\EnableLanguages" Type="bool" Value="True"/>
@@ -97,9 +99,9 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_0" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="EYCF89gDKkOJzD+zws70jzT0g4jDl3JEiJSt7YiIHQFJxSiZJ+mcRJJqh7bD2AFptOnAgi9qJ0aU606rR9LExV144FYg0jJHgUBNXtU1YwwPD252asLdR4zI9oLj1R7t9PKRv1m370yTDWIzLRvxhHcw1N/E7lxPus1wXS6rdnw="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="EYCF89gDKkOJzD+zws70jzT0g4jDl3JEiJSt7YiIHQFJxSiZJ+mcRJJqh7bD2AFpumpMJ4aLJkW7y0oKkQJ/EHWy+OgENy9FmJC22vW/WPO06cCCL2onRpTrTqtH0sTFiuZyEg15YEaIUSSh5xuA9HUlPNW+8PpGm/YwQ7thxn5deOBWINIyR4FATV7VNWMMDw9udmrC3UeMyPaC49Ue7ZIUhYKBJo5LidBCzjS+xd/08pG/WbfvTJMNYjMtG/GEaB+eQqBIq02J22MyOwJxzHcw1N/E7lxPus1wXS6rdnw="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_0" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="RnlC81JAbUGC1PVQPFbI5zkUWSxcHsBBuhnbVDLxIEC0B8DObNX3RoMbnKe8/ShW"/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="RnlC81JAbUGC1PVQPFbI59dTP2sBTYRBo9A/vJn6MbY5FFksXB7AQboZ21Qy8SBAtAfAzmzV90aDG5ynvP0oVg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="tjG72uwC+0CoVhZfTfVTIvtVuCbUz0dDmSI6bCaK3pDP6LEtn7ZURJDWGJe1AkbP"/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_0" Type="string" Value=""/>

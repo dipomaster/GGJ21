@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f224e09ec85a54442b890b24dba40640, type: 3}
   m_Name: 5A0FCDBF-6C82-4D1B-99EF-22380A173CA6
   m_EditorClassIdentifier: 
-  objectName: stop_talking
+  objectName: Stop_Talking
   id: 2173668446
   guid: 5A0FCDBF-6C82-4D1B-99EF-22380A173CA6

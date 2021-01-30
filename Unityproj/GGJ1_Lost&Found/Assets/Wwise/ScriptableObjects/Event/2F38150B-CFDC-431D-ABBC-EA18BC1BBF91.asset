@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f224e09ec85a54442b890b24dba40640, type: 3}
   m_Name: 2F38150B-CFDC-431D-ABBC-EA18BC1BBF91
   m_EditorClassIdentifier: 
-  objectName: start_talking
+  objectName: Start_Talking
   id: 1672006336
   guid: 2F38150B-CFDC-431D-ABBC-EA18BC1BBF91

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6B3F53D7-4D01-4184-A3D0-3FBC99FA31B6}" SchemaVersion="97" RootDocumentID="{2C591439-1E5C-41C0-BA19-DB5432F12040}">
+	<Events>
+		<WorkUnit Name="UI" ID="{6B3F53D7-4D01-4184-A3D0-3FBC99FA31B6}" OwnerID="{2C591439-1E5C-41C0-BA19-DB5432F12040}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Inventory_Scroll" ID="{2178ABF5-CA01-4F14-A323-F19EA51FCD81}">
+					<ChildrenList>
+						<Action Name="" ID="{89B564F7-CAD6-4926-A02A-0A583654888B}" ShortID="322773241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Inventory_Scroll" ID="{1272E68A-790D-4660-8851-24A1E71B80F4}" WorkUnitID="{326260EC-09D3-43D3-9918-24DA797A0CBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Click" ID="{515C3782-71B0-4FC7-A146-F119C2D28559}">
+					<ChildrenList>
+						<Action Name="" ID="{8E5A566F-E65E-4699-92CB-41123D69AFEC}" ShortID="240853096">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Click" ID="{87B1CABC-873E-406A-A2F1-15285807C491}" WorkUnitID="{326260EC-09D3-43D3-9918-24DA797A0CBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
