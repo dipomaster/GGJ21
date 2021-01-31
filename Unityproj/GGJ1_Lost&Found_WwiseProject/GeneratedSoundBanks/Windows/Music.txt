@@ -9,11 +9,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	3626999974	Start_Ambience			\Default Work Unit\Ambience\Start_Ambience	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	246862642	character_loops	D:\Gina\Music Scoring\GGJ\Git-Repo-GGJ\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\penguin-mum_loop-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Character Music\Character Musc\character_loops		10444868
-	697243679	character_loops	D:\Gina\Music Scoring\GGJ\Git-Repo-GGJ\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\magic-girl_loop-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Character Music\Character Musc\character_loops		10444868
-	711847975	character_loops	D:\Gina\Music Scoring\GGJ\Git-Repo-GGJ\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\soft-gecko_loop-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Character Music\Character Musc\character_loops		10444868
-	729006369	menu-theme_intro-01	D:\Gina\Music Scoring\GGJ\Git-Repo-GGJ\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\menu-theme_intro-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Main Theme\Intro\menu-theme_intro-01		14848068
-	793664074	Crowd	D:\Gina\Music Scoring\GGJ\Git-Repo-GGJ\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Crowd_B3961EDA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Crowd		3060412
-	848558604	character_loops	D:\Gina\Music Scoring\GGJ\Git-Repo-GGJ\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\goth_loop-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Character Music\Character Musc\character_loops		10444868
-	1061643460	menu-theme_loop-02	D:\Gina\Music Scoring\GGJ\Git-Repo-GGJ\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\menu-theme_loop-02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Main Theme\Loop\menu-theme_loop-02		9216068
+	246862642	character_loops	F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\penguin-mum_loop-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Character Music\Character Musc\character_loops		10444868
+	697243679	character_loops	F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\magic-girl_loop-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Character Music\Character Musc\character_loops		10444868
+	711847975	character_loops	F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\soft-gecko_loop-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Character Music\Character Musc\character_loops		10444868
+	729006369	menu-theme_intro-01	F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\menu-theme_intro-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Main Theme\Intro\menu-theme_intro-01		14848068
+	793664074	Crowd	F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\Crowd_B3961EDA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Crowd		3060412
+	848558604	character_loops	F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\goth_loop-01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Character Music\Character Musc\character_loops		10444868
+	1061643460	menu-theme_loop-02	F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&Found_WwiseProject\.cache\Windows\SFX\menu-theme_loop-02_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Main Theme\Loop\menu-theme_loop-02		9216068
 

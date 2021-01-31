@@ -15,11 +15,11 @@ F:/Dev/Unity/GGJ21/Unityproj/PCBuild
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49596
+52034
 Successfully changed project path to: F:/Dev/Unity/GGJ21/Unityproj/PCBuild
 F:/Dev/Unity/GGJ21/Unityproj/PCBuild
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 118.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,30 +35,30 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003195 seconds.
+Registered in 0.012945 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.281 seconds
+- Completed reload, in  2.869 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009961 seconds.
+Registered in 0.011138 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 62.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
 The file 'Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset' seems to have merge conflicts. Please open it in a text editor and fix the merge.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.AssetDatabase:LoadAssetAtPath<AkWwiseProjectData> (string)
@@ -90,43 +90,35 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.593 seconds
+- Completed reload, in  2.643 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2920 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 117.9 MB.
 System memory in use after: 118.0 MB.
 
 Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3259.
-Total: 4.370500 ms (FindLiveObjects: 0.810400 ms CreateObjectMapping: 0.482200 ms MarkObjects: 2.877600 ms  DeleteObjects: 0.198500 ms)
+Total: 6.108400 ms (FindLiveObjects: 1.961100 ms CreateObjectMapping: 0.386800 ms MarkObjects: 3.456600 ms  DeleteObjects: 0.300800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/Scenes/CHR1MagicalGirl.unity
-  artifactKey: Guid(8ebc7f6d354a72e4eae1502e37486732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR1MagicalGirl.unity using Guid(8ebc7f6d354a72e4eae1502e37486732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d48a317fff987ba225dc092cbd336f8') in 0.017799 seconds
-  Import took 0.022961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.530168 seconds.
-  path: Assets/Resources/Scenes/CHR2Goth.unity
-  artifactKey: Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR2Goth.unity using Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46adb7f095defd0061e9717bdfb95d7b') in 0.012652 seconds
-  Import took 0.019489 seconds .
+  path: Assets/Resources/Scenes/End.unity
+  artifactKey: Guid(e148864244fe60e4a9b1cbbe7d8b36fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/End.unity using Guid(e148864244fe60e4a9b1cbbe7d8b36fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943ceb4bc9967807679b03a3140381f5') in 0.157285 seconds
+  Import took 0.182045 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010298 seconds.
+Registered in 0.010979 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -142,140 +134,30 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
 
-Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.653 seconds
+- Completed reload, in  2.317 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.9 MB.
-System memory in use after: 119.0 MB.
-
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3263.
-Total: 9.118300 ms (FindLiveObjects: 0.719700 ms CreateObjectMapping: 0.950800 ms MarkObjects: 7.285500 ms  DeleteObjects: 0.159700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.372927 seconds.
-  path: Assets/Resources/Scenes/Start.unity
-  artifactKey: Guid(9a5ae8ed798b8bf4a853589ca7d23dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/Start.unity using Guid(9a5ae8ed798b8bf4a853589ca7d23dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a9547fe278673271b5cf2317f4a511') in 0.023745 seconds
-  Import took 0.029918 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010768 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
-
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.483 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.2 MB.
-System memory in use after: 119.3 MB.
-
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3267.
-Total: 3.699600 ms (FindLiveObjects: 0.515900 ms CreateObjectMapping: 0.274500 ms MarkObjects: 2.751100 ms  DeleteObjects: 0.156600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019206 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
-
-Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.373 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 119.4 MB.
 System memory in use after: 119.5 MB.
 
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3271.
-Total: 4.924700 ms (FindLiveObjects: 0.683200 ms CreateObjectMapping: 0.354400 ms MarkObjects: 3.717900 ms  DeleteObjects: 0.167100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.579999 seconds.
-  path: Assets/Resources/Scenes/CHR2Goth.unity
-  artifactKey: Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR2Goth.unity using Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c1060844672b1b734904b97e5542eb') in 0.025216 seconds
-  Import took 0.031969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.116068 seconds.
-  path: Assets/Resources/Scenes/CHR3Gecko.unity
-  artifactKey: Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR3Gecko.unity using Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225094a9f7b46f82b0ecdc6a25f6eda4') in 0.008881 seconds
-  Import took 0.017541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Resources/Scenes/CHR3Gecko.unity
-  artifactKey: Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR3Gecko.unity using Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225094a9f7b46f82b0ecdc6a25f6eda4') in 0.003260 seconds
-  Import took 0.009536 seconds .
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3263.
+Total: 3.022700 ms (FindLiveObjects: 0.276300 ms CreateObjectMapping: 0.113400 ms MarkObjects: 2.475700 ms  DeleteObjects: 0.155600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011782 seconds.
+Registered in 0.010718 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -291,62 +173,30 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
 
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.683 seconds
+- Completed reload, in  1.751 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.1 MB.
-System memory in use after: 120.2 MB.
+System memory in use before: 119.7 MB.
+System memory in use after: 119.8 MB.
 
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3275.
-Total: 4.439600 ms (FindLiveObjects: 0.621500 ms CreateObjectMapping: 0.317600 ms MarkObjects: 3.303200 ms  DeleteObjects: 0.196200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.766948 seconds.
-  path: Assets/Resources/Scenes/CHR4Penguin.unity
-  artifactKey: Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR4Penguin.unity using Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab9f290a4a0e8fe9b6cca77d726bfdc') in 0.029235 seconds
-  Import took 0.035798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.170194 seconds.
-  path: Assets/Resources/Scenes/CHR4Penguin.unity
-  artifactKey: Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR4Penguin.unity using Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c6f4fa69bad4a3428b27bbe769e05c') in 0.008567 seconds
-  Import took 0.015090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.220600 seconds.
-  path: Assets/Resources/Scenes/Intro.unity
-  artifactKey: Guid(4be1b390baabeb54c8a43a7533c8b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/Intro.unity using Guid(4be1b390baabeb54c8a43a7533c8b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c8dcb4ca5d82168eeb70892623dab5') in 0.008240 seconds
-  Import took 0.015062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 88.997725 seconds.
-  path: Assets/Resources/Scenes/CHR2Goth.unity
-  artifactKey: Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR2Goth.unity using Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6879c33b0bb3f00b630649249393fe') in 0.009037 seconds
-  Import took 0.017120 seconds .
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3267.
+Total: 7.974600 ms (FindLiveObjects: 1.059100 ms CreateObjectMapping: 0.525500 ms MarkObjects: 4.997800 ms  DeleteObjects: 1.389900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013455 seconds.
+Registered in 0.017423 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -362,263 +212,1445 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
 
-Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.665 seconds
+- Completed reload, in  2.519 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.0 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3271.
+Total: 5.396800 ms (FindLiveObjects: 0.437200 ms CreateObjectMapping: 0.396700 ms MarkObjects: 4.249300 ms  DeleteObjects: 0.311000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 508.461522 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/acoustictexture_nor.png
+  artifactKey: Guid(e1e9f3cff3fb33a43be0ed41b54327e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/acoustictexture_nor.png using Guid(e1e9f3cff3fb33a43be0ed41b54327e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1275a5ed6e0797229e19ec2b4a1995ed') in 0.312709 seconds
+  Import took 0.338455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/John/angry.png
+  artifactKey: Guid(061fcd6caac25954287291fffde7cd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/John/angry.png using Guid(061fcd6caac25954287291fffde7cd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d69736dc6622461345e7c52ff90e18') in 0.383609 seconds
+  Import took 0.412060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Fungus/EditorResources/Icons/Pro/add_small.png
+  artifactKey: Guid(64534dfaa17844231a9a9dd2df89d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/Pro/add_small.png using Guid(64534dfaa17844231a9a9dd2df89d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2f62b2a587411776e4cc238e8a270e') in 0.127289 seconds
+  Import took 0.149777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041833 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/auxbus_nor.png
+  artifactKey: Guid(a0fdc97f19874ed44b44162cda029033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/auxbus_nor.png using Guid(a0fdc97f19874ed44b44162cda029033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a266b174d7c9c7802e78db078384dc7') in 0.171493 seconds
+  Import took 0.205638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023195 seconds.
+  path: Assets/FungusExamples/Sherlock/Images/background.png
+  artifactKey: Guid(11c1465344d894bf0b62fe226620a7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Images/background.png using Guid(11c1465344d894bf0b62fe226620a7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f57a36ac9dd1b0a6bf4881ef6551e25') in 0.589725 seconds
+  Import took 0.694130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017994 seconds.
+  path: Assets/Prop/bandanna.png
+  artifactKey: Guid(21e9fbb286d221d4da0e52faf0385cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prop/bandanna.png using Guid(21e9fbb286d221d4da0e52faf0385cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f484a047211176b1da2240cacf0a2010') in 0.716505 seconds
+  Import took 0.724040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065640 seconds.
+  path: Assets/Resources/Assets/UI/ENDING1.png
+  artifactKey: Guid(3a07c108d11852347ae39ea6429ec3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/ENDING1.png using Guid(3a07c108d11852347ae39ea6429ec3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c4579b06814e6acb98b8dab5717ce3') in 0.432341 seconds
+  Import took 0.484800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060267 seconds.
+  path: Assets/Characters/Gecko/Gecko Sprite Neutral.png
+  artifactKey: Guid(5890116d6ce028b4ea08bc0fb8f3eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Gecko/Gecko Sprite Neutral.png using Guid(5890116d6ce028b4ea08bc0fb8f3eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f741d79ed3c6c3f48e60241356e9ede') in 0.364607 seconds
+  Import took 0.417214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000778 seconds.
+  path: Assets/Fungus/EditorResources/Icons/Pro/duplicate.png
+  artifactKey: Guid(2f17490d993c84bd7872ef6588ffba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/Pro/duplicate.png using Guid(2f17490d993c84bd7872ef6588ffba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784c90ef1cdeec9c2ba810367adcca55') in 0.081021 seconds
+  Import took 0.269162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032748 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/guide.png
+  artifactKey: Guid(a0fb2049bff00a64fa7de995276297b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/guide.png using Guid(a0fb2049bff00a64fa7de995276297b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a68a6155647c431d75456dc30ec301') in 0.235289 seconds
+  Import took 0.241147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066696 seconds.
+  path: Assets/Resources/Assets/UI/Intro(1) SDF.asset
+  artifactKey: Guid(6bf2224d69fc0da469511aab6876e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/Intro(1) SDF.asset using Guid(6bf2224d69fc0da469511aab6876e112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd424571c1c324d9654658e27b4c0d1') in 0.548065 seconds
+  Import took 0.593463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014412 seconds.
+  path: Assets/Fungus/Resources/Sprites/Background.png
+  artifactKey: Guid(78bc8db714c3749cc8bd8c0b7e525b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Resources/Sprites/Background.png using Guid(78bc8db714c3749cc8bd8c0b7e525b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8436d5567a0f95286728fed407fa07aa') in 0.575501 seconds
+  Import took 0.632190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Resources/Assets/UI/arrow_right.png
+  artifactKey: Guid(e352a11909c8eb945b6a96c7f53b6132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/arrow_right.png using Guid(e352a11909c8eb945b6a96c7f53b6132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5d2d3b0305dc8b5d1385a5de947c07') in 0.398407 seconds
+  Import took 0.602928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/last_sibling_collapsed.png
+  artifactKey: Guid(83f5261311df13f4091432b0c25f0e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/last_sibling_collapsed.png using Guid(83f5261311df13f4091432b0c25f0e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167fc1e2c58135c9749d28fb33923094') in 0.289916 seconds
+  Import took 0.307042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113428 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/calling-neutral.png
+  artifactKey: Guid(0815f9b817b27b7499559c635a844bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/calling-neutral.png using Guid(0815f9b817b27b7499559c635a844bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefa1fa33a7eafad8505c5b8e89ac8ad') in 0.489633 seconds
+  Import took 0.626455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062398 seconds.
+  path: Assets/Characters/Goth/goth sprite 2 nervous closed eye.png
+  artifactKey: Guid(67c56c8254318814a9706fa7da26c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Goth/goth sprite 2 nervous closed eye.png using Guid(67c56c8254318814a9706fa7da26c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d7bca6779e6bff83c74ef215a975ae') in 1.083104 seconds
+  Import took 1.138879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/laughing.png
+  artifactKey: Guid(5426a8c5c16e04d439b48a522267b236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/laughing.png using Guid(5426a8c5c16e04d439b48a522267b236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6333275bb27b549d28c35654159f287f') in 0.409515 seconds
+  Import took 0.432982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038670 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/acoustictexture_nor.png
+  artifactKey: Guid(e1e9f3cff3fb33a43be0ed41b54327e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/acoustictexture_nor.png using Guid(e1e9f3cff3fb33a43be0ed41b54327e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1275a5ed6e0797229e19ec2b4a1995ed') in 0.129673 seconds
+  Import took 0.139607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028048 seconds.
+  path: Assets/FungusExamples/TheHunter/Sprites/Bear.png
+  artifactKey: Guid(1844620fa148d4dc89443ca7b33205e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/TheHunter/Sprites/Bear.png using Guid(1844620fa148d4dc89443ca7b33205e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cac7227a32d78c3ddfa588a78fc630b') in 0.277638 seconds
+  Import took 0.284796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015319 seconds.
+  path: Assets/Resources/Assets/UI/arrow_left.png
+  artifactKey: Guid(1362ffbbc906d8a4b91b8fd676a04a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/arrow_left.png using Guid(1362ffbbc906d8a4b91b8fd676a04a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc26c1fae8e6057b690d659ec720ec8c') in 0.652215 seconds
+  Import took 0.679616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010037 seconds.
+  path: Assets/Fungus/EditorResources/Icons/Pro/add.png
+  artifactKey: Guid(4e43c476b4a7a49a08c37378fb01ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/Pro/add.png using Guid(4e43c476b4a7a49a08c37378fb01ce99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012f0715e279813e7ee591b5c717f90d') in 0.159552 seconds
+  Import took 0.187973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013338 seconds.
+  path: Assets/FungusExamples/FungusTown/Materials/WhiteSmoke.jpg
+  artifactKey: Guid(543d726c08c194e0394254ffeb6c9514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/FungusTown/Materials/WhiteSmoke.jpg using Guid(543d726c08c194e0394254ffeb6c9514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fb38e7072e3cf1b1ab3d7b2dab74b4') in 0.241005 seconds
+  Import took 0.331228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/John/calling-neutral.png
+  artifactKey: Guid(38ccc1258813909498d806f622c3edb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/John/calling-neutral.png using Guid(38ccc1258813909498d806f622c3edb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4aefa6f95cabe55318a07801ba5f609') in 0.573422 seconds
+  Import took 0.594662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013586 seconds.
+  path: Assets/Resources/Assets/UI/ENDING3.png
+  artifactKey: Guid(2572b4898ee52e9449173072893091fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/ENDING3.png using Guid(2572b4898ee52e9449173072893091fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a235ec501c42d31175d71d5cd7ab7f88') in 0.362185 seconds
+  Import took 0.468656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064618 seconds.
+  path: Assets/Characters/Goth/goth sprite 3 happy.png
+  artifactKey: Guid(b0985501c5303f34cac565e0a9a0a01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Goth/goth sprite 3 happy.png using Guid(b0985501c5303f34cac565e0a9a0a01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774f20649e1c6c34d0532c40677f3c4d') in 1.060387 seconds
+  Import took 1.186277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086208 seconds.
+  path: Assets/Resources/Assets/UI/shutter.png
+  artifactKey: Guid(77879ab29b227f24aa1cc87f0b1e80aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/shutter.png using Guid(77879ab29b227f24aa1cc87f0b1e80aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e2567ab9778d26ecd0305ab3b2149b') in 0.981140 seconds
+  Import took 1.004361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Prop/InhalerCorrect.png
+  artifactKey: Guid(ae5961dbd538b1f4e9853091c25aaacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prop/InhalerCorrect.png using Guid(ae5961dbd538b1f4e9853091c25aaacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382031c267e2385fea2954258d0f6879') in 0.649514 seconds
+  Import took 0.792994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Resources/Assets/UI/ButtonPinkstar.png
+  artifactKey: Guid(c105c5e110bff9a4c93a3841bc1ac637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/ButtonPinkstar.png using Guid(c105c5e110bff9a4c93a3841bc1ac637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed38dfe598c892f865d3d7de50a82f11') in 0.579930 seconds
+  Import took 0.737521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Fungus/Textures/ScreenFade.png
+  artifactKey: Guid(f6c7b1f3a78a24703b70c746d8b9c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Textures/ScreenFade.png using Guid(f6c7b1f3a78a24703b70c746d8b9c768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b628c65a1a492ac66d0e946273fdb4be') in 0.178941 seconds
+  Import took 0.235477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003031 seconds.
+  path: Assets/FungusExamples/Sherlock/Images/background.jpg
+  artifactKey: Guid(0e9767bc88b404362852d1a4d5c0d103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Images/background.jpg using Guid(0e9767bc88b404362852d1a4d5c0d103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e7fdaf1ae9e06b605ec00882c7b51e') in 0.548852 seconds
+  Import took 0.585672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028084 seconds.
+  path: Assets/Fungus/EditorResources/Textures/event_node_off.png
+  artifactKey: Guid(0e16a209826864df7b05f6d3901aae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Textures/event_node_off.png using Guid(0e16a209826864df7b05f6d3901aae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edb691f0c5e5ef187de6a514dd905d2') in 0.919789 seconds
+  Import took 1.002325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Fungus/EditorResources/Textures/play_small.png
+  artifactKey: Guid(a48a2b9b06deb469d9da1777b094521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Textures/play_small.png using Guid(a48a2b9b06deb469d9da1777b094521b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4690878ba127598892a170c094a105c6') in 0.184400 seconds
+  Import took 0.636812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078157 seconds.
+  path: Assets/FungusExamples/Playground/Sprites/Hexagon.png
+  artifactKey: Guid(d77e6458673a5ff4080857204d985f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Playground/Sprites/Hexagon.png using Guid(d77e6458673a5ff4080857204d985f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5eba4ca5257c54850bcf3111ea5e6b6') in 0.148523 seconds
+  Import took 0.286854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001319 seconds.
+  path: Assets/FungusExamples/Sherlock/Images/ImprobableStudios.png
+  artifactKey: Guid(eea3b26b25ca249f58d5659aabf1114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Images/ImprobableStudios.png using Guid(eea3b26b25ca249f58d5659aabf1114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bd91847fefcdee66d74c432b895f50') in 0.487741 seconds
+  Import took 0.496558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003213 seconds.
+  path: Assets/Resources/Assets/UI/EndingBG.png
+  artifactKey: Guid(ba2b903dbd9bbbc45be302e5020b3f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/EndingBG.png using Guid(ba2b903dbd9bbbc45be302e5020b3f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153182ec0ed9afeb7672fe05aefdcce0') in 0.408706 seconds
+  Import took 0.521174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004870 seconds.
+  path: Assets/Characters/Penguin Mom/Mom sprite neutral2.png
+  artifactKey: Guid(53c6d19f1eb9a8046a242c0feb5d3601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Penguin Mom/Mom sprite neutral2.png using Guid(53c6d19f1eb9a8046a242c0feb5d3601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81a59efe85428cede06c40e7e6e590b') in 0.915154 seconds
+  Import took 0.968883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078953 seconds.
+  path: Assets/Characters/Penguin Mom/Mom sprite 4 angry.png
+  artifactKey: Guid(7c33d1e72ea68f1439e777932f386796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Penguin Mom/Mom sprite 4 angry.png using Guid(7c33d1e72ea68f1439e777932f386796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b12c9def71b7b1154e2287a6321af6') in 0.369127 seconds
+  Import took 0.401133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015130 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/middle_sibling_collapsed.png
+  artifactKey: Guid(fd677ccd8b647444b982fac53c298c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/middle_sibling_collapsed.png using Guid(fd677ccd8b647444b982fac53c298c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdcd70adf669623c8a046119d10b715') in 0.402479 seconds
+  Import took 0.426977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014621 seconds.
+  path: Assets/Characters/Magical Girl/Magical Girl With Wig/magicalgirl wig sprite 2 super cute.png
+  artifactKey: Guid(0ce805950451d9a49a21766d5ebe4584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/Magical Girl With Wig/magicalgirl wig sprite 2 super cute.png using Guid(0ce805950451d9a49a21766d5ebe4584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4a77d35edd6a2853fad09443fad688') in 0.376339 seconds
+  Import took 0.390295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024625 seconds.
+  path: Assets/Characters/Magical Girl/magicalgirl sprite 5 happy closed eyes.png
+  artifactKey: Guid(55d00bd47118f66408919f36718bae54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/magicalgirl sprite 5 happy closed eyes.png using Guid(55d00bd47118f66408919f36718bae54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c5db667e3308263134056a748dbdd6') in 0.522538 seconds
+  Import took 0.538941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Characters/Magical Girl/Magical Girl With Wig/magicalgirl wig sprite 1 neutral.png
+  artifactKey: Guid(4cacb1e85185ea54da7d65969ecdcceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/Magical Girl With Wig/magicalgirl wig sprite 1 neutral.png using Guid(4cacb1e85185ea54da7d65969ecdcceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388a8742782f2da69a278230f74ee3f6') in 0.337995 seconds
+  Import took 0.584190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086806 seconds.
+  path: Assets/Characters/Magical Girl/magicalgirl sprite 1 neutralopenmouth.png
+  artifactKey: Guid(70b8738b3d341fb4dae0ba97f5f49410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/magicalgirl sprite 1 neutralopenmouth.png using Guid(70b8738b3d341fb4dae0ba97f5f49410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7986a24bd7b8ca6056d4c308b9e5bc') in 0.460172 seconds
+  Import took 0.670744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015101 seconds.
+  path: Assets/Characters/Magical Girl/magicalgirl sprite 2 angry openmouth.png
+  artifactKey: Guid(70f91d65ffad5ad40a1ea4fd4c524f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/magicalgirl sprite 2 angry openmouth.png using Guid(70f91d65ffad5ad40a1ea4fd4c524f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39def797aca24b0e051a7ed8fbedb881') in 0.356888 seconds
+  Import took 0.402283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/magicalgirl wig sprite 1 neutral.psd
+  artifactKey: Guid(25b7ee7e4ae136644a8fa47f9449e0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/magicalgirl wig sprite 1 neutral.psd using Guid(25b7ee7e4ae136644a8fa47f9449e0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8e24b762fd3698d7b7eb2bb68af9fa') in 0.449093 seconds
+  Import took 0.463601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005425 seconds.
+  path: Assets/Resources/Assets/UI/main_logo.png
+  artifactKey: Guid(d8692c52231903f42b76c3dc81448bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/main_logo.png using Guid(d8692c52231903f42b76c3dc81448bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9a63ed20831ab3e46605c4ef98b320') in 0.318907 seconds
+  Import took 0.345140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114566 seconds.
+  path: Assets/Characters/Magical Girl/magicalgirl sprite 4 think.png
+  artifactKey: Guid(e62898940e906574b9e621708f132b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/magicalgirl sprite 4 think.png using Guid(e62898940e906574b9e621708f132b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4724773a68c98396c706f9b88b40ec15') in 0.520304 seconds
+  Import took 0.579264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060176 seconds.
+  path: Assets/Characters/Magical Girl/magicalgirl sprite 3 super cute closed eyes.png
+  artifactKey: Guid(fda12ce71a16596478ee226b2240c0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/magicalgirl sprite 3 super cute closed eyes.png using Guid(fda12ce71a16596478ee226b2240c0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59478792135db91374c9a05d342e7c27') in 0.377797 seconds
+  Import took 0.395803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009666 seconds.
+  path: Assets/Characters/Penguin Mom/Mom sprite neutral.png
+  artifactKey: Guid(9da1e7c54ceaac741a4672ca6777a08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Penguin Mom/Mom sprite neutral.png using Guid(9da1e7c54ceaac741a4672ca6777a08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af31c4c7ddd72fea91e9a63da9fe11d2') in 0.585058 seconds
+  Import took 0.600600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Characters/Magical Girl/magicalgirl sprite 3 super cute.png
+  artifactKey: Guid(e8a3eaf2d036add4da8056cf4bdeec7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/magicalgirl sprite 3 super cute.png using Guid(e8a3eaf2d036add4da8056cf4bdeec7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d4db3068510081e0e7385b8103516d') in 0.733406 seconds
+  Import took 0.741049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014710 seconds.
+  path: Assets/Resources/Assets/UI/ENDComputerBG.png
+  artifactKey: Guid(f740270149d82a246919afcf1621a6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/ENDComputerBG.png using Guid(f740270149d82a246919afcf1621a6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18d44de3a5d4ef70be49ce4d6dca0df') in 0.235081 seconds
+  Import took 0.372073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Characters/Penguin Mom/Mom sprite 3 bite lip open mouth.png
+  artifactKey: Guid(c31b765b04ba2c24ab0059bf482bc562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Penguin Mom/Mom sprite 3 bite lip open mouth.png using Guid(c31b765b04ba2c24ab0059bf482bc562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6425f0d73e4855b3b82d4dc91fc3fd') in 0.485846 seconds
+  Import took 0.537545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000959 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/John/annoyed.png
+  artifactKey: Guid(e8a9122c4dc10b14da3b625e1f2634c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/John/annoyed.png using Guid(e8a9122c4dc10b14da3b625e1f2634c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf7842beb474ccb6aceefcf2e970b72') in 0.590752 seconds
+  Import took 0.762587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040920 seconds.
+  path: Assets/Prop/face paint.png
+  artifactKey: Guid(e86db44de45b1f34dac17c718e51bfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prop/face paint.png using Guid(e86db44de45b1f34dac17c718e51bfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba950e9498208a6e918a09ba7b5ca617') in 0.205640 seconds
+  Import took 0.247676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195689 seconds.
+  path: Assets/Characters/Gecko/Gecko Sprite 3 radio.png
+  artifactKey: Guid(90c580605937f964cb635f4b25754326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Gecko/Gecko Sprite 3 radio.png using Guid(90c580605937f964cb635f4b25754326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55d25cc36a733129f404028ae9bcf5d') in 0.472218 seconds
+  Import took 0.480861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001003 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/folder_nor.png
+  artifactKey: Guid(8a5590443f086a84598cc36f31a49602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/folder_nor.png using Guid(8a5590443f086a84598cc36f31a49602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b5fba6959d7ec9ada43adae77b896c') in 0.326372 seconds
+  Import took 0.445010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/ill.png
+  artifactKey: Guid(779f8bb1130ec974aa263a5e91518085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/ill.png using Guid(779f8bb1130ec974aa263a5e91518085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98decd04ac89edc4cc3657ac0be34ff') in 0.618618 seconds
+  Import took 0.628596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.164800 seconds.
+  path: Assets/Characters/Gecko/Gecko Sprite Neutral 2.png
+  artifactKey: Guid(893f661e9e0f7cd44aa6ebbcee78f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Gecko/Gecko Sprite Neutral 2.png using Guid(893f661e9e0f7cd44aa6ebbcee78f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a948f0ac36ae42bcefb44b1dad9e2e4') in 0.572792 seconds
+  Import took 0.634508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003907 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/coughing.png
+  artifactKey: Guid(03f8d661d54a3a04797d21ab54424abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/coughing.png using Guid(03f8d661d54a3a04797d21ab54424abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c275c4764f2aaff39932bc50ceb32d') in 0.462296 seconds
+  Import took 0.679442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/middle_sibling_expanded.png
+  artifactKey: Guid(22908c201dd71e046a4e2e6df50cf66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/middle_sibling_expanded.png using Guid(22908c201dd71e046a4e2e6df50cf66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab1c0e946efa9883670551e87aa993e') in 0.296736 seconds
+  Import took 0.306684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056391 seconds.
+  path: Assets/Characters/Gecko/Gecko Sprite Happy2.png
+  artifactKey: Guid(c543a4686eddb0548a52ac566c007604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Gecko/Gecko Sprite Happy2.png using Guid(c543a4686eddb0548a52ac566c007604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350eaabbb295177c6aebfaf06a5181fa') in 0.510935 seconds
+  Import took 0.524692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027560 seconds.
+  path: Assets/Fungus/EditorResources/Textures/process_node_on.png
+  artifactKey: Guid(c2dceb780784240ccbe8d3cde89f7671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Textures/process_node_on.png using Guid(c2dceb780784240ccbe8d3cde89f7671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720b6610c955e34dcf26bd874de4ee22') in 0.172014 seconds
+  Import took 0.203562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027539 seconds.
+  path: Assets/Fungus/EditorResources/Icons/duplicate.png
+  artifactKey: Guid(c97f334c466215a4f93eff31de3c1591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/duplicate.png using Guid(c97f334c466215a4f93eff31de3c1591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1258178825cb3a99b532dad180baae6') in 0.059915 seconds
+  Import took 0.094920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028914 seconds.
+  path: Assets/FungusExamples/JumpingPrax/Sprites/GreenAlienFlustered.png
+  artifactKey: Guid(f2e901e070fff48cda67e3f446d80e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/JumpingPrax/Sprites/GreenAlienFlustered.png using Guid(f2e901e070fff48cda67e3f446d80e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eac34c5764b385ee5b6e858fc2dfe9') in 0.499774 seconds
+  Import took 0.506549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043596 seconds.
+  path: Assets/Characters/Penguin Mom/Mom sprite 5 happy.png
+  artifactKey: Guid(7b271f1ad959cec4ea5e59d9491bc7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Penguin Mom/Mom sprite 5 happy.png using Guid(7b271f1ad959cec4ea5e59d9491bc7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e99be4ce131b195c09ff3ece671bf4') in 0.498428 seconds
+  Import took 0.511695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002528 seconds.
+  path: Assets/Fungus/Textures/HistoryIcon.png
+  artifactKey: Guid(94b4465d12d983b45a5c1af59318e72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Textures/HistoryIcon.png using Guid(94b4465d12d983b45a5c1af59318e72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc87822227c6501f9be13678b95d75be') in 0.358537 seconds
+  Import took 0.438575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/annoyed.png
+  artifactKey: Guid(65cda1e3dd1ec8c4bb828adc5bb06c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/annoyed.png using Guid(65cda1e3dd1ec8c4bb828adc5bb06c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a4a4751e9029c8944ea1cc1dd35594') in 0.790432 seconds
+  Import took 0.799876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127685 seconds.
+  path: Assets/Characters/Penguin Mom/Mom sprite 2 CONCERNED2.png
+  artifactKey: Guid(c10bda47f49a2674e868ce9c73932194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Penguin Mom/Mom sprite 2 CONCERNED2.png using Guid(c10bda47f49a2674e868ce9c73932194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afafb4488fc0c2404e5e56e4bb2310c3') in 0.694631 seconds
+  Import took 0.734786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031479 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/happy.png
+  artifactKey: Guid(96ca91f43a9c1f74b970b59f46047e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/happy.png using Guid(96ca91f43a9c1f74b970b59f46047e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bf16b5357741802eff834f8f468c69') in 0.579105 seconds
+  Import took 0.649120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Resources/Assets/UI/ButtonPinkCross.png
+  artifactKey: Guid(6a24e64e434d47e4bb4dd248a5c4c2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/ButtonPinkCross.png using Guid(6a24e64e434d47e4bb4dd248a5c4c2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46a2846e6a94a21c5c479249ba116fe') in 0.472671 seconds
+  Import took 0.494912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003865 seconds.
+  path: Assets/Fungus/EditorResources/Icons/up.png
+  artifactKey: Guid(8f1242ad894201f43b2b6d52fd990f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/up.png using Guid(8f1242ad894201f43b2b6d52fd990f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc563ea6ec48206bcc1c6d679534689d') in 0.383781 seconds
+  Import took 0.481948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Characters/Magical Girl/magicalgirl sprite 2 angry eyes closed.png
+  artifactKey: Guid(7eb8aa0382f922545bb2ec08e940891e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/magicalgirl sprite 2 angry eyes closed.png using Guid(7eb8aa0382f922545bb2ec08e940891e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92030e71bf51c45394b11511e6621b4f') in 0.416939 seconds
+  Import took 0.446902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014510 seconds.
+  path: Assets/Fungus/EditorResources/Icons/delete.png
+  artifactKey: Guid(d6fc8a97e8a5b0947a49b780f787e504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/delete.png using Guid(d6fc8a97e8a5b0947a49b780f787e504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b700948655ae50a4e1a3a634454af1dd') in 0.090865 seconds
+  Import took 0.119424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.261525 seconds.
+  path: Assets/Characters/Goth/goth sprite 5 distraught.png
+  artifactKey: Guid(67e1dee51b77cff4c987f6c0ffe539d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Goth/goth sprite 5 distraught.png using Guid(67e1dee51b77cff4c987f6c0ffe539d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaf1b1297c78a0ececf4d7a8d96f4d3') in 0.411492 seconds
+  Import took 0.419276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004303 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/angry.png
+  artifactKey: Guid(8f5b5b110e73a414eb229eeead86200f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/angry.png using Guid(8f5b5b110e73a414eb229eeead86200f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481b54b50df022f2e5d95d305426d480') in 0.525763 seconds
+  Import took 0.547720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010388 seconds.
+  path: Assets/Characters/Goth/goth sprite 2 nervous.png
+  artifactKey: Guid(868cad2485b069441a507a93b4c89daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Goth/goth sprite 2 nervous.png using Guid(868cad2485b069441a507a93b4c89daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599b69bf7648b3af3faf25ac09523052') in 0.427666 seconds
+  Import took 0.583241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030088 seconds.
+  path: Assets/Fungus/Textures/ContinueIcon.png
+  artifactKey: Guid(226248ac6f184e448af731df91b91958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Textures/ContinueIcon.png using Guid(226248ac6f184e448af731df91b91958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c07ff7304671f6bb4df54845a10e0d') in 0.545427 seconds
+  Import took 0.668613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002945 seconds.
+  path: Assets/Characters/Magical Girl/magicalgirl sprite 2 angry.png
+  artifactKey: Guid(fea9987a48831aa46aaf602f864ae7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/magicalgirl sprite 2 angry.png using Guid(fea9987a48831aa46aaf602f864ae7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0837668e44a74f4f1458ca40af71f0b6') in 0.312929 seconds
+  Import took 0.327979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004621 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/John/laughing.png
+  artifactKey: Guid(d7af8fdea3ead3c4b8a4e54d014b255d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/John/laughing.png using Guid(d7af8fdea3ead3c4b8a4e54d014b255d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36f47b6ca651a688017bfe5846317f8') in 0.616384 seconds
+  Import took 0.647611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036808 seconds.
+  path: Assets/Fungus/EditorResources/Textures/event_node_on.png
+  artifactKey: Guid(9434488a4efb54da5986eba5d5619baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Textures/event_node_on.png using Guid(9434488a4efb54da5986eba5d5619baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39140f158623a66e0e52961c6f405b1') in 0.325318 seconds
+  Import took 0.505235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/Prop/Headphones.png
+  artifactKey: Guid(e56818671ee563b478dc693e7a585dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prop/Headphones.png using Guid(e56818671ee563b478dc693e7a585dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e08be2b6ec2adf0418a245d0fd9fcd') in 0.729223 seconds
+  Import took 1.044235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.319877 seconds.
+  path: Assets/FungusExamples/TheHunter/Sprites/CiaraHead.psd
+  artifactKey: Guid(05ccd53483a554ca9b31f685fa76154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/TheHunter/Sprites/CiaraHead.psd using Guid(05ccd53483a554ca9b31f685fa76154a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ea6a1f8cd5dee3bea6ec3c11d4cfb8') in 1.115483 seconds
+  Import took 1.136825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002835 seconds.
+  path: Assets/Fungus/Textures/SwipePanIcon.png
+  artifactKey: Guid(41bc737f4dc1b40db872aca00bcd7d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Textures/SwipePanIcon.png using Guid(41bc737f4dc1b40db872aca00bcd7d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a0e228dfe290151010b97caa8304c3') in 0.306863 seconds
+  Import took 0.318756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003540 seconds.
+  path: Assets/Characters/Magical Girl/magicalgirl sprite 5 happy.png
+  artifactKey: Guid(62d652c7b6cf4de409cd9a27edebeafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/magicalgirl sprite 5 happy.png using Guid(62d652c7b6cf4de409cd9a27edebeafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8a78bb1757e6529b45cf0283237d95') in 0.249943 seconds
+  Import took 0.260542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003390 seconds.
+  path: Assets/Characters/Magical Girl/magicalgirl sprite 1 neutral closed eyes.png
+  artifactKey: Guid(bb526e56f1bedf8488fcdaac43494d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/magicalgirl sprite 1 neutral closed eyes.png using Guid(bb526e56f1bedf8488fcdaac43494d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca5d3d16306b7650f518d50cccb3ae2') in 0.940669 seconds
+  Import took 0.984607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001220 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/John/neutral2.png
+  artifactKey: Guid(7c9434f7e81b4264f9c56afc7180b8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/John/neutral2.png using Guid(7c9434f7e81b4264f9c56afc7180b8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12654c00c2f1a8597f71b13ece0d89c') in 0.780632 seconds
+  Import took 0.792591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.168612 seconds.
+  path: Assets/Fungus/EditorResources/Textures/process_node_off.png
+  artifactKey: Guid(ea3a4228e6c214149bfe5c741b56ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Textures/process_node_off.png using Guid(ea3a4228e6c214149bfe5c741b56ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c3eccb6907469e991df6ca2b74ca27') in 0.335163 seconds
+  Import took 0.500654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Characters/Penguin Mom/Mom sprite 2 CONCERNED.png
+  artifactKey: Guid(3f4ed539e9616a445b9e70462bdc2063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Penguin Mom/Mom sprite 2 CONCERNED.png using Guid(3f4ed539e9616a445b9e70462bdc2063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c9d3eeb3bff097f4ff30f83d2ac35c') in 0.732300 seconds
+  Import took 0.766152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006171 seconds.
+  path: Assets/Fungus/EditorResources/Icons/Pro/fungus_mushroom.png
+  artifactKey: Guid(6368c1c16ebb1694091262337e4f8c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/Pro/fungus_mushroom.png using Guid(6368c1c16ebb1694091262337e4f8c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fefdbc027f12761e2f1fa72ac95597') in 0.073367 seconds
+  Import took 0.083273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022457 seconds.
+  path: Assets/Prop/GlassesFunny.png
+  artifactKey: Guid(48fe46f1af35dec43b30f4f964efeba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prop/GlassesFunny.png using Guid(48fe46f1af35dec43b30f4f964efeba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e731bf291c7d8b062e4514fb532fd1b6') in 0.258328 seconds
+  Import took 0.313946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.238810 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/last_sibling_nochild.png
+  artifactKey: Guid(45b7741ea49ee5f4aa68e7a5ec8ba6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/last_sibling_nochild.png using Guid(45b7741ea49ee5f4aa68e7a5ec8ba6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4901ba2978c412150092eb2ee8f3c0f5') in 0.221882 seconds
+  Import took 0.272699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020067 seconds.
+  path: Assets/Fungus/EditorResources/Icons/add.png
+  artifactKey: Guid(24a867d6b4cdda04cb3aa3350f9ec7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/add.png using Guid(24a867d6b4cdda04cb3aa3350f9ec7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1a68805babb627a5fb5245284e30b3') in 0.055680 seconds
+  Import took 0.082320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Fungus/Textures/CreatedWith.psd
+  artifactKey: Guid(7adcbbe62d6554d81affcab2c56ad5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Textures/CreatedWith.psd using Guid(7adcbbe62d6554d81affcab2c56ad5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724b26fa9a131119264a572e035c62d1') in 0.133030 seconds
+  Import took 0.174929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018941 seconds.
+  path: Assets/Characters/Gecko/Gecko Sprite 3 radio2.png
+  artifactKey: Guid(d2e0f59d310f7ff45bcb2683ec044521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Gecko/Gecko Sprite 3 radio2.png using Guid(d2e0f59d310f7ff45bcb2683ec044521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2372882c4679ddb2b6b398d9a2513cb2') in 0.253700 seconds
+  Import took 0.264739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022017 seconds.
+  path: Assets/Characters/Goth/goth sprite 4 leasuire.png
+  artifactKey: Guid(be0ab1714fabf1e42994df350ed82a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Goth/goth sprite 4 leasuire.png using Guid(be0ab1714fabf1e42994df350ed82a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1275eb193b5bcd94467a71cd96f38e41') in 0.371671 seconds
+  Import took 0.382670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017605 seconds.
+  path: Assets/Characters/Goth/goth sprite 5 distraught closed eye.png
+  artifactKey: Guid(b14502554b66e874ab38020f395e39b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Goth/goth sprite 5 distraught closed eye.png using Guid(b14502554b66e874ab38020f395e39b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf44722a5f6f725da4a5c97b5929877a') in 0.461349 seconds
+  Import took 0.473123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015049 seconds.
+  path: Assets/Fungus/EditorResources/Textures/play_big.png
+  artifactKey: Guid(bff2ba39f5f4448589e80522ebfcd0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Textures/play_big.png using Guid(bff2ba39f5f4448589e80522ebfcd0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54aa810ac10cfdf23678dc8e8f6a5eaf') in 0.099719 seconds
+  Import took 0.110007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022408 seconds.
+  path: Assets/Prop/Maskcool.png
+  artifactKey: Guid(2b678ddd49b48b349872c9905b9faa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prop/Maskcool.png using Guid(2b678ddd49b48b349872c9905b9faa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2810e5c10e6628f7601a0743ae9241') in 0.358902 seconds
+  Import took 0.453458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Fungus/Textures/Mushroom.png
+  artifactKey: Guid(ea8f56c43254d41728f5ac4e8299b6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Textures/Mushroom.png using Guid(ea8f56c43254d41728f5ac4e8299b6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098c239cdd49240c4c8a794145effaf9') in 0.383378 seconds
+  Import took 0.456844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020477 seconds.
+  path: Assets/Characters/Magical Girl/Magical Girl With Wig/magicalgirl wig sprite 3 angry2.png
+  artifactKey: Guid(45e8aef5da7c4574d9db578f76515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/Magical Girl With Wig/magicalgirl wig sprite 3 angry2.png using Guid(45e8aef5da7c4574d9db578f76515048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dd89d9d722da08ce72b0b9952bec14') in 0.511271 seconds
+  Import took 0.534417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019746 seconds.
+  path: Assets/Fungus/EditorResources/Icons/down.png
+  artifactKey: Guid(51a973f446c2e664582861480cce6215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/down.png using Guid(51a973f446c2e664582861480cce6215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07650fabff08e00846cde581b080922') in 0.118112 seconds
+  Import took 0.193214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Fungus/EditorResources/Textures/connection_point.png
+  artifactKey: Guid(f08a4c27d7efe4aa6a35348a4e8aec8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Textures/connection_point.png using Guid(f08a4c27d7efe4aa6a35348a4e8aec8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd3c56a65ae321f68f9b89d357e228b') in 0.422719 seconds
+  Import took 0.449571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027149 seconds.
+  path: Assets/Resources/Assets/UI/ButtonBlueCross.png
+  artifactKey: Guid(3a8e5d14209d63744a17afc7afc0ee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/ButtonBlueCross.png using Guid(3a8e5d14209d63744a17afc7afc0ee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9142949950a7406e7bdec1818baeac39') in 1.038906 seconds
+  Import took 1.083520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Fungus/Resources/Sprites/MousePointer.png
+  artifactKey: Guid(502e0c9b755f34db0b90bf78857d8a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Resources/Sprites/MousePointer.png using Guid(502e0c9b755f34db0b90bf78857d8a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06a58ee3859b124d4c0ee1d3def2b7d') in 0.234405 seconds
+  Import took 0.511742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066072 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/blank.png
+  artifactKey: Guid(7e54de834d948e74788c7d0c23c32b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/blank.png using Guid(7e54de834d948e74788c7d0c23c32b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791e6a0077247b7bfeb5fd67389b3367') in 3.013252 seconds
+  Import took 5.614940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039856 seconds.
+  path: Assets/Characters/Magical Girl/Magical Girl With Wig/magicalgirl wig sprite 3 angry.png
+  artifactKey: Guid(60c1023f2bd970e418582b6a3e260fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/Magical Girl With Wig/magicalgirl wig sprite 3 angry.png using Guid(60c1023f2bd970e418582b6a3e260fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2baadc8753ab3ba05d1093fe70f0fb1') in 0.735746 seconds
+  Import took 0.908633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004588 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/gameparameter_nor.png
+  artifactKey: Guid(7054ad80e93e111479f0708d709e4d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/gameparameter_nor.png using Guid(7054ad80e93e111479f0708d709e4d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69225526107840a82dbd175bbeb9f155') in 0.183275 seconds
+  Import took 1.153896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066241 seconds.
+  path: Assets/Fungus/Textures/GreyButton.png
+  artifactKey: Guid(9bdedfa4650174106a3115624f193b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Textures/GreyButton.png using Guid(9bdedfa4650174106a3115624f193b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fecf691e1b4a43a61aeef7d786b5d89') in 0.276444 seconds
+  Import took 0.340269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018840 seconds.
+  path: Assets/Resources/Assets/UI/ButtonPink.png
+  artifactKey: Guid(8d7f635285351d3409c16c997e75d2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/ButtonPink.png using Guid(8d7f635285351d3409c16c997e75d2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cee7aadd3f6a129b96a6779fef3e945') in 0.283004 seconds
+  Import took 0.321640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015942 seconds.
+  path: Assets/Characters/Goth/goth sprite 3 happy closed eye.png
+  artifactKey: Guid(2aec1386e1f3c4141ba5d1f9dd634d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Goth/goth sprite 3 happy closed eye.png using Guid(2aec1386e1f3c4141ba5d1f9dd634d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63294d2d97a183202badd8b8eb9910d4') in 0.359727 seconds
+  Import took 0.403648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010497 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/John/neutral.png
+  artifactKey: Guid(a79a4c2e96ba5fd418c637fe852e92d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/John/neutral.png using Guid(a79a4c2e96ba5fd418c637fe852e92d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c5e9cec9220d75712a94529bd487d8') in 0.435419 seconds
+  Import took 0.458165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016984 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/middle_sibling_nochild.png
+  artifactKey: Guid(a0cd491aae1392c4aa1e67e947207065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/middle_sibling_nochild.png using Guid(a0cd491aae1392c4aa1e67e947207065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f33706fd4624af74123ab25411aef3') in 0.065245 seconds
+  Import took 0.105282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015005 seconds.
+  path: Assets/Prop/manga.png
+  artifactKey: Guid(3c054d225acd33e47be84a9584c71bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prop/manga.png using Guid(3c054d225acd33e47be84a9584c71bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39fb01d4f7b42ea987613ba18b43593') in 0.495632 seconds
+  Import took 0.519579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003870 seconds.
+  path: Assets/Characters/Magical Girl/Magical Girl With Wig/magicalgirl wig sprite 2 super cute2.png
+  artifactKey: Guid(d9b8fb45d0024ad4980b777f626f4781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/Magical Girl With Wig/magicalgirl wig sprite 2 super cute2.png using Guid(d9b8fb45d0024ad4980b777f626f4781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e36be4053d8106bb93e2fc7fc593cd') in 0.510392 seconds
+  Import took 0.543764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015013 seconds.
+  path: Assets/Characters/Magical Girl/magicalgirl sprite 1 neutral.png
+  artifactKey: Guid(8b494be01eb28054c986acaa94b9bc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Magical Girl/magicalgirl sprite 1 neutral.png using Guid(8b494be01eb28054c986acaa94b9bc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4957b03c285c32e04faea2f89947e430') in 0.397179 seconds
+  Import took 0.413586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Fungus/EditorResources/Icons/Pro/up.png
+  artifactKey: Guid(2a76a781db2994b33b83cd84b8835da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/Pro/up.png using Guid(2a76a781db2994b33b83cd84b8835da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77078f8c6bf2323b0013d262b724a7b') in 0.444297 seconds
+  Import took 0.452420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099062 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/normal_checked.png
+  artifactKey: Guid(e02e6a599b42b7f468f5b5f31d835ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/normal_checked.png using Guid(e02e6a599b42b7f468f5b5f31d835ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e36956ac248c530a31146c9124313a') in 0.409894 seconds
+  Import took 0.424527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001938 seconds.
+  path: Assets/Fungus/EditorResources/Icons/Pro/delete.png
+  artifactKey: Guid(29c4d29b1678042a5b3516c732ccc507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/Pro/delete.png using Guid(29c4d29b1678042a5b3516c732ccc507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2a5cc015e83e4aac56f93398a81959') in 0.340486 seconds
+  Import took 0.393611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048835 seconds.
+  path: Assets/Characters/Gecko/Gecko Sprite 5 death stare.png
+  artifactKey: Guid(c060c2786bf67f640a6002f5c3582c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Gecko/Gecko Sprite 5 death stare.png using Guid(c060c2786bf67f640a6002f5c3582c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5947d3eb82dfee92b60e2b88de404c') in 0.467862 seconds
+  Import took 0.478718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003344 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/last_sibling_expanded.png
+  artifactKey: Guid(9ae8b7292d5b61e47a4327191b1af251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/last_sibling_expanded.png using Guid(9ae8b7292d5b61e47a4327191b1af251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fdd57df47fd2f403deafc2f0620149') in 0.114686 seconds
+  Import took 0.182907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.165164 seconds.
+  path: Assets/Prop/MaskCute.png
+  artifactKey: Guid(8970e68c267bb2e468a04ec408491623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prop/MaskCute.png using Guid(8970e68c267bb2e468a04ec408491623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702e052a9d66f67a0a0b5b6024cad911') in 0.229385 seconds
+  Import took 0.242034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000925 seconds.
+  path: Assets/Fungus/EditorResources/Icons/add_small.png
+  artifactKey: Guid(288aff1a0e5c14fd3a0039d24149df73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/add_small.png using Guid(288aff1a0e5c14fd3a0039d24149df73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81840901d7a7fd29de687c0ce6f905b0') in 2.882580 seconds
+  Import took 5.976910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035030 seconds.
+  path: Assets/Characters/Gecko/Gecko Sprite4.png
+  artifactKey: Guid(1f6e08e1d10be6e42aa0920915b2fef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Gecko/Gecko Sprite4.png using Guid(1f6e08e1d10be6e42aa0920915b2fef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a496f8be8bc3529cab88ceaaeaaeeadf') in 0.740791 seconds
+  Import took 0.797167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004834 seconds.
+  path: Assets/Resources/Assets/UI/ButtonBluestar.png
+  artifactKey: Guid(4e76d104eaa30be4488efca41017fd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/ButtonBluestar.png using Guid(4e76d104eaa30be4488efca41017fd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7adada898b204cb0f8918ab4076430') in 0.367189 seconds
+  Import took 0.401524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018280 seconds.
+  path: Assets/Fungus/EditorResources/Icons/fungus_mushroom.png
+  artifactKey: Guid(1c99c9bf7557e23469ed5dfce00504c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/fungus_mushroom.png using Guid(1c99c9bf7557e23469ed5dfce00504c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d57c7f2f56c60ec33e357373a0de3f') in 0.209136 seconds
+  Import took 0.261128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003375 seconds.
+  path: Assets/Wwise/Editor/WwiseWindows/TreeViewControl/event_nor.png
+  artifactKey: Guid(2c40891aa32695141bffe5c516544ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/WwiseWindows/TreeViewControl/event_nor.png using Guid(2c40891aa32695141bffe5c516544ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0681ceb3834a0cf9c59e1b8b8f9b10') in 0.136870 seconds
+  Import took 0.167331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023427 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/neutral.png
+  artifactKey: Guid(c27113fd8a09c7c45a856e5d3c843c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/neutral.png using Guid(c27113fd8a09c7c45a856e5d3c843c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470cb9c5df42658096ade9080c82e5ab') in 0.344416 seconds
+  Import took 0.383098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005138 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/John/apologetic.png
+  artifactKey: Guid(016de568d0fe25e45bc32a6c01c0e456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/John/apologetic.png using Guid(016de568d0fe25e45bc32a6c01c0e456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381c2564cb9a6f3e380cf16b1283adce') in 0.352683 seconds
+  Import took 0.409558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Fungus/EditorResources/Textures/choice_node_on.png
+  artifactKey: Guid(cfc05494b71a0446182868aab5f7febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Textures/choice_node_on.png using Guid(cfc05494b71a0446182868aab5f7febf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77bb7e42ccbd7064447daae20f54348') in 0.404982 seconds
+  Import took 0.438645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Prop/dogtags.png
+  artifactKey: Guid(a3a9986d28965a941b867ff54e578d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prop/dogtags.png using Guid(a3a9986d28965a941b867ff54e578d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e866b6ea28c96b78c82d04bc278fab') in 0.376620 seconds
+  Import took 0.402456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/Fungus/Thirdparty/TextMeshPro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Thirdparty/TextMeshPro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4d9eaa488956c9fb6b301168d8489b') in 0.232942 seconds
+  Import took 0.257615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031239 seconds.
+  path: Assets/FungusExamples/Sherlock/Portraits/Sherlock/neutral2.png
+  artifactKey: Guid(67bc1238f72c52b49bd0ad82c79756ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/Sherlock/Portraits/Sherlock/neutral2.png using Guid(67bc1238f72c52b49bd0ad82c79756ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934d1e91de4921cd22a69474479ed757') in 0.400765 seconds
+  Import took 0.470519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002360 seconds.
+  path: Assets/Fungus/EditorResources/Icons/Pro/down.png
+  artifactKey: Guid(5a87a7d3683164a238377d948572805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Icons/Pro/down.png using Guid(5a87a7d3683164a238377d948572805f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb6cd37292b6e5799ef9f8df9409387') in 0.234756 seconds
+  Import took 0.393235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Prop/HandSanitzer.png
+  artifactKey: Guid(4ca71b1bf70f3c743b664d802a12ceea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prop/HandSanitzer.png using Guid(4ca71b1bf70f3c743b664d802a12ceea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e40bffb3a973b79f74259fd6d151d2') in 0.247355 seconds
+  Import took 0.257571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021762 seconds.
+  path: Assets/FungusExamples/TheHunter/Sprites/BearHead.png
+  artifactKey: Guid(62955e2782fd34c5ca3e78712625ae50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/TheHunter/Sprites/BearHead.png using Guid(62955e2782fd34c5ca3e78712625ae50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f105856aa5b70403eca406910334fe0c') in 0.367664 seconds
+  Import took 0.379590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004320 seconds.
+  path: Assets/Resources/Assets/UI/Game_Background.png
+  artifactKey: Guid(9145fca1af930c54491512caa6557dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/Game_Background.png using Guid(9145fca1af930c54491512caa6557dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6a8d08d7afad1fe9964d04dcd36a17') in 0.620576 seconds
+  Import took 0.742884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Fungus/EditorResources/Textures/choice_node_off.png
+  artifactKey: Guid(7b6fc04aac74540e39e9502da5312ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/EditorResources/Textures/choice_node_off.png using Guid(7b6fc04aac74540e39e9502da5312ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d5965aab93b31e1cc730d84161ef94') in 0.517483 seconds
+  Import took 0.528883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.208786 seconds.
+  path: Assets/Characters/Goth/goth sprite 1 neutral closed eyes.png
+  artifactKey: Guid(25129d12bb5e9944185dc7c6703ab568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Goth/goth sprite 1 neutral closed eyes.png using Guid(25129d12bb5e9944185dc7c6703ab568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3252d8cc520eb95fda0364d09bfbbd') in 0.745294 seconds
+  Import took 0.890993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Characters/Goth/goth sprite 1 neutral.png
+  artifactKey: Guid(53abe0f4b9fb97443bc4482e5a6f4905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Goth/goth sprite 1 neutral.png using Guid(53abe0f4b9fb97443bc4482e5a6f4905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a767b75e7ea394069a6a91b0f96c74a') in 1.148055 seconds
+  Import took 1.164290 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.729 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.1 MB.
+System memory in use after: 123.2 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3397.
+Total: 3.817000 ms (FindLiveObjects: 0.370300 ms CreateObjectMapping: 0.247200 ms MarkObjects: 3.040000 ms  DeleteObjects: 0.158600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011544 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.059 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.7 MB.
+System memory in use after: 123.8 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3401.
+Total: 5.218800 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.154100 ms MarkObjects: 4.581100 ms  DeleteObjects: 0.175600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 601.407346 seconds.
+  path: Assets/Resources/Scenes/CHR3Gecko.unity
+  artifactKey: Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/CHR3Gecko.unity using Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720870877ba4d9e5ef28f3a4aa03cc8b') in 0.072224 seconds
+  Import took 0.103941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.807465 seconds.
+  path: Assets/Resources/Scenes/End.unity
+  artifactKey: Guid(e148864244fe60e4a9b1cbbe7d8b36fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/End.unity using Guid(e148864244fe60e4a9b1cbbe7d8b36fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba969c7a8ba84689e3eebce06c616bcf') in 0.483141 seconds
+  Import took 0.491277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.450798 seconds.
+  path: Assets/Resources/Scenes/CHR3Gecko.unity
+  artifactKey: Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/CHR3Gecko.unity using Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9d4576fd111143d1608cc682d61231') in 0.096952 seconds
+  Import took 0.105602 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011098 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.992 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.5 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3405.
+Total: 3.457400 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.120600 ms MarkObjects: 2.859200 ms  DeleteObjects: 0.174500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.244 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.8 MB.
-System memory in use after: 119.9 MB.
+System memory in use before: 123.6 MB.
+System memory in use after: 123.7 MB.
 
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3279.
-Total: 3.624400 ms (FindLiveObjects: 0.349800 ms CreateObjectMapping: 0.302200 ms MarkObjects: 2.782700 ms  DeleteObjects: 0.188400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.152012 seconds.
-  path: Assets/Resources/Scenes/CHR4Penguin.unity
-  artifactKey: Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR4Penguin.unity using Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ba80c960046983db3800b4c5eb07e1') in 0.024161 seconds
-  Import took 0.031786 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016925 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
-
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.620 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.9 MB.
-System memory in use after: 120.0 MB.
-
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3283.
-Total: 4.094400 ms (FindLiveObjects: 0.384000 ms CreateObjectMapping: 0.398900 ms MarkObjects: 3.143100 ms  DeleteObjects: 0.166700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014370 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
-
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.355 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.3 MB.
-System memory in use after: 120.4 MB.
-
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3287.
-Total: 4.778400 ms (FindLiveObjects: 0.624400 ms CreateObjectMapping: 0.282000 ms MarkObjects: 3.700500 ms  DeleteObjects: 0.169600 ms)
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3409.
+Total: 3.691600 ms (FindLiveObjects: 0.364800 ms CreateObjectMapping: 0.247200 ms MarkObjects: 2.911000 ms  DeleteObjects: 0.167200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 618.935813 seconds.
-  path: Assets/Resources/Scenes/Main.unity
-  artifactKey: Guid(175d593186d37a847b2ae35de28be6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/Main.unity using Guid(175d593186d37a847b2ae35de28be6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df9e9def29891cb05053d503393ec6f') in 0.020365 seconds
-  Import took 0.027106 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014088 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
-
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.553 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.9 MB.
-System memory in use after: 120.0 MB.
-
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3291.
-Total: 4.303000 ms (FindLiveObjects: 0.371300 ms CreateObjectMapping: 0.267300 ms MarkObjects: 3.484100 ms  DeleteObjects: 0.178000 ms)
+  Time since last request: 283.212223 seconds.
+  path: Assets/Resources/Scenes/End.unity
+  artifactKey: Guid(e148864244fe60e4a9b1cbbe7d8b36fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/End.unity using Guid(e148864244fe60e4a9b1cbbe7d8b36fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fb116a7d845380368a6baf55b17bf5') in 0.019061 seconds
+  Import took 0.024563 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.031160 seconds.
-  path: Assets/Resources/Scenes/CHR2Goth.unity
-  artifactKey: Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR2Goth.unity using Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394f0967314392397f61f322a8b08eb2') in 0.035561 seconds
-  Import took 0.041948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.666469 seconds.
+  Time since last request: 135.673882 seconds.
   path: Assets/Resources/Scenes/CHR3Gecko.unity
   artifactKey: Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR3Gecko.unity using Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff332b8ff22a0490741732aa12830b7') in 0.009436 seconds
-  Import took 0.015738 seconds .
+Start importing Assets/Resources/Scenes/CHR3Gecko.unity using Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6b521a5632a4be18b8cb8799e5fd1b') in 0.004096 seconds
+  Import took 0.009511 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010231 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.066 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.5 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3413.
+Total: 4.120000 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.244700 ms MarkObjects: 3.354900 ms  DeleteObjects: 0.165100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.548 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.1 MB.
+System memory in use after: 123.2 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3417.
+Total: 5.908400 ms (FindLiveObjects: 0.603200 ms CreateObjectMapping: 0.495000 ms MarkObjects: 4.577100 ms  DeleteObjects: 0.230300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.624104 seconds.
+  Time since last request: 213.347390 seconds.
   path: Assets/Resources/Scenes/CHR4Penguin.unity
   artifactKey: Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR4Penguin.unity using Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9d1f819a5dd10d42a30d2b0cf9106d') in 0.009607 seconds
-  Import took 0.017091 seconds .
+Start importing Assets/Resources/Scenes/CHR4Penguin.unity using Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b6da9e237636169d615986f094fbed') in 0.144366 seconds
+  Import took 0.152368 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011006 seconds.
+Registered in 0.010853 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
-
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.672 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.3 MB.
-System memory in use after: 120.5 MB.
-
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3295.
-Total: 5.048700 ms (FindLiveObjects: 0.600700 ms CreateObjectMapping: 0.420600 ms MarkObjects: 3.848000 ms  DeleteObjects: 0.177200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 190.391991 seconds.
-  path: Assets/Resources/Scenes/CHR1MagicalGirl.unity
-  artifactKey: Guid(8ebc7f6d354a72e4eae1502e37486732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR1MagicalGirl.unity using Guid(8ebc7f6d354a72e4eae1502e37486732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8fae74ce21e94737e9ff72f1b46d27') in 0.022010 seconds
-  Import took 0.028917 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021372 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
-
 Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.971 seconds
+- Completed reload, in  1.263 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.9 MB.
-System memory in use after: 120.0 MB.
+System memory in use before: 123.0 MB.
+System memory in use after: 123.1 MB.
 
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3299.
-Total: 4.131800 ms (FindLiveObjects: 0.344400 ms CreateObjectMapping: 0.305700 ms MarkObjects: 3.313000 ms  DeleteObjects: 0.166700 ms)
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3421.
+Total: 3.975700 ms (FindLiveObjects: 0.402600 ms CreateObjectMapping: 0.266000 ms MarkObjects: 3.133700 ms  DeleteObjects: 0.172100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

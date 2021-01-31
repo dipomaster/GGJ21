@@ -620,17 +620,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059333298}
   m_CullTransparentMesh: 1
---- !u!114 &1081741108 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7945841712059082932, guid: 7b433dcde03490c44884c0f59ec05171, type: 3}
-  m_PrefabInstance: {fileID: 2905681491821823358}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1155030870
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,9 +847,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1730613254}
+  - {fileID: 1730613269}
   selectedCommands:
-  - {fileID: 1730613279}
+  - {fileID: 1730613270}
   variables:
   - {fileID: 1730613262}
   description: 
@@ -1001,7 +990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  sayDialog: {fileID: 1081741108}
+  sayDialog: {fileID: 0}
 --- !u!114 &1730613260
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1272,7 +1261,7 @@ MonoBehaviour:
   _sceneName:
     stringRef: {fileID: 0}
     stringVal: CHR1MagicalGirl
-  loadingImage: {fileID: 0}
+  loadingImage: {fileID: 2800000, guid: 6d88aa4cbacde1c40bb65f996f12c79b, type: 3}
   sceneNameOLD: 
 --- !u!114 &1730613271
 MonoBehaviour:
@@ -1605,7 +1594,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1730613279
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1623,7 +1612,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &1730613280
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

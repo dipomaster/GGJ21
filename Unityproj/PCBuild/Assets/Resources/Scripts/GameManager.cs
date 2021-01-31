@@ -38,7 +38,11 @@ public class GameManager : MonoBehaviour
     {
         if (flowchrt == null)
         {
-            flowchrt = GameObject.Find("A_interaction");
+            
+            if (GameObject.Find("A_interaction") != null)
+                flowchrt = GameObject.Find("A_interaction");
+            else if (GameObject.Find("Menu") != null)
+                totKarma = 0;
         }
         totKarma += flowchrt.GetComponent<Flowchart>().GetIntegerVariable("karma");
     }

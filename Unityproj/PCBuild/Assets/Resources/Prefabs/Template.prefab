@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 9167647856993263006}
   - component: {fileID: 5879428715066305284}
   - component: {fileID: 2661089052115183562}
+  - component: {fileID: 6222377532555591224}
   m_Layer: 0
   m_Name: Template
   m_TagString: Untagged
@@ -219,7 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 159.37381, y: 42.470276}
+  scrollPos: {x: 321.6688, y: -264.0869}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 334
@@ -230,8 +231,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 5117494900058185444}
+  selectedCommands:
+  - {fileID: 6222377532555591224}
   variables:
   - {fileID: 1148000761}
   - {fileID: 1148000760}
@@ -5002,8 +5005,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 569.1073
-    y: 1253.1439
+    x: 572.386
+    y: 1249.865
     width: 135.24585
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5015,6 +5018,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1181720185151908566}
   - {fileID: 547740126560807665}
+  - {fileID: 6222377532555591224}
   - {fileID: 6374173009692248320}
   suppressAllAutoSelections: 0
 --- !u!114 &547740126560807665
@@ -6977,3 +6981,21 @@ MonoBehaviour:
   commandList:
   - {fileID: 5879428715066305284}
   suppressAllAutoSelections: 0
+--- !u!114 &6222377532555591224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5318334156647351165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 336
+  indentLevel: 0
+  targetObject: {fileID: 0}
+  GOname: GM
+  methodName: updateKarma
+  delay: 0
