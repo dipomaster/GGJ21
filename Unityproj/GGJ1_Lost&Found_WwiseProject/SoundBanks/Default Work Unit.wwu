@@ -16,7 +16,9 @@
 						<ObjectRef Name="Play_Mum_Theme" ID="{A801DBF8-9CAE-4242-90BA-58C83253A9BF}" WorkUnitID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Gecko_Theme" ID="{BFAA7A8A-6E2C-429A-8342-68BAB663D1C4}" WorkUnitID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Music" ID="{F3AFD0B1-667E-464E-815E-3C27563BB8D1}" WorkUnitID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Ambience" ID="{11423F78-E7E8-49EB-B5DF-9122492F8A7A}" WorkUnitID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Magic_Theme" ID="{758B2C5E-D81A-4C54-8A6D-DD77F06E2A23}" WorkUnitID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Start_Ambience" ID="{E6A5D991-E630-4D43-911D-9976E2E90401}" WorkUnitID="{CEC007B4-D56C-46F7-831B-9CA7BCFD2856}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goth_Theme" ID="{F9ED3021-4B07-4D66-9600-C002B05515D2}" WorkUnitID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

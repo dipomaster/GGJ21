@@ -27,15 +27,15 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
-				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="8JgmZQUKcEubMXJnfY/RFA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="CzPvvQGBrUG+lVw0OMK+Nc6R5k8efShJtbTtm0HIqXY="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{48FC4141-D245-49A2-844E-7135CB7DB930} - SegmentEditorZoomInfo" Type="string" Value="mpmZmZmZuT8XXXTRRRftPwAAAAAAkGxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{7FD5BC03-614B-47DB-8D04-C984EAD5A41F} - SegmentEditorZoomInfo" Type="string" Value="Uk9r9ItXrT8AAAAAAADwPwAAAAAAkGxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{88235D60-A108-42C6-8E76-42307F65EC77} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAkGxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{99F49EE3-2A88-4E68-A953-C93F7AF595BD} - SegmentEditorZoomInfo" Type="string" Value="2mBnk/CWvD8tLNjjESYBQAAAAAAAkGxAAAAAAAAA8D8AAAAAAISSQAAAAAAAAAAA"/>
-				<Property Name="Interactive Music\x64_{DDFECF69-7010-412E-AF38-1E9655AE046F} - SegmentEditorZoomInfo" Type="string" Value="mpmZmZmZuT91GD4ipsT5PwAAAAAAkGxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAHFA"/>
+				<Property Name="Interactive Music\x64_{DDFECF69-7010-412E-AF38-1E9655AE046F} - SegmentEditorZoomInfo" Type="string" Value="mpmZmZmZuT91GD4ipsT5PwAAAAAAkGxAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAGFA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -70,13 +70,13 @@
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="ORRZLFwewEG6GdtUMvEgQA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="ORRZLFwewEG6GdtUMvEgQCvA/UCxnvdBvMZ+iUMsTim0B8DObNX3RoMbnKe8/ShW"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="pO8esS2NnUK39DxO+vVbsPtVuCbUz0dDmSI6bCaK3pA="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
-				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value=""/>
+				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="280N/aZN7EqiGwPkmry43w=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
