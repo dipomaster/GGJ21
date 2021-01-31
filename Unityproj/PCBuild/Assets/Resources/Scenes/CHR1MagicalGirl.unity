@@ -189,11 +189,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &432696797 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2623991866613993231, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-  m_PrefabInstance: {fileID: 659887377}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &486785225 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7035111259918604172, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
@@ -210,63 +205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &659887377
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623991866613993229, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623991866613993231, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
-      propertyPath: m_Name
-      value: AkMusicEmitter
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 77de7d8b50c9be94a94f6fdcf69301b0, type: 3}
 --- !u!1 &901134852
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,10 +780,6 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 603476539}
-    - target: {fileID: 1148000873, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
-      propertyPath: targetObject
-      value: 
-      objectReference: {fileID: 432696797}
     - target: {fileID: 4469907805512487, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: targetObject
       value: 
@@ -942,6 +876,14 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 603476539}
+    - target: {fileID: 5117494900058185444, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 580.73517
+      objectReference: {fileID: 0}
+    - target: {fileID: 5117494900058185444, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 1297.178
+      objectReference: {fileID: 0}
     - target: {fileID: 5153888111130377382, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character
       value: 
@@ -998,6 +940,10 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 603476539}
+    - target: {fileID: 5318334156647351111, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: selectedCommands.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5318334156647351113, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character
       value: 
@@ -1010,10 +956,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: A_interaction
       objectReference: {fileID: 0}
-    - target: {fileID: 5487948539655184113, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
-      propertyPath: targetObject
-      value: 
-      objectReference: {fileID: 432696797}
     - target: {fileID: 5833549535640944893, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character
       value: 
@@ -1022,6 +964,10 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 603476539}
+    - target: {fileID: 6374173009692248320, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: _sceneName.stringVal
+      value: CHR2Goth
+      objectReference: {fileID: 0}
     - target: {fileID: 6404404523109751794, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: targetObject
       value: 
@@ -1054,6 +1000,10 @@ PrefabInstance:
       propertyPath: toPosition
       value: 
       objectReference: {fileID: 1750028070}
+    - target: {fileID: 8307394415926793618, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 1174.5569
+      objectReference: {fileID: 0}
     - target: {fileID: 8339453086378940832, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character
       value: 

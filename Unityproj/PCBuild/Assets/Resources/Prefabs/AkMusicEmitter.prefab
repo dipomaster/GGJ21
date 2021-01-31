@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2623991866613993228}
   m_Layer: 0
   m_Name: AkMusicEmitter
-  m_TagString: Untagged
+  m_TagString: AkME
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52,3 +52,4 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: e050c50e67ae1c94b8f904ad63275bc0, type: 2}
   currentMusic: 0
   flowchrt: {fileID: 0}
+  menuFlowchrt: {fileID: 0}

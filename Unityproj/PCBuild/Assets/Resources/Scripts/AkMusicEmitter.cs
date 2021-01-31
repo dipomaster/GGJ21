@@ -15,7 +15,7 @@ public class AkMusicEmitter : MonoBehaviour
     void Awake()
     {
 
-        if (GameObject.Find("GM") != null)
+        if (GameObject.FindGameObjectsWithTag("AkME").Length > 1)
         {
             Destroy(this.gameObject);
         }
@@ -27,19 +27,26 @@ public class AkMusicEmitter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (flowchrt == null)
-        {
-            flowchrt = GameObject.Find("A_interaction");
-        }
+        
     }
 
     private void Update()
-    {        
+    {
+        if (flowchrt == null)
+        {
+            if(GameObject.Find("NPC")!=null)
+            flowchrt = GameObject.Find("A_interaction");
+            else
+            flowchrt = GameObject.Find("Menu");
+        }
+
         currentMusic = flowchrt.GetComponent<Flowchart>().GetIntegerVariable("currentMusic");
     }
 
     public void PlayMusic()
     {
+
+        
         MusicEvents[currentMusic].Post(gameObject);
     }
 }

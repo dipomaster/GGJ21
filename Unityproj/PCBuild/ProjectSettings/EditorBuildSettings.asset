@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Resources/Scenes/Start.unity
+    guid: 9a5ae8ed798b8bf4a853589ca7d23dce
+  - enabled: 1
+    path: Assets/Resources/Scenes/Intro.unity
+    guid: 4be1b390baabeb54c8a43a7533c8b3ed
+  - enabled: 1
+    path: Assets/Resources/Scenes/CHR1MagicalGirl.unity
+    guid: 8ebc7f6d354a72e4eae1502e37486732
+  - enabled: 1
+    path: Assets/Resources/Scenes/CHR2Goth.unity
+    guid: b162fae2f6f04c645961960ce183cd3a
   m_configObjects: {}
