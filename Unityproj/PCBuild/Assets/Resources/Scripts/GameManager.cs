@@ -21,10 +21,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (flowchrt == null)
-        {
-            flowchrt = GameObject.Find("A_interaction");
-        }
+        
     }
 
     // Update is called once per frame
@@ -38,7 +35,11 @@ public class GameManager : MonoBehaviour
 
     public void updateKarma()
     {
-        totKarma+= flowchrt.GetComponent<Flowchart>().GetIntegerVariable("karma");
+        if (flowchrt == null)
+        {
+            flowchrt = GameObject.Find("A_interaction");
+        }
+        totKarma += flowchrt.GetComponent<Flowchart>().GetIntegerVariable("karma");
     }
 
 

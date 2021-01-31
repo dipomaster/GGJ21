@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="585075182">
+		<SoundBank Id="393239870" Language="SFX" Hash="600962024">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="721787521" Name="Alert" ObjectPath="\Events\Default Work Unit\Alert" DurationType="OneShot" DurationMin="2.696833" DurationMax="2.696833"/>
 				<Event Id="1144759537" Name="Inventory_Scroll" ObjectPath="\Events\Default Work Unit\UI\Inventory_Scroll" DurationType="OneShot" DurationMin="0.261590" DurationMax="0.349181"/>
 				<Event Id="3626999974" Name="Start_Ambience" ObjectPath="\Events\Default Work Unit\Ambience\Start_Ambience" DurationType="Infinite"/>
 				<Event Id="1672006336" Name="Start_Talking" ObjectPath="\Events\Default Work Unit\Dialogue\Start_Talking" DurationType="Infinite"/>
@@ -87,6 +88,10 @@
 				<File Id="168707402" Language="SFX">
 					<ShortName>Voice_SoftGecko_Neutral-002.wav</ShortName>
 					<Path>SFX\Voice_SoftGecko_Neutral-002_10C4C929.wem</Path>
+				</File>
+				<File Id="196635109" Language="SFX">
+					<ShortName>Alert Ripoff.wav</ShortName>
+					<Path>SFX\Alert Ripoff_10C4C929.wem</Path>
 				</File>
 				<File Id="200172906" Language="SFX">
 					<ShortName>Voice_Goth-006.wav</ShortName>

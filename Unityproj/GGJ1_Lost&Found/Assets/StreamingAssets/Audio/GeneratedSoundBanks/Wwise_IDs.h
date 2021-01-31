@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ALERT = 721787521U;
         static const AkUniqueID INVENTORY_SCROLL = 1144759537U;
         static const AkUniqueID START_AMBIENCE = 3626999974U;
         static const AkUniqueID START_TALKING = 1672006336U;
@@ -35,6 +36,19 @@ namespace AK
                 static const AkUniqueID SOFT_GECKO = 4269433141U;
             } // namespace SWITCH
         } // namespace CHARACTER
+
+        namespace CHARACTER_MUSIC
+        {
+            static const AkUniqueID GROUP = 3213252866U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID GECKO = 2105215962U;
+                static const AkUniqueID GOTH = 786076171U;
+                static const AkUniqueID MAGIC = 1880439950U;
+                static const AkUniqueID MUM = 712897236U;
+            } // namespace SWITCH
+        } // namespace CHARACTER_MUSIC
 
         namespace EMOTION
         {
