@@ -41,6 +41,41 @@
 						<CurrentSwitchRef Name="Goth" ID="{AB73EBC2-DCB3-4247-80FC-41180777FF63}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Music" ID="{F8FE2A72-FEB8-41B4-9A73-BCEC587465C5}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Magic_Theme" ID="{758B2C5E-D81A-4C54-8A6D-DD77F06E2A23}" WorkUnitID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Main_Theme" ID="{ECF871E5-ECA0-414C-9B2D-1CC1334FA254}" WorkUnitID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Goth_Theme" ID="{F9ED3021-4B07-4D66-9600-C002B05515D2}" WorkUnitID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Music" ID="{F3AFD0B1-667E-464E-815E-3C27563BB8D1}" WorkUnitID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Gecko_Theme" ID="{BFAA7A8A-6E2C-429A-8342-68BAB663D1C4}" WorkUnitID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Mum_Theme" ID="{A801DBF8-9CAE-4242-90BA-58C83253A9BF}" WorkUnitID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Angry" ID="{7C0B3B18-92C4-4193-9C0F-BFA95147ABE2}"/>
+						<CurrentSwitchRef Name="Mum" ID="{4DB08457-21D0-42B1-98FD-DB70C1F7CA5D}"/>
+						<CurrentSwitchRef Name="Goth" ID="{AB73EBC2-DCB3-4247-80FC-41180777FF63}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

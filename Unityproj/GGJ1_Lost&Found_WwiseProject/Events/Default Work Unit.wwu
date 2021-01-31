@@ -17,6 +17,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="Music" ID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

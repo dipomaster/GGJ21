@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}" SchemaVersion="97" RootDocumentID="{2C591439-1E5C-41C0-BA19-DB5432F12040}">
+	<Events>
+		<WorkUnit Name="Music" ID="{40FDC02B-9EB1-41F7-BCC6-7E89432C4E29}" OwnerID="{2C591439-1E5C-41C0-BA19-DB5432F12040}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Main_Theme" ID="{ECF871E5-ECA0-414C-9B2D-1CC1334FA254}">
+					<ChildrenList>
+						<Action Name="" ID="{D953390E-093A-486E-B8F0-E232DA486F8F}" ShortID="875496557">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main Theme" ID="{5A3CF189-C547-4347-9ABC-5BBB644D4B2C}" WorkUnitID="{C01F372B-8471-4612-9585-C4229668E1EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music" ID="{F3AFD0B1-667E-464E-815E-3C27563BB8D1}">
+					<ChildrenList>
+						<Action Name="" ID="{E3EF0C01-B4BF-4C7D-9FCA-F76C9D55FAC1}" ShortID="403854148">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Magic_Theme" ID="{758B2C5E-D81A-4C54-8A6D-DD77F06E2A23}">
+					<ChildrenList>
+						<Action Name="" ID="{A2F29841-294F-42E9-AE4B-0F0ED648CE45}" ShortID="741207749">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Character Music" ID="{C96536D7-55B1-4261-8AA6-0E55365CB8C2}" WorkUnitID="{C01F372B-8471-4612-9585-C4229668E1EC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BABA5260-D364-45CA-A794-1278528011B4}" ShortID="581366366">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Magic" ID="{8FEF1691-3F0A-496A-8753-5BD8ED1F1823}" WorkUnitID="{26B855FB-CFD4-4347-9922-3A6C268ADE90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Goth_Theme" ID="{F9ED3021-4B07-4D66-9600-C002B05515D2}">
+					<ChildrenList>
+						<Action Name="" ID="{2478A8E2-876D-459A-9254-A214D1B6F0FE}" ShortID="1043864468">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Goth" ID="{D85AF861-726E-47C4-BC9C-C36DE0B8FA0B}" WorkUnitID="{26B855FB-CFD4-4347-9922-3A6C268ADE90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gecko_Theme" ID="{BFAA7A8A-6E2C-429A-8342-68BAB663D1C4}">
+					<ChildrenList>
+						<Action Name="" ID="{725D6288-8F4F-4EF0-8FBF-A2E9E34CB859}" ShortID="963727520">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gecko" ID="{5669423C-14B9-4FD6-8588-CF04CB4294C7}" WorkUnitID="{26B855FB-CFD4-4347-9922-3A6C268ADE90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Mum_Theme" ID="{A801DBF8-9CAE-4242-90BA-58C83253A9BF}">
+					<ChildrenList>
+						<Action Name="" ID="{B8A039A9-C6F8-41E6-AEED-C297C5016361}" ShortID="384186522">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mum" ID="{4DB08457-21D0-42B1-98FD-DB70C1F7CA5D}" WorkUnitID="{26B855FB-CFD4-4347-9922-3A6C268ADE90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
