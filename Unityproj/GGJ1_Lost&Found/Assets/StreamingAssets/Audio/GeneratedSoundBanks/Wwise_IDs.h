@@ -15,6 +15,8 @@ namespace AK
     {
         static const AkUniqueID ALERT = 721787521U;
         static const AkUniqueID INVENTORY_SCROLL = 1144759537U;
+        static const AkUniqueID PLAY_MAGIC_THEME = 229385869U;
+        static const AkUniqueID PLAY_MAIN_THEME = 3568813383U;
         static const AkUniqueID START_AMBIENCE = 3626999974U;
         static const AkUniqueID START_TALKING = 1672006336U;
         static const AkUniqueID STOP_AMBIENCE = 2477713992U;
@@ -67,6 +69,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 
