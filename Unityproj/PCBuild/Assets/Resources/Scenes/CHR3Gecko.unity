@@ -465,6 +465,33 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5318334156647351165, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
   m_PrefabInstance: {fileID: 1527115596}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1148000725
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148000724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 313
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 1
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1148000756 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5318334156647351111, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
@@ -667,6 +694,242 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1001624469, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1001624469, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: Agent Soft Gecko, reporting for duty. Pleasure to meet you, over.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000750, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000750, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: 'Back to the objective. I was on a confidential mission, deep under
+        enemies lines, over. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000759, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 5890116d6ce028b4ea08bc0fb8f3eadc, type: 3}
+    - target: {fileID: 1148000759, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000765, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000765, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "It\u2019s an honour to serve alongside you, over."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000767, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 79d946d07b4793f46a6cf23f50cc9506, type: 3}
+    - target: {fileID: 1148000767, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000783, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000783, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: Better talk to your supplier, private, over.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000785, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: c060c2786bf67f640a6002f5c3582c68, type: 3}
+    - target: {fileID: 1148000785, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000786, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 110.943115
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000786, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 583.64233
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000790, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000790, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: Is this an extended practical joke, over?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000792, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: c060c2786bf67f640a6002f5c3582c68, type: 3}
+    - target: {fileID: 1148000792, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000793, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 109.952255
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000793, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 647.55896
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000797, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000797, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "Mission failed, we\u2019ll get \u2018em next time, over."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000799, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 1f6e08e1d10be6e42aa0920915b2fef8, type: 3}
+    - target: {fileID: 1148000799, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000800, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 105.06247
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000800, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 714.72986
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000811, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000811, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "I am here on a... personal assignment. I hope you understand. No-one
+        knows I\u2019m here, not even my commanding officer, over."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000813, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 5890116d6ce028b4ea08bc0fb8f3eadc, type: 3}
+    - target: {fileID: 1148000813, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000814, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 391.774
+      objectReference: {fileID: 0}
+    - target: {fileID: 357749325369980693, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 1f6e08e1d10be6e42aa0920915b2fef8, type: 3}
+    - target: {fileID: 357749325369980693, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 942450599512464200, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 372.24716
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253117184326949163, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1253117184326949163, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "You\u2019ve heard of me? I guess I\u2019lI do my best to cover my trail,
+        now that I have counter-agents following my movements, over."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2261893938961812468, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 589.12054
+      objectReference: {fileID: 0}
+    - target: {fileID: 2784646941685137240, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "As such, I\u2019m searching for a bulletproof vest, marked with my
+        unique Soft Gecko insignia. I trust you have such an item in your arsenal,
+        over."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3140889618867473551, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 3140889618867473551, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "Your couch is broken? Well, no matter, I have other potential safehouses
+        lined up, maybe. It\u2019s fine, over."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586750567422329849, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 90c580605937f964cb635f4b25754326, type: 3}
+    - target: {fileID: 3586750567422329849, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 3811725437958279872, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 3811725437958279872, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "You have already helped me greatly. I hate to impose, but I don\u2019t
+        have a bunk for the night. Can you help out a brother-in-arms, over?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087428414050189399, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 5890116d6ce028b4ea08bc0fb8f3eadc, type: 3}
+    - target: {fileID: 4087428414050189399, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 4204261838619776841, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: text
+      value: "You shouldn\u2019t trust people so easily, Gecko."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204261838619776841, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: targetBlock
+      value: 
+      objectReference: {fileID: 1527115599}
+    - target: {fileID: 4248633949898465249, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 5890116d6ce028b4ea08bc0fb8f3eadc, type: 3}
+    - target: {fileID: 4248633949898465249, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 4274014572459960017, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 4274014572459960017, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "At-ease soldier? Who do you think you are, huh? You don\u2019t outrank
+        me, pipsqueak. Over."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322241620023908674, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 90c580605937f964cb635f4b25754326, type: 3}
+    - target: {fileID: 4322241620023908674, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 4997771860906259478, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
     - target: {fileID: 5318334156647351104, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -711,16 +974,165 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351105, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: text
+      value: "Soft Gecko? I\u2019ve heard of you..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351106, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: text
+      value: At-ease soldier.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351109, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 5890116d6ce028b4ea08bc0fb8f3eadc, type: 3}
+    - target: {fileID: 5318334156647351109, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 5318334156647351111, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: selectedBlocks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351113, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: c060c2786bf67f640a6002f5c3582c68, type: 3}
+    - target: {fileID: 5318334156647351113, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 5318334156647351114, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 90c580605937f964cb635f4b25754326, type: 3}
+    - target: {fileID: 5318334156647351114, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 5318334156647351160, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 380.94678
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351160, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: commandList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351160, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1148000725}
+    - target: {fileID: 5318334156647351160, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 1527115597}
+    - target: {fileID: 5318334156647351163, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 581.77423
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351163, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 218.15346
+      objectReference: {fileID: 0}
     - target: {fileID: 5318334156647351165, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: m_Name
       value: A_interaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833549535640944893, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 5890116d6ce028b4ea08bc0fb8f3eadc, type: 3}
+    - target: {fileID: 5833549535640944893, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 6115969676342864269, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 6115969676342864269, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: I had to join a party of revellers to escape detection. I may have over-indulged
+        in their liquor and gotten carried away when discarding my armour, over.
       objectReference: {fileID: 0}
     - target: {fileID: 6374173009692248320, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: _sceneName.stringVal
       value: CHR4Penguin
       objectReference: {fileID: 0}
+    - target: {fileID: 7671066541159838012, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 7671066541159838012, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: My missing gear has my insignia. It is very professional, over.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307394415926793618, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 1177.8357
+      objectReference: {fileID: 0}
+    - target: {fileID: 8339453086378940832, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 8339453086378940832, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "Thanks for the resupply soldier. It\u2019s always good to meet a reliable
+        comrade in the field, over."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639958130779663759, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: text
+      value: "Sorry, my couch is\u2026 broken? It\u2019s like, dangerous."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639958130779663759, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: targetBlock
+      value: 
+      objectReference: {fileID: 1527115598}
+    - target: {fileID: 8847767677099900604, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 8847767677099900604, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "I shouldn\u2019t trust people so easily! Of course! I will not sleep
+        until I  defeat my nemesis, Large Supervisor. And that\u2019s a promise,
+        over."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+--- !u!114 &1527115597 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 411634252567093499, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+  m_PrefabInstance: {fileID: 1527115596}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148000724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1527115598 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3774687417364026338, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+  m_PrefabInstance: {fileID: 1527115596}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148000724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1527115599 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8307394415926793618, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+  m_PrefabInstance: {fileID: 1527115596}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148000724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1556923164 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6184045160486996816, guid: 466f32b4a946d9742a0469eef275cb4f, type: 3}
@@ -938,6 +1350,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: nameText
+      value: Soft Gecko
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 90c580605937f964cb635f4b25754326, type: 3}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: c060c2786bf67f640a6002f5c3582c68, type: 3}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 79d946d07b4793f46a6cf23f50cc9506, type: 3}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: portraits.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5890116d6ce028b4ea08bc0fb8f3eadc, type: 3}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: portraits.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1f6e08e1d10be6e42aa0920915b2fef8, type: 3}
     - target: {fileID: 4546263544775615775, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
       propertyPath: m_Name
       value: NPC
@@ -1048,6 +1484,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1250027534286462789, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d94ebe98c2aacd7449ac150e72deb97b, type: 3}
     - target: {fileID: 2212713805262597928, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1063,6 +1503,10 @@ PrefabInstance:
     - target: {fileID: 2212713805262597928, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212713805262597935, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: "Cpt. Croc\u2019s body was never found"
       objectReference: {fileID: 0}
     - target: {fileID: 2212713805374169042, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1080,6 +1524,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2212713805374169045, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: Perfect for em-bark-ing on new adventures
+      objectReference: {fileID: 0}
     - target: {fileID: 2212713806097261314, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1095,6 +1543,14 @@ PrefabInstance:
     - target: {fileID: 2212713806097261314, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212713806097261317, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: ItemOwnername
+      value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212713806097261317, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: Slimy and wet, like a squishy lizard
       objectReference: {fileID: 0}
     - target: {fileID: 2212713806223032777, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1112,6 +1568,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2212713806223032782, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: "Suit and sneakers? That\u2019s a gamer alright"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212713807161570225, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: ItemOwnername
+      value: AAA
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212713807161570225, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: Get your mum to help you tie this
+      objectReference: {fileID: 0}
     - target: {fileID: 2212713807161570230, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1128,6 +1596,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2598281135039743660, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: eff6a67ed49cb4f4ca4e8389e2b2bf1c, type: 3}
+    - target: {fileID: 2598281135130490454, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a3a9986d28965a941b867ff54e578d14, type: 3}
+    - target: {fileID: 2598281135369566844, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0a83f7498c31ee243a6ceee77f4d1cf7, type: 3}
+    - target: {fileID: 2598281135562447031, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6c0de479b0f1e7544bbdf4c00480eb6b, type: 3}
+    - target: {fileID: 2598281136492587720, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 21e9fbb286d221d4da0e52faf0385cbc, type: 3}
     - target: {fileID: 3162420832556320315, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1143,6 +1631,10 @@ PrefabInstance:
     - target: {fileID: 3162420832556320315, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162420832556320316, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: The Master Buster Bonkai Keyblade of Frostmourne
       objectReference: {fileID: 0}
     - target: {fileID: 5242470792913896693, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1272,6 +1764,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5801250949979944028, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: "A Youtuber made this, and it costs \xA350?!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654428962834689317, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e86db44de45b1f34dac17c718e51bfa5, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dea5a211a975a7845b63043607f238c5, type: 3}
 --- !u!1001 &6184045161211873356
