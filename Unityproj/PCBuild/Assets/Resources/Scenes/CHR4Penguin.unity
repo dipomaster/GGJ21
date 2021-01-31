@@ -465,6 +465,33 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5318334156647351165, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
   m_PrefabInstance: {fileID: 1527115596}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1148000725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148000724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 313
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 1
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1148000756 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5318334156647351111, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
@@ -667,6 +694,237 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1001624469, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1001624469, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: Hello darling, how are you doing today? It must be difficult watching
+        everyone enjoying themselves while you are stuck behind a desk.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000750, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000750, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "Right, enough chit chat. I\u2019m looking for a pair of Lobster Patrol
+        Lobster claw wings. My daughter lost them in the ball pit yesterday."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000759, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 5cc8998bff30e9840910b9e0f0101d33, type: 3}
+    - target: {fileID: 1148000759, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000765, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000765, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: Oh, you star, you found them!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000767, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b271f1ad959cec4ea5e59d9491bc7e2, type: 3}
+    - target: {fileID: 1148000767, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000783, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000783, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "I\u2019m sure it\u2019s there somewhere, keep looking."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000785, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 3f4ed539e9616a445b9e70462bdc2063, type: 3}
+    - target: {fileID: 1148000785, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000786, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 115.07301
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000786, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 575.7612
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000790, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000790, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: Take your time, darling. Focus.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000792, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 3f4ed539e9616a445b9e70462bdc2063, type: 3}
+    - target: {fileID: 1148000792, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000793, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 108.59664
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000793, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 643.4607
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000797, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: Lemme come back there and look myself!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000799, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c33d1e72ea68f1439e777932f386796, type: 3}
+    - target: {fileID: 1148000799, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000800, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 702.1511
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000811, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1148000811, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: I do like your adorable little cap, it suits you. I hope you are allowed
+        to keep it after the convention ends.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000813, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 9da1e7c54ceaac741a4672ca6777a08b, type: 3}
+    - target: {fileID: 1148000813, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 357749325369980693, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c33d1e72ea68f1439e777932f386796, type: 3}
+    - target: {fileID: 357749325369980693, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 942450599512464200, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 372.53088
+      objectReference: {fileID: 0}
+    - target: {fileID: 1253117184326949163, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 1253117184326949163, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: Why thank you! I just love penguins, so I thought why not dress as one?
+        My favourite movies are documentaries, so I wanted to represent them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2784646941685137240, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 2784646941685137240, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "She would tell you herself, but she and my wife are at the \u201Cmust-see\u201D
+        panel for the upcoming Lobster Patrol movie. So, have you seen anything like
+        that?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3140889618867473551, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 3140889618867473551, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "Well then, you don\u2019t have to be so defensive! I\u2019m just trying
+        to be nice. Don\u2019t worry about it, thanks again."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226271428781883120, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 376.91943
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586750567422329849, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 9da1e7c54ceaac741a4672ca6777a08b, type: 3}
+    - target: {fileID: 3586750567422329849, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 3811725437958279872, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 3811725437958279872, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "Speaking of which, I hope you have been staying hydrated on the job.
+        Would you like a bottle of water? Don\u2019t worry about it, I have lots
+        of spares."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087428414050189399, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 5cc8998bff30e9840910b9e0f0101d33, type: 3}
+    - target: {fileID: 4087428414050189399, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 4204261838619776841, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: text
+      value: "I\u2019m an adult, I can take care of myself..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4248633949898465249, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b271f1ad959cec4ea5e59d9491bc7e2, type: 3}
+    - target: {fileID: 4248633949898465249, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 4274014572459960017, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 4274014572459960017, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "What\u2019s a furry? Is that like one of those computer game Bytomon
+        creatures? I\u2019m dressed as a regular penguin, I thought it would be pretty
+        obvious."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322241620023908674, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 3f4ed539e9616a445b9e70462bdc2063, type: 3}
+    - target: {fileID: 4322241620023908674, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 4997771860906259478, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997771860906259478, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
     - target: {fileID: 5318334156647351104, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -711,16 +969,168 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351105, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: text
+      value: Are you a furry? Can penguins be furries?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351105, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: targetBlock
+      value: 
+      objectReference: {fileID: 1527115599}
+    - target: {fileID: 5318334156647351106, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: text
+      value: W-w-wow, you look amazing!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351106, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: targetBlock
+      value: 
+      objectReference: {fileID: 1527115598}
+    - target: {fileID: 5318334156647351109, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 9da1e7c54ceaac741a4672ca6777a08b, type: 3}
+    - target: {fileID: 5318334156647351109, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 5318334156647351113, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 3f4ed539e9616a445b9e70462bdc2063, type: 3}
+    - target: {fileID: 5318334156647351113, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 5318334156647351114, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b271f1ad959cec4ea5e59d9491bc7e2, type: 3}
+    - target: {fileID: 5318334156647351114, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 5318334156647351160, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 380.86197
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351160, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 312.96863
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351160, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.width
+      value: 129.31029
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351160, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: commandList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351160, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1148000725}
+    - target: {fileID: 5318334156647351160, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 1527115597}
     - target: {fileID: 5318334156647351165, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: m_Name
       value: A_interaction
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833549535640944893, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: portrait
+      value: 
+      objectReference: {fileID: 21300000, guid: 5cc8998bff30e9840910b9e0f0101d33, type: 3}
+    - target: {fileID: 5833549535640944893, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 6115969676342864269, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 6115969676342864269, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: "We didn\u2019t even know there was a ball pit. These wings were signed
+        by John Lobster himself, so they are near-impossible to replace."
       objectReference: {fileID: 0}
     - target: {fileID: 6374173009692248320, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: _sceneName.stringVal
       value: End
       objectReference: {fileID: 0}
+    - target: {fileID: 6557662766426555174, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 378.76117
+      objectReference: {fileID: 0}
+    - target: {fileID: 7671066541159838012, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 7671066541159838012, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: I'm looking for a pair of lobster claw wings, signed by John Lobster.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8339453086378940832, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 8339453086378940832, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: Thank you for all of your help, I was starting to worry. Everything
+        is so chaotic at these events, I just want everyone to stay safe.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639958130779663759, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: text
+      value: Oh, well, if you insist...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847767677099900604, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
+    - target: {fileID: 8847767677099900604, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: storyText
+      value: Here you go. Think of it as a reward for your excellent service, and
+        for being so gosh darn cute! Enjoy the rest of your day!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196456901407055671, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 1041.3772
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+--- !u!114 &1527115597 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 411634252567093499, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+  m_PrefabInstance: {fileID: 1527115596}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148000724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1527115598 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5318334156647351162, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+  m_PrefabInstance: {fileID: 1527115596}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148000724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1527115599 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5318334156647351163, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+  m_PrefabInstance: {fileID: 1527115596}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148000724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1556923164 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6184045160486996816, guid: 466f32b4a946d9742a0469eef275cb4f, type: 3}
@@ -938,6 +1348,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: nameText
+      value: Penguin Lady
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: portraits.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3f4ed539e9616a445b9e70462bdc2063, type: 3}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5cc8998bff30e9840910b9e0f0101d33, type: 3}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c33d1e72ea68f1439e777932f386796, type: 3}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: portraits.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b271f1ad959cec4ea5e59d9491bc7e2, type: 3}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: portraits.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9da1e7c54ceaac741a4672ca6777a08b, type: 3}
+    - target: {fileID: 4546263544775615774, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
+      propertyPath: portraits.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4546263544775615775, guid: c340892b74beaeb4fbf7b4cab7d79a7a, type: 3}
       propertyPath: m_Name
       value: NPC
@@ -1048,6 +1490,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1250027534286462789, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ed6c22802736fc34e9709a7bc21f6e96, type: 3}
     - target: {fileID: 2212713805262597928, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1063,6 +1509,10 @@ PrefabInstance:
     - target: {fileID: 2212713805262597928, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212713805262597935, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: The mini-est Mini Moppu!
       objectReference: {fileID: 0}
     - target: {fileID: 2212713805374169042, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1080,6 +1530,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2212713805374169045, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: Only bought when you run out of clean clothes
+      objectReference: {fileID: 0}
     - target: {fileID: 2212713806097261314, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1095,6 +1549,10 @@ PrefabInstance:
     - target: {fileID: 2212713806097261314, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212713806097261317, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: "Wait, this robot is a car?! I\u2019d watch that movie"
       objectReference: {fileID: 0}
     - target: {fileID: 2212713806223032777, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1112,6 +1570,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2212713806223032782, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: Of course, the plunging attack!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212713807161570225, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: ItemOwnername
+      value: AAA
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212713807161570225, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: Thanks for sticking around, tako to you later!
+      objectReference: {fileID: 0}
     - target: {fileID: 2212713807161570230, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1128,6 +1598,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2598281135039743660, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d6cb92dfc4337f5428bb1fb44effb6d7, type: 3}
+    - target: {fileID: 2598281135130490454, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f8438dca2be0ae4fb858e61e9a504fc, type: 3}
+    - target: {fileID: 2598281135369566844, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bc2e52511c1343741b01557cfaf51f2a, type: 3}
+    - target: {fileID: 2598281135562447031, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f333e43607cf7b149b909410afc0584a, type: 3}
+    - target: {fileID: 2598281136492587720, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 33711eb92c7e37c46a91e678c20ed728, type: 3}
     - target: {fileID: 3162420832556320315, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1143,6 +1633,14 @@ PrefabInstance:
     - target: {fileID: 3162420832556320315, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162420832556320316, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: ItemOwnername
+      value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162420832556320316, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: A claw-some accessor-sea!
       objectReference: {fileID: 0}
     - target: {fileID: 5242470792913896693, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1272,6 +1770,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5801250949979944028, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: Item_Description
+      value: "It\u2019s been here since last year..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654428962834689317, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2a2b7068986213a4a87a8bec368fdec8, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dea5a211a975a7845b63043607f238c5, type: 3}
 --- !u!1001 &6184045161211873356
