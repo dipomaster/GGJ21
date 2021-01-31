@@ -91,8 +91,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Alert
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.696833
+      minDuration: 2.696833
     - name: Start_Ambience
       guid: 91d9a5e630e6434d911d9976e2e90401
       id: 3626999974
@@ -119,8 +119,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Ambience\Stop_Ambience
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -167,8 +167,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Dialogue\Stop_Talking
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -287,8 +287,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\UI\Inventory_Scroll
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.349181
+      minDuration: 0.26159
     - name: UI_Click
       guid: 82375c51b071c74fa146f119c2d28559
       id: 2249769530
@@ -301,8 +301,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\UI\UI_Click
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.142146
+      minDuration: 0.142146
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -452,6 +452,6 @@ MonoBehaviour:
   - /GGJ1_Lost&Found_WwiseProject
   - /GGJ1_Lost&Found_WwiseProject/Events
   - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit
-  - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit/Ambience
+  - /GGJ1_Lost&Found_WwiseProject/Switches
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
