@@ -27,10 +27,14 @@
 				</Event>
 				<Event Name="Play_Magic_Theme" ID="{758B2C5E-D81A-4C54-8A6D-DD77F06E2A23}">
 					<ChildrenList>
-						<Action Name="" ID="{A2F29841-294F-42E9-AE4B-0F0ED648CE45}" ShortID="741207749">
+						<Action Name="" ID="{717620A5-0251-4E24-8CBF-E1BFCB4D0929}" ShortID="68271962">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Character Music" ID="{C96536D7-55B1-4261-8AA6-0E55365CB8C2}" WorkUnitID="{C01F372B-8471-4612-9585-C4229668E1EC}"/>
+									<ObjectRef Name="Main Theme" ID="{5A3CF189-C547-4347-9ABC-5BBB644D4B2C}" WorkUnitID="{C01F372B-8471-4612-9585-C4229668E1EC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -41,6 +45,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Magic" ID="{8FEF1691-3F0A-496A-8753-5BD8ED1F1823}" WorkUnitID="{26B855FB-CFD4-4347-9922-3A6C268ADE90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A2F29841-294F-42E9-AE4B-0F0ED648CE45}" ShortID="741207749">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Character Music" ID="{C96536D7-55B1-4261-8AA6-0E55365CB8C2}" WorkUnitID="{C01F372B-8471-4612-9585-C4229668E1EC}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

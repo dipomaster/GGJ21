@@ -38,7 +38,8 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Angry" ID="{7C0B3B18-92C4-4193-9C0F-BFA95147ABE2}"/>
-						<CurrentSwitchRef Name="Goth" ID="{AB73EBC2-DCB3-4247-80FC-41180777FF63}"/>
+						<CurrentSwitchRef Name="Magic" ID="{8FEF1691-3F0A-496A-8753-5BD8ED1F1823}"/>
+						<CurrentSwitchRef Name="Mom" ID="{77750584-57AB-4980-BC3A-451969317C8B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Music" ID="{F8FE2A72-FEB8-41B4-9A73-BCEC587465C5}">
@@ -72,7 +73,7 @@
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Angry" ID="{7C0B3B18-92C4-4193-9C0F-BFA95147ABE2}"/>
-						<CurrentSwitchRef Name="Mum" ID="{4DB08457-21D0-42B1-98FD-DB70C1F7CA5D}"/>
+						<CurrentSwitchRef Name="Magic" ID="{8FEF1691-3F0A-496A-8753-5BD8ED1F1823}"/>
 						<CurrentSwitchRef Name="Goth" ID="{AB73EBC2-DCB3-4247-80FC-41180777FF63}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

@@ -6,6 +6,11 @@
 				<MusicPlaylistContainer Name="Main Theme" ID="{5A3CF189-C547-4347-9ABC-5BBB644D4B2C}" ShortID="934162077">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="90"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -177,6 +182,11 @@
 				<MusicPlaylistContainer Name="Character Music" ID="{C96536D7-55B1-4261-8AA6-0E55365CB8C2}" ShortID="881717454">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="150"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

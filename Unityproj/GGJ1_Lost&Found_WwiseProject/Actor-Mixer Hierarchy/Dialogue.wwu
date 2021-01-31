@@ -4,6 +4,18 @@
 		<WorkUnit Name="Dialogue" ID="{56E0785D-D220-4732-8140-4D5ED535630C}" OwnerID="{DFD43077-EEC4-4F5C-BACD-705D2EAB767C}" PersistMode="Nested">
 			<ChildrenList>
 				<SwitchContainer Name="Character" ID="{8883F434-97C3-4472-8894-ADED88881D01}" ShortID="776429430">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>40</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
