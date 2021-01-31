@@ -9,20 +9,16 @@ public class AkMusicEmitter : MonoBehaviour
     private int characterArrayPos;
     public int currentMusic;
     public GameObject flowchrt;
-
-
+    public AK.Wwise.Event stopMusic;
 
     void Awake()
     {
-
         if (GameObject.FindGameObjectsWithTag("AkME").Length > 1)
         {
             Destroy(this.gameObject);
         }
-
         DontDestroyOnLoad(this.gameObject);
     }
-
 
     // Start is called before the first frame update
     void Start()
@@ -39,14 +35,16 @@ public class AkMusicEmitter : MonoBehaviour
             else
             flowchrt = GameObject.Find("Menu");
         }
-
         currentMusic = flowchrt.GetComponent<Flowchart>().GetIntegerVariable("currentMusic");
     }
 
     public void PlayMusic()
     {
-
-        
         MusicEvents[currentMusic].Post(gameObject);
+    }
+
+    public void StopMusic()
+    {
+        stopMusic.Post(gameObject);
     }
 }
