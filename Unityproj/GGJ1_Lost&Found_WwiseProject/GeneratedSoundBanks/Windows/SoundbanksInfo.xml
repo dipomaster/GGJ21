@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="3871627367">
+		<SoundBank Id="393239870" Language="SFX" Hash="3634410114">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -416,6 +416,7 @@
 						<Switch Id="670611050" Name="Neutral" ObjectPath="\Switches\Default Work Unit\Emotion\Neutral"/>
 						<Switch Id="1206605712" Name="Angry" ObjectPath="\Switches\Default Work Unit\Emotion\Angry"/>
 						<Switch Id="1717373301" Name="Nervous" ObjectPath="\Switches\Default Work Unit\Emotion\Nervous"/>
+						<Switch Id="1427264549" Name="Happy" ObjectPath="\Switches\Default Work Unit\Emotion\Happy"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
@@ -425,7 +426,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="689056125">
+		<SoundBank Id="3991942870" Language="SFX" Hash="3462250876">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>

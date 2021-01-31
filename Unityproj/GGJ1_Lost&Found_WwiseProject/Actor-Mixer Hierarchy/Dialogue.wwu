@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
-								<Value>40</Value>
+								<Value>45</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
@@ -302,7 +302,7 @@
 											<PropertyList>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>15</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -374,12 +374,11 @@
 										</Property>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1">
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.12">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{3CA2A819-67CD-4AD4-84F1-B552D7CB7EDC}">
 														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Max" Type="Real64" Value="0.05"/>
 														</PropertyList>
 													</Modifier>
@@ -614,7 +613,7 @@
 											<PropertyList>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>30</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -876,7 +875,7 @@
 											<PropertyList>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>30</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -903,11 +902,301 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Goth Happy" ID="{0CF21B30-E392-467A-A58C-0960C51EB2B3}" ShortID="260017461">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>400</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{15424AEB-B788-4B73-B2A0-0FFB967B02F8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoopCount" Type="int32" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EEE68CF7-3C1D-497C-B64E-459FF38F6612}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.05"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Voice_Goth-006" ID="{2DB678D8-88E1-45E6-A5FE-3CF461867FEF}" ShortID="1053969573">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Goth-006" ID="{E9346AD4-AEAF-48EE-8512-FF54FB535A38}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Goth-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="200172906"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Goth-006" ID="{E9346AD4-AEAF-48EE-8512-FF54FB535A38}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_Goth-005" ID="{FED4EE87-EBF0-479F-93D9-174A3DD95219}" ShortID="888186723">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Goth-005" ID="{B48ADADA-8BCA-471A-9B32-F777A69FF0C9}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Goth-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="575785758"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Goth-005" ID="{B48ADADA-8BCA-471A-9B32-F777A69FF0C9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_Goth-007" ID="{393DACB5-9757-4337-A26B-6A5F4BE8E382}" ShortID="848930905">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Goth-007" ID="{09541007-3F43-4035-AE48-81855EE7486A}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Goth-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="126065340"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Goth-007" ID="{09541007-3F43-4035-AE48-81855EE7486A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_Goth-001" ID="{15E86382-0C29-48B8-9993-CCB7E0AFD134}" ShortID="440489899">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>0.001</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Goth-001" ID="{1020617D-355A-415C-8113-5D962C34CC80}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00111900684931507"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Voice_Goth-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="653258815"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Goth-001" ID="{1020617D-355A-415C-8113-5D962C34CC80}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_Goth-003" ID="{E8736CEF-5BE3-4D03-A701-326823FE2E57}" ShortID="323035205">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Goth-003" ID="{0F94D85C-BD39-4CE2-B191-110E2F733D52}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Goth-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="395511421"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Goth-003" ID="{0F94D85C-BD39-4CE2-B191-110E2F733D52}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_Goth-002" ID="{A8642037-DE06-4713-9CDF-2BF88C245CFA}" ShortID="341959290">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>0.001</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Goth-002" ID="{58E84F7F-2D3D-4368-A9D7-ED773F8AC076}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Goth-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="735715599"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Goth-002" ID="{58E84F7F-2D3D-4368-A9D7-ED773F8AC076}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_Goth-004" ID="{4A499957-6D14-45FD-98DF-9B75B97493E3}" ShortID="845239888">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Goth-004" ID="{EA744BE0-1E5E-41A9-97DA-7E33036A687A}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Goth-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="857332575"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Goth-004" ID="{EA744BE0-1E5E-41A9-97DA-7E33036A687A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Silence" ID="{8593271B-0385-4205-BA5A-EF553ED5027D}" ShortID="314387864">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{F7FF74AA-2D5E-43AB-9FE9-6E45B8E35979}" ShortID="193090570" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.25"/>
+														<Property Name="LengthMax" Type="Real32" Value="0.25"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{F7FF74AA-2D5E-43AB-9FE9-6E45B8E35979}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
 										<ItemRef Name="Goth Nervous" ID="{0BEFCA17-18EE-4B61-983B-156136D41BCD}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Goth Happy" ID="{0CF21B30-E392-467A-A58C-0960C51EB2B3}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Goth Neutral" ID="{5850813E-FA92-46B5-9050-FDB1C19AF520}"/>
@@ -927,6 +1216,12 @@
 										<SwitchRef Name="Angry" ID="{7C0B3B18-92C4-4193-9C0F-BFA95147ABE2}"/>
 										<ItemList>
 											<ItemRef Name="Goth Angry" ID="{91D5F4C7-754D-47AA-8F2E-0DB3C530466C}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Happy" ID="{412ADC2A-F569-4D3B-ACC2-511D5B08BE8A}"/>
+										<ItemList>
+											<ItemRef Name="Goth Happy" ID="{0CF21B30-E392-467A-A58C-0960C51EB2B3}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -984,7 +1279,7 @@
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1">
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.12">
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{9339CB93-FA42-4A6A-9C0F-EA4C9D3983F7}">
@@ -1220,7 +1515,7 @@
 											<PropertyList>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>30</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1482,7 +1777,7 @@
 											<PropertyList>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>15</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1744,7 +2039,7 @@
 											<PropertyList>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>30</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1771,9 +2066,294 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Magic Girl Happy" ID="{1391AF06-22A6-4A98-94B4-4CAC4FC500D8}" ShortID="557766402">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>300</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A5E62BC2-CB05-4832-88F9-57FE2485EF1A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DE0723E5-B645-42CA-8B94-6D4C68BDB1F1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.05"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Voice_MagicGirl-001" ID="{B2EBF3F9-D6DB-4C3A-8A20-3AB30FA72462}" ShortID="375671506">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>0.001</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_MagicGirl-001" ID="{A5805262-EF36-4BFB-BBE9-52AFCCF4EDF1}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_MagicGirl-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="340763941"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_MagicGirl-001" ID="{A5805262-EF36-4BFB-BBE9-52AFCCF4EDF1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_MagicGirl-002" ID="{BF2590BB-E0CA-4D8B-9509-F87D1D596347}" ShortID="277419791">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>0.001</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_MagicGirl-002" ID="{6D6FDED9-9DDA-4ACB-9D05-669B0510488C}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_MagicGirl-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="129796359"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_MagicGirl-002" ID="{6D6FDED9-9DDA-4ACB-9D05-669B0510488C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_MagicGirl-003" ID="{CF413BB0-E096-42E4-8741-D0B06871F1E5}" ShortID="835319031">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_MagicGirl-003" ID="{C56A66C4-754C-4F71-9F59-C21F8F5CD7D9}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_MagicGirl-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1060186332"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_MagicGirl-003" ID="{C56A66C4-754C-4F71-9F59-C21F8F5CD7D9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_MagicGirl-004" ID="{57BC72FE-40D8-40DC-B9B2-F9B2EB24B7F5}" ShortID="616243077">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_MagicGirl-004" ID="{70B3593A-9158-4193-892B-1DED8DAA78CC}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_MagicGirl-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="833008248"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_MagicGirl-004" ID="{70B3593A-9158-4193-892B-1DED8DAA78CC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_MagicGirl-005" ID="{F89F533D-52C3-436B-8685-96A7FB4A1D76}" ShortID="274835693">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_MagicGirl-005" ID="{E36C9949-F24C-4AD9-AEA0-2A8EB3D6A0F5}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_MagicGirl-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="736311000"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_MagicGirl-005" ID="{E36C9949-F24C-4AD9-AEA0-2A8EB3D6A0F5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_MagicGirl-006" ID="{BCA67FD3-A76D-42B2-AC30-2CE470E64C0A}" ShortID="751820635">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_MagicGirl-006" ID="{916088F5-E337-4575-AA75-6AE6995CB248}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_MagicGirl-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="305140195"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_MagicGirl-006" ID="{916088F5-E337-4575-AA75-6AE6995CB248}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_MagicGirl-007" ID="{EBF94E30-C3B0-4DE8-B927-55FC2A65BED8}" ShortID="301554767">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_MagicGirl-007" ID="{E342DB2B-9E32-446E-AB01-D492815E7396}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_MagicGirl-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="843338892"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_MagicGirl-007" ID="{E342DB2B-9E32-446E-AB01-D492815E7396}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Silence" ID="{327953D3-76BC-4559-A6DC-2CA3CD3D10B4}" ShortID="676274326">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{C24EAA96-5942-4C28-9776-FA736DE491CA}" ShortID="420595431" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.25"/>
+														<Property Name="LengthMax" Type="Real32" Value="0.25"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{C24EAA96-5942-4C28-9776-FA736DE491CA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Magic Girl Happy" ID="{1391AF06-22A6-4A98-94B4-4CAC4FC500D8}"/>
+									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Magic Girl Nervous" ID="{EC8ACF8B-7097-4BC5-AA6B-F08608F8E5A9}"/>
 									</GroupingBehavior>
@@ -1795,6 +2375,12 @@
 										<SwitchRef Name="Angry" ID="{7C0B3B18-92C4-4193-9C0F-BFA95147ABE2}"/>
 										<ItemList>
 											<ItemRef Name="Magic Girl Angry" ID="{FAF035D2-1F74-4AFB-A5F1-BFB7CFE0C6E1}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Happy" ID="{412ADC2A-F569-4D3B-ACC2-511D5B08BE8A}"/>
+										<ItemList>
+											<ItemRef Name="Magic Girl Happy" ID="{1391AF06-22A6-4A98-94B4-4CAC4FC500D8}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -2057,7 +2643,7 @@
 											<PropertyList>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>30</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2290,7 +2876,7 @@
 											<PropertyList>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>15</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2378,7 +2964,7 @@
 											<PropertyList>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>30</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2608,6 +3194,266 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Soft Gecko Happy" ID="{2CD1F0EE-719D-4A1F-8695-64291029FC91}" ShortID="263522666">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>400</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Voice_SoftGecko_Neutral-001" ID="{13F41A22-70D2-4316-96D3-413076FE3468}" ShortID="982136191">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>0.001</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_SoftGecko_Neutral-001" ID="{68B624A3-22FD-40C4-84E5-C6602CBDE7EC}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_SoftGecko_Neutral-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="730863197"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_SoftGecko_Neutral-001" ID="{68B624A3-22FD-40C4-84E5-C6602CBDE7EC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_SoftGecko_Neutral-002" ID="{0C962612-282D-43B7-87FF-244738AEA24F}" ShortID="592681622">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>0.001</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_SoftGecko_Neutral-002" ID="{E665409E-9D05-453A-8BBC-DE6D3C89C43D}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_SoftGecko_Neutral-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="168707402"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_SoftGecko_Neutral-002" ID="{E665409E-9D05-453A-8BBC-DE6D3C89C43D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_SoftGecko_Neutral-003" ID="{93BE951B-9DD8-4698-9ADB-16E2B3C7706E}" ShortID="1001497384">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_SoftGecko_Neutral-003" ID="{11521689-6CCB-4FCB-818E-69BAD7D4CB01}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_SoftGecko_Neutral-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="152936119"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_SoftGecko_Neutral-003" ID="{11521689-6CCB-4FCB-818E-69BAD7D4CB01}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_SoftGecko_Neutral-004" ID="{C04C6901-33BA-44EC-AE95-81488ECB76C0}" ShortID="649065968">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_SoftGecko_Neutral-004" ID="{3BCCEDB1-A33D-4E10-B545-3BB415C10C24}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_SoftGecko_Neutral-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="763233900"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_SoftGecko_Neutral-004" ID="{3BCCEDB1-A33D-4E10-B545-3BB415C10C24}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_SoftGecko_Neutral-005" ID="{421568EB-FE81-4706-AB73-A2DBC84FBD71}" ShortID="412159771">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_SoftGecko_Neutral-005" ID="{F5BC1066-FD77-4F79-BACB-79134D09DF5E}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_SoftGecko_Neutral-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="957307610"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_SoftGecko_Neutral-005" ID="{F5BC1066-FD77-4F79-BACB-79134D09DF5E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_SoftGecko_Neutral-006" ID="{8628C780-4092-4ECF-982D-0B54782EACB3}" ShortID="308350550">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_SoftGecko_Neutral-006" ID="{1E20E2D0-FA90-40B5-AF36-3D349E59A7A1}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_SoftGecko_Neutral-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="620495843"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_SoftGecko_Neutral-006" ID="{1E20E2D0-FA90-40B5-AF36-3D349E59A7A1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_SoftGecko_Neutral-007" ID="{60FB5281-2590-43DE-A7F6-D61EF4337324}" ShortID="691571257">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_SoftGecko_Neutral-007" ID="{12E43BF7-342B-4168-9FB7-02FE7E90E53D}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_SoftGecko_Neutral-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1068231313"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_SoftGecko_Neutral-007" ID="{12E43BF7-342B-4168-9FB7-02FE7E90E53D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="New Sound SFX" ID="{5E564ABB-3F40-4B07-A071-B49DF9B3F18A}" ShortID="100778939">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{B5851AFF-9ACB-42CC-A821-A29512B778E6}" ShortID="89087801" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.25"/>
+														<Property Name="LengthMax" Type="Real32" Value="0.25"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{B5851AFF-9ACB-42CC-A821-A29512B778E6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -2616,6 +3462,9 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Soft Gecko Angry" ID="{7BF1847D-8319-4756-AD2E-5EB0E3386401}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Soft Gecko Happy" ID="{2CD1F0EE-719D-4A1F-8695-64291029FC91}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Soft Gecko Neutral" ID="{C5505AFA-3E21-43FE-84EE-E1F54FF5B23F}"/>
@@ -2632,6 +3481,12 @@
 										<SwitchRef Name="Angry" ID="{7C0B3B18-92C4-4193-9C0F-BFA95147ABE2}"/>
 										<ItemList>
 											<ItemRef Name="Soft Gecko Angry" ID="{7BF1847D-8319-4756-AD2E-5EB0E3386401}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Happy" ID="{412ADC2A-F569-4D3B-ACC2-511D5B08BE8A}"/>
+										<ItemList>
+											<ItemRef Name="Soft Gecko Happy" ID="{2CD1F0EE-719D-4A1F-8695-64291029FC91}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -2911,7 +3766,7 @@
 											<PropertyList>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>30</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3178,7 +4033,7 @@
 											<PropertyList>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>15</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3242,7 +4097,7 @@
 											<PropertyList>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
-														<Value>25</Value>
+														<Value>30</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3472,11 +4327,279 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Mom Happy" ID="{1ACC9F10-F173-44F2-9070-0597B3907FD9}" ShortID="486212909">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>400</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Voice_Mom_Neutral-001" ID="{755D0C14-1F14-4E72-83F7-84FD0F57AD12}" ShortID="953059914">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>0.001</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Mom_Neutral-001" ID="{607FA2ED-254A-40D8-B509-1421BDC6E307}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Mom_Neutral-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="774852538"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Mom_Neutral-001" ID="{607FA2ED-254A-40D8-B509-1421BDC6E307}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_Mom_Neutral-002" ID="{491DA557-F4BD-4903-B6BE-9CA3B50E40DB}" ShortID="170614510">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>0.001</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Mom_Neutral-002" ID="{88A977EB-6C45-472B-8E57-D0B26DEC276E}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Mom_Neutral-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="59108518"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Mom_Neutral-002" ID="{88A977EB-6C45-472B-8E57-D0B26DEC276E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_Mom_Neutral-003" ID="{6C8E3CCA-8696-4276-AE28-80F4089FE4D5}" ShortID="997274857">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Mom_Neutral-003" ID="{521006D5-79D6-4344-A203-F257E5DB04F6}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Mom_Neutral-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="725839289"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Mom_Neutral-003" ID="{521006D5-79D6-4344-A203-F257E5DB04F6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_Mom_Neutral-004" ID="{81DF0735-9E4E-415B-9797-5D49A835389C}" ShortID="923763425">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Mom_Neutral-004" ID="{4CD3B5EA-8FBD-4563-AF55-5300E35896B2}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Mom_Neutral-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="603591531"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Mom_Neutral-004" ID="{4CD3B5EA-8FBD-4563-AF55-5300E35896B2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_Mom_Neutral-005" ID="{DB1A6BE0-66C1-4BA4-91B2-D2A15E2C4219}" ShortID="553654888">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Mom_Neutral-005" ID="{9C740CE1-7F5C-4456-BA6A-D261E7326741}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Mom_Neutral-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="639313634"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Mom_Neutral-005" ID="{9C740CE1-7F5C-4456-BA6A-D261E7326741}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_Mom_Neutral-006" ID="{47CC868C-7CFC-4781-BC68-E9C24DF2008B}" ShortID="505988183">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Mom_Neutral-006" ID="{8DAEC44F-E37D-4156-BA0C-7E48E4F8248E}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Mom_Neutral-006.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="116729875"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Mom_Neutral-006" ID="{8DAEC44F-E37D-4156-BA0C-7E48E4F8248E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Voice_Mom_Neutral-007" ID="{A5F3B254-6100-4F5E-8BFE-3831A1B0449A}" ShortID="767611084">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Voice_Mom_Neutral-007" ID="{6B012E2C-BA7D-4CC5-9878-18108623F090}">
+													<Language>SFX</Language>
+													<AudioFile>Voice_Mom_Neutral-007.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="352493000"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Voice_Mom_Neutral-007" ID="{6B012E2C-BA7D-4CC5-9878-18108623F090}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="New Sound SFX" ID="{26C88A01-62E9-432D-8E03-9C1CF47E25CB}" ShortID="375025039">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CD5DBA5A-118A-46B1-BB81-C2B352C06D07}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C50EC75A-E309-4C1A-BDEC-23609F8A126C}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{E43E12B2-C0A9-487A-A914-F3086BC4E376}" ShortID="601161242" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.25"/>
+														<Property Name="LengthMax" Type="Real32" Value="0.25"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{E43E12B2-C0A9-487A-A914-F3086BC4E376}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
 										<ItemRef Name="Mom Neutral" ID="{420CA305-A88A-479C-990C-8C8A14A32EAE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Mom Happy" ID="{1ACC9F10-F173-44F2-9070-0597B3907FD9}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Mom Angry" ID="{E8F8B275-3704-452F-9890-B6DAF5BF58F3}"/>
@@ -3496,6 +4619,12 @@
 										<SwitchRef Name="Angry" ID="{7C0B3B18-92C4-4193-9C0F-BFA95147ABE2}"/>
 										<ItemList>
 											<ItemRef Name="Mom Angry" ID="{E8F8B275-3704-452F-9890-B6DAF5BF58F3}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Happy" ID="{412ADC2A-F569-4D3B-ACC2-511D5B08BE8A}"/>
+										<ItemList>
+											<ItemRef Name="Mom Happy" ID="{1ACC9F10-F173-44F2-9070-0597B3907FD9}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>

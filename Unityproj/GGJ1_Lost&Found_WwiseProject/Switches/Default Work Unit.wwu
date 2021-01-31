@@ -8,6 +8,7 @@
 						<Switch Name="Neutral" ID="{74B6060F-8130-4710-904E-6D8C465B8F58}"/>
 						<Switch Name="Angry" ID="{7C0B3B18-92C4-4193-9C0F-BFA95147ABE2}"/>
 						<Switch Name="Nervous" ID="{738A3F5C-9703-4C39-AE4C-FD29B2F23A3D}"/>
+						<Switch Name="Happy" ID="{412ADC2A-F569-4D3B-ACC2-511D5B08BE8A}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Character" ID="{2DB1E8CF-B69F-4454-90D6-1897B50246CF}">

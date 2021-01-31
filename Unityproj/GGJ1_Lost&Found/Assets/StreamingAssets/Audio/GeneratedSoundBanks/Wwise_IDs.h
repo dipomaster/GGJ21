@@ -59,6 +59,7 @@ namespace AK
             namespace SWITCH
             {
                 static const AkUniqueID ANGRY = 1206605712U;
+                static const AkUniqueID HAPPY = 1427264549U;
                 static const AkUniqueID NERVOUS = 1717373301U;
                 static const AkUniqueID NEUTRAL = 670611050U;
             } // namespace SWITCH

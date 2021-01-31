@@ -18,16 +18,21 @@ Switch	ID	Name	Switch Group			Notes
 	4269433141	Soft_Gecko	Character			
 	670611050	Neutral	Emotion			
 	1206605712	Angry	Emotion			
+	1427264549	Happy	Emotion			
 	1717373301	Nervous	Emotion			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	89087801	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Soft Gecko\Soft Gecko Happy\New Sound SFX\Wwise Silence	
 	141569437	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Mom\Mom Nervous\New Sound SFX\Wwise Silence	
 	147377480	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Mom\Mom Angry\New Sound SFX\Wwise Silence	
+	193090570	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Happy\Silence\Wwise Silence	
 	223800865	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Angry\New Sound SFX\Wwise Silence	
+	420595431	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Happy\Silence\Wwise Silence	
 	428529380	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Neutral\Silence\Wwise Silence	
 	436620149	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Mom\Mom Neutral\New Sound SFX\Wwise Silence	
 	500294116	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Neutral\Silence\Wwise Silence	
 	570845348	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Goth\Goth Angry\New Sound SFX\Wwise Silence	
+	601161242	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Mom\Mom Happy\New Sound SFX\Wwise Silence	
 	637290559	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Soft Gecko\Soft Gecko Angry\New Sound SFX\Wwise Silence	
 	643128376	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Magic Girl\Magic Girl Nervous\New Sound SFX\Wwise Silence	
 	671209186	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Dialogue\Character\Soft Gecko\Soft Gecko Neutral\New Sound SFX\Wwise Silence	
