@@ -9,8 +9,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 115102, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
       propertyPath: m_Name
-      value: MenuDialog
+      value: MainMenuDialog
       objectReference: {fileID: 0}
+    - target: {fileID: 11472138, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 4ae04090e41f79345981f2960661d4c3, type: 3}
+    - target: {fileID: 11472140, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 4ae04090e41f79345981f2960661d4c3, type: 3}
     - target: {fileID: 22415094, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

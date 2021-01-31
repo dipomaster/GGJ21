@@ -11,6 +11,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayDialog
       objectReference: {fileID: 0}
+    - target: {fileID: 11472138, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 4ae04090e41f79345981f2960661d4c3, type: 3}
+    - target: {fileID: 11472140, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 4ae04090e41f79345981f2960661d4c3, type: 3}
     - target: {fileID: 22315124, guid: 9bb64c8df70904eecac3f71f81bf339b, type: 3}
       propertyPath: m_SortingOrder
       value: 5

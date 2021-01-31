@@ -32,6 +32,8 @@ public class AkMusicEmitter : MonoBehaviour
         {
             if(GameObject.Find("NPC")!=null)
             flowchrt = GameObject.Find("A_interaction");
+            else if(GameObject.Find("A_interaction") == null)
+                flowchrt = GameObject.Find("intro");
             else
             flowchrt = GameObject.Find("Menu");
         }

@@ -1539,7 +1539,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000740
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1556,7 +1556,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000741
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1706,6 +1706,24 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1148000742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148000724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 330
+  indentLevel: 0
+  targetObject: {fileID: 0}
+  GOname: AkMusicEmitter
+  methodName: PlayMusic
+  delay: 0
 --- !u!114 &1148000743 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 411634252567093499, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
@@ -2500,6 +2518,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1148000873, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: methodName
+      value: PlayMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000873, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 0}
@@ -2761,7 +2783,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.size
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[1]
@@ -2774,41 +2796,45 @@ PrefabInstance:
     - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 1148000750}
+      objectReference: {fileID: 1148000749}
     - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 1148000752}
+      objectReference: {fileID: 1148000750}
     - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 1148000749}
+      objectReference: {fileID: 1148000752}
     - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 1148000880}
+      objectReference: {fileID: 1148000742}
     - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 1148000751}
+      objectReference: {fileID: 1148000880}
     - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 1148000869}
+      objectReference: {fileID: 1148000751}
     - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[9]
       value: 
-      objectReference: {fileID: 1148000867}
+      objectReference: {fileID: 1148000869}
     - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[10]
       value: 
-      objectReference: {fileID: 1148000868}
+      objectReference: {fileID: 1148000867}
     - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[11]
       value: 
-      objectReference: {fileID: 1527115617}
+      objectReference: {fileID: 1148000868}
     - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[12]
+      value: 
+      objectReference: {fileID: 1527115617}
+    - target: {fileID: 5318334156647351110, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: commandList.Array.data[13]
       value: 
       objectReference: {fileID: 1148000725}
     - target: {fileID: 5318334156647351111, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}

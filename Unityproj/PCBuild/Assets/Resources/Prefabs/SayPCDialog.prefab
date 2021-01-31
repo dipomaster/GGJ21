@@ -22,7 +22,7 @@ PrefabInstance:
     - target: {fileID: 11488896, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: b2f6b6213954c374e9e2021c0d804c3e, type: 3}
+      objectReference: {fileID: 12800000, guid: 4ae04090e41f79345981f2960661d4c3, type: 3}
     - target: {fileID: 11488904, guid: 8a005a9e0713f4cc1b5ad29fb07657d3, type: 3}
       propertyPath: m_Sprite
       value: 
