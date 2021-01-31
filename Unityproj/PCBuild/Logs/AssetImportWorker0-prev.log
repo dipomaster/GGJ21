@@ -15,11 +15,11 @@ F:/Dev/Unity/GGJ21/Unityproj/PCBuild
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63074
+63684
 Successfully changed project path to: F:/Dev/Unity/GGJ21/Unityproj/PCBuild
 F:/Dev/Unity/GGJ21/Unityproj/PCBuild
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 87.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,30 +35,30 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002988 seconds.
+Registered in 0.002862 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.118 seconds
+- Completed reload, in  2.259 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010844 seconds.
+Registered in 0.010626 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 67.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
 The file 'Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset' seems to have merge conflicts. Please open it in a text editor and fix the merge.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.AssetDatabase:LoadAssetAtPath<AkWwiseProjectData> (string)
@@ -90,106 +90,155 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.838 seconds
+- Completed reload, in  1.544 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2920 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 117.9 MB.
-System memory in use after: 117.9 MB.
+System memory in use after: 118.0 MB.
 
 Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3259.
-Total: 4.524200 ms (FindLiveObjects: 0.395300 ms CreateObjectMapping: 0.266400 ms MarkObjects: 3.190400 ms  DeleteObjects: 0.669900 ms)
+Total: 3.664800 ms (FindLiveObjects: 0.365400 ms CreateObjectMapping: 0.258500 ms MarkObjects: 2.854100 ms  DeleteObjects: 0.184900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/Scenes
-  artifactKey: Guid(4ee5e7212001c504d8531aed231d4463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes using Guid(4ee5e7212001c504d8531aed231d4463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca821a9389a1e64cbfea9ed6469a245') in 0.010940 seconds
-  Import took 0.017276 seconds .
+  path: Assets/Resources/Scenes/Dialogue_Ready.unity
+  artifactKey: Guid(a69974e4070cc2148ba88fd59b1e1ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Dialogue_Ready.unity using Guid(a69974e4070cc2148ba88fd59b1e1ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b605e477e39f88393ca5190404b5581') in 0.018476 seconds
+  Import took 0.024321 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Resources/Scenes/CHR2Goth.unity
-  artifactKey: Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR2Goth.unity using Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce80533e19112a096ef3dec3fea4707') in 0.019897 seconds
-  Import took 0.024552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.459184 seconds.
-  path: Assets/Resources/Scenes/CHR1MagicalGirl.unity
-  artifactKey: Guid(8ebc7f6d354a72e4eae1502e37486732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR1MagicalGirl.unity using Guid(8ebc7f6d354a72e4eae1502e37486732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2deee2e53c0bdf3af7b63f38a697b96') in 0.011225 seconds
-  Import took 0.017925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.182150 seconds.
-  path: Assets/Resources/Prefabs
-  artifactKey: Guid(eff8b44fa171b094298ee13048bea361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs using Guid(eff8b44fa171b094298ee13048bea361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be31e96038c9747fa70a8b621d70c781') in 0.009346 seconds
-  Import took 0.013917 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012795 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
-
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.676 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.0 MB.
-System memory in use after: 119.1 MB.
-
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3263.
-Total: 4.630500 ms (FindLiveObjects: 0.547900 ms CreateObjectMapping: 0.287500 ms MarkObjects: 3.591000 ms  DeleteObjects: 0.202100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 218.774441 seconds.
+  Time since last request: 0.000177 seconds.
   path: Assets/Resources/Scenes/CHR3Gecko.unity
   artifactKey: Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR3Gecko.unity using Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121a15140009c4410b2e3a50062332fd') in 0.026648 seconds
-  Import took 0.033044 seconds .
+Start importing Assets/Resources/Scenes/CHR3Gecko.unity using Guid(cb8825e313cc34a48b1b848a823a397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5437a1eaefcd5f2189bd7ba5ee89d4') in 0.013113 seconds
+  Import took 0.018422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Resources/Scenes/CHR2Goth.unity
+  artifactKey: Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/CHR2Goth.unity using Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c2c7b2d1a0112213afa62855a0abab') in 0.012648 seconds
+  Import took 0.021689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/Scenes/CHR4Penguin.unity
+  artifactKey: Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/CHR4Penguin.unity using Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eff885e75f9c8b35a9cb0e8de5df5fa') in 0.010652 seconds
+  Import took 0.019914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.835194 seconds.
+  path: Assets/Resources/Scenes/Start.unity
+  artifactKey: Guid(9a5ae8ed798b8bf4a853589ca7d23dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Start.unity using Guid(9a5ae8ed798b8bf4a853589ca7d23dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46008293c7e32d75ce6fe2c60224c0be') in 0.007782 seconds
+  Import took 0.023745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.669951 seconds.
+  path: Assets/FungusExamples/TheFacility/Fonts/aleo/Aleo-Regular.otf
+  artifactKey: Guid(43bce127d27b74a66a29b68d0de90ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/TheFacility/Fonts/aleo/Aleo-Regular.otf using Guid(43bce127d27b74a66a29b68d0de90ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a5ea71b98e1a7170847b11149f4ff7') in 0.170520 seconds
+  Import took 0.179857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Fungus/Fonts/Exo2/Exo2-Bold.ttf
+  artifactKey: Guid(38fb69338d588b64ea5f2c219db3056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Fonts/Exo2/Exo2-Bold.ttf using Guid(38fb69338d588b64ea5f2c219db3056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62733e0c3b5005f841683f1060dd076') in 0.032512 seconds
+  Import took 0.041430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Fungus/Fonts/Amaranth/Amaranth-Bold.otf
+  artifactKey: Guid(64bd3e45f7a714f16b3c213f55f17fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Fonts/Amaranth/Amaranth-Bold.otf using Guid(64bd3e45f7a714f16b3c213f55f17fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb9f5aa20cef370dbfcbff9b0fc390d') in 0.025732 seconds
+  Import took 0.036742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Fungus/Fonts/Exo2/Exo2-Regular.ttf
+  artifactKey: Guid(79197ecfbc3a4294a89ce589dac02cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Fonts/Exo2/Exo2-Regular.ttf using Guid(79197ecfbc3a4294a89ce589dac02cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad342cdd975b46e4f7f6984cc8947172') in 0.026919 seconds
+  Import took 0.033893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/FungusExamples/TheFacility/Fonts/aleo/Aleo-Regular.otf
+  artifactKey: Guid(43bce127d27b74a66a29b68d0de90ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FungusExamples/TheFacility/Fonts/aleo/Aleo-Regular.otf using Guid(43bce127d27b74a66a29b68d0de90ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a5ea71b98e1a7170847b11149f4ff7') in 0.017637 seconds
+  Import took 0.026176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Fungus/Fonts/Amaranth/Amaranth-BoldItalic.otf
+  artifactKey: Guid(30083fe2d35a6490b8f1e57e0d830527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Fonts/Amaranth/Amaranth-BoldItalic.otf using Guid(30083fe2d35a6490b8f1e57e0d830527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1036b95228af8c772f67a1583114116') in 0.025075 seconds
+  Import took 0.031433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Fungus/Fonts/Amaranth/Amaranth-Italic.otf
+  artifactKey: Guid(b4e86052de8904394807b3f10e18a9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Fonts/Amaranth/Amaranth-Italic.otf using Guid(b4e86052de8904394807b3f10e18a9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db61d327020234f068ef32ab1bf5c0de') in 0.025553 seconds
+  Import took 0.033664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Fungus/Fonts/Amaranth/Amaranth-Regular.otf
+  artifactKey: Guid(bb145366ce7024469a5758b08d31802c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Fonts/Amaranth/Amaranth-Regular.otf using Guid(bb145366ce7024469a5758b08d31802c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edc177a342ac3229e1acf6ec46d080c') in 0.027361 seconds
+  Import took 0.036665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Fungus/Fonts/Amaranth/Amaranth-Italic.otf
+  artifactKey: Guid(b4e86052de8904394807b3f10e18a9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fungus/Fonts/Amaranth/Amaranth-Italic.otf using Guid(b4e86052de8904394807b3f10e18a9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db61d327020234f068ef32ab1bf5c0de') in 0.026703 seconds
+  Import took 0.034806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.319321 seconds.
+  path: Assets/Resources/Scenes/Intro.unity
+  artifactKey: Guid(4be1b390baabeb54c8a43a7533c8b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Intro.unity using Guid(4be1b390baabeb54c8a43a7533c8b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8127ecc387488c3edc8fdaf4a7cc2bb1') in 0.010467 seconds
+  Import took 0.015620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.974264 seconds.
+  path: Assets/Resources/Scenes/End.unity
+  artifactKey: Guid(e148864244fe60e4a9b1cbbe7d8b36fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/End.unity using Guid(e148864244fe60e4a9b1cbbe7d8b36fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4c787154b167b7142b51996bdbe563') in 0.008659 seconds
+  Import took 0.021008 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013223 seconds.
+Registered in 0.011252 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -210,111 +259,214 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.770 seconds
+- Completed reload, in  1.426 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.2 MB.
-System memory in use after: 119.3 MB.
+System memory in use before: 122.1 MB.
+System memory in use after: 122.2 MB.
 
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3267.
-Total: 4.571700 ms (FindLiveObjects: 0.436600 ms CreateObjectMapping: 0.325100 ms MarkObjects: 2.977400 ms  DeleteObjects: 0.829900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011894 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
-
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.840 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.6 MB.
-System memory in use after: 119.7 MB.
-
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3271.
-Total: 5.252900 ms (FindLiveObjects: 0.362400 ms CreateObjectMapping: 0.402700 ms MarkObjects: 4.250800 ms  DeleteObjects: 0.235100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.031479 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
-
-Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.375 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.9 MB.
-System memory in use after: 120.0 MB.
-
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3275.
-Total: 7.974900 ms (FindLiveObjects: 0.683000 ms CreateObjectMapping: 0.288000 ms MarkObjects: 5.819900 ms  DeleteObjects: 1.181800 ms)
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3307.
+Total: 4.825000 ms (FindLiveObjects: 0.400800 ms CreateObjectMapping: 0.519600 ms MarkObjects: 3.718000 ms  DeleteObjects: 0.184800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 135.328682 seconds.
-  path: Assets/Resources/Scenes/CHR4Penguin.unity
-  artifactKey: Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR4Penguin.unity using Guid(3b024dbc51a080c47b4b3334284df75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acab2872d64952d06e6b234016a192c4') in 0.024947 seconds
-  Import took 0.035164 seconds .
+  Time since last request: 59.536769 seconds.
+  path: Assets/Resources/Assets/UI/Intro(1).otf
+  artifactKey: Guid(4ae04090e41f79345981f2960661d4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/Intro(1).otf using Guid(4ae04090e41f79345981f2960661d4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16d4043e592340d9da87da17d284cb1') in 0.113034 seconds
+  Import took 0.120400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001301 seconds.
+  path: Assets/Resources/Assets/UI/Intro(1).otf
+  artifactKey: Guid(4ae04090e41f79345981f2960661d4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Assets/UI/Intro(1).otf using Guid(4ae04090e41f79345981f2960661d4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16d4043e592340d9da87da17d284cb1') in 0.019287 seconds
+  Import took 0.026937 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.025543 seconds.
+Registered in 0.012459 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.594 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.5 MB.
+System memory in use after: 122.6 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3313.
+Total: 4.107300 ms (FindLiveObjects: 0.528400 ms CreateObjectMapping: 0.397400 ms MarkObjects: 2.900700 ms  DeleteObjects: 0.279200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.052816 seconds.
+  path: Assets/Resources/Prefabs/SayPCDialog.prefab
+  artifactKey: Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/SayPCDialog.prefab using Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40067cd042dea0171275955721ac477d') in 0.077382 seconds
+  Import took 0.083968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.132737 seconds.
+  path: Assets/Resources/Prefabs/PlayDialog.prefab
+  artifactKey: Guid(56483aff07e2ef34b980860e0798cd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/PlayDialog.prefab using Guid(56483aff07e2ef34b980860e0798cd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298854db9cce0edf5d1ac9e4d4c4552a') in 0.039223 seconds
+  Import took 0.044582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.838271 seconds.
+  path: Assets/Resources/Prefabs/PlayDialog.prefab
+  artifactKey: Guid(56483aff07e2ef34b980860e0798cd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/PlayDialog.prefab using Guid(56483aff07e2ef34b980860e0798cd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa6abdf72011cc4f133a219f8434f9a') in 0.010999 seconds
+  Import took 0.016602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075541 seconds.
+  path: Assets/Resources/Prefabs/PlayDialog.prefab
+  artifactKey: Guid(56483aff07e2ef34b980860e0798cd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/PlayDialog.prefab using Guid(56483aff07e2ef34b980860e0798cd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa6abdf72011cc4f133a219f8434f9a') in 0.013353 seconds
+  Import took 0.018899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.813892 seconds.
+  path: Assets/Resources/Prefabs/MainMenuDialog.prefab
+  artifactKey: Guid(44acf8882ddaa2c44b17df9dab021cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/MainMenuDialog.prefab using Guid(44acf8882ddaa2c44b17df9dab021cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1975e6fbf3f386aba53fe825a351a07a') in 0.021350 seconds
+  Import took 0.028704 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010279 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.569 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.0 MB.
+System memory in use after: 123.1 MB.
+
+Unloading 120 unused Assets to reduce memory usage. Loaded Objects now: 3319.
+Total: 3.657200 ms (FindLiveObjects: 0.359400 ms CreateObjectMapping: 0.258400 ms MarkObjects: 2.861900 ms  DeleteObjects: 0.176000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010172 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.3 MB.
+System memory in use after: 123.4 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3323.
+Total: 4.082000 ms (FindLiveObjects: 0.856700 ms CreateObjectMapping: 0.305800 ms MarkObjects: 2.752700 ms  DeleteObjects: 0.165400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.646034 seconds.
+  path: Assets/Resources/Scenes/Main.unity
+  artifactKey: Guid(175d593186d37a847b2ae35de28be6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Main.unity using Guid(175d593186d37a847b2ae35de28be6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc24d719c2f12577ff544579f15ef3f') in 0.019852 seconds
+  Import took 0.025500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.563294 seconds.
+  path: Assets/Resources/Scenes/CHR1MagicalGirl.unity
+  artifactKey: Guid(8ebc7f6d354a72e4eae1502e37486732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/CHR1MagicalGirl.unity using Guid(8ebc7f6d354a72e4eae1502e37486732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2deee2e53c0bdf3af7b63f38a697b96') in 0.010488 seconds
+  Import took 0.016867 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010419 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -335,240 +487,33 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.820 seconds
+- Completed reload, in  1.467 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.2 MB.
-System memory in use after: 120.4 MB.
-
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3279.
-Total: 6.497400 ms (FindLiveObjects: 0.759100 ms CreateObjectMapping: 0.332900 ms MarkObjects: 5.123000 ms  DeleteObjects: 0.281100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 112.333119 seconds.
-  path: Assets/Resources/Scenes/Start.unity
-  artifactKey: Guid(9a5ae8ed798b8bf4a853589ca7d23dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/Start.unity using Guid(9a5ae8ed798b8bf4a853589ca7d23dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46008293c7e32d75ce6fe2c60224c0be') in 0.026197 seconds
-  Import took 0.033889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.629430 seconds.
-  path: Assets/Resources/Assets/UI
-  artifactKey: Guid(f6f8bbedb8e42944f99d310a4b836fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Assets/UI using Guid(f6f8bbedb8e42944f99d310a4b836fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2717ccb1bc74ca1bf30f0a565c944988') in 0.012134 seconds
-  Import took 0.017123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.967232 seconds.
-  path: Assets/Fungus/Fonts/Amaranth/Amaranth-Bold.otf
-  artifactKey: Guid(64bd3e45f7a714f16b3c213f55f17fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Fonts/Amaranth/Amaranth-Bold.otf using Guid(64bd3e45f7a714f16b3c213f55f17fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb9f5aa20cef370dbfcbff9b0fc390d') in 0.300987 seconds
-  Import took 0.312288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Resources/Assets/UI/Intro(1).otf
-  artifactKey: Guid(b2f6b6213954c374e9e2021c0d804c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Assets/UI/Intro(1).otf using Guid(b2f6b6213954c374e9e2021c0d804c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6032961c4db171a40e27d04bc943b1da') in 0.034073 seconds
-  Import took 0.045280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Fungus/Fonts/Exo2/Exo2-Bold.ttf
-  artifactKey: Guid(38fb69338d588b64ea5f2c219db3056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Fonts/Exo2/Exo2-Bold.ttf using Guid(38fb69338d588b64ea5f2c219db3056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62733e0c3b5005f841683f1060dd076') in 0.070880 seconds
-  Import took 0.080043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Fungus/Fonts/Amaranth/Amaranth-Bold.otf
-  artifactKey: Guid(64bd3e45f7a714f16b3c213f55f17fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Fonts/Amaranth/Amaranth-Bold.otf using Guid(64bd3e45f7a714f16b3c213f55f17fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb9f5aa20cef370dbfcbff9b0fc390d') in 0.031926 seconds
-  Import took 0.042348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Fungus/Fonts/Exo2/Exo2-Regular.ttf
-  artifactKey: Guid(79197ecfbc3a4294a89ce589dac02cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Fonts/Exo2/Exo2-Regular.ttf using Guid(79197ecfbc3a4294a89ce589dac02cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad342cdd975b46e4f7f6984cc8947172') in 0.036997 seconds
-  Import took 0.044616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000978 seconds.
-  path: Assets/Fungus/Fonts/Amaranth/Amaranth-BoldItalic.otf
-  artifactKey: Guid(30083fe2d35a6490b8f1e57e0d830527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Fonts/Amaranth/Amaranth-BoldItalic.otf using Guid(30083fe2d35a6490b8f1e57e0d830527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1036b95228af8c772f67a1583114116') in 0.038146 seconds
-  Import took 0.051748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Fungus/Fonts/Amaranth/Amaranth-Italic.otf
-  artifactKey: Guid(b4e86052de8904394807b3f10e18a9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Fonts/Amaranth/Amaranth-Italic.otf using Guid(b4e86052de8904394807b3f10e18a9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db61d327020234f068ef32ab1bf5c0de') in 0.029439 seconds
-  Import took 0.038866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Fungus/Fonts/Amaranth/Amaranth-Regular.otf
-  artifactKey: Guid(bb145366ce7024469a5758b08d31802c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Fonts/Amaranth/Amaranth-Regular.otf using Guid(bb145366ce7024469a5758b08d31802c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edc177a342ac3229e1acf6ec46d080c') in 0.039793 seconds
-  Import took 0.051163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Fungus/Fonts/Amaranth/Amaranth-Italic.otf
-  artifactKey: Guid(b4e86052de8904394807b3f10e18a9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Fonts/Amaranth/Amaranth-Italic.otf using Guid(b4e86052de8904394807b3f10e18a9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db61d327020234f068ef32ab1bf5c0de') in 0.039050 seconds
-  Import took 0.048791 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015333 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
-AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
-AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
-AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
-
-Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.860 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.1 MB.
-System memory in use after: 123.3 MB.
+System memory in use before: 123.7 MB.
+System memory in use after: 123.8 MB.
 
 Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3327.
-Total: 5.174700 ms (FindLiveObjects: 0.456700 ms CreateObjectMapping: 0.284700 ms MarkObjects: 4.262900 ms  DeleteObjects: 0.168400 ms)
+Total: 5.207100 ms (FindLiveObjects: 0.784800 ms CreateObjectMapping: 0.363200 ms MarkObjects: 3.796700 ms  DeleteObjects: 0.260800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.640494 seconds.
-  path: Assets/Resources/Scenes/CHR2Goth.unity
-  artifactKey: Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/CHR2Goth.unity using Guid(b162fae2f6f04c645961960ce183cd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c2c7b2d1a0112213afa62855a0abab') in 0.023901 seconds
-  Import took 0.031406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.245926 seconds.
-  path: Assets/Resources/Prefabs/SayPCDialog.prefab
-  artifactKey: Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/SayPCDialog.prefab using Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b4374b72bc90850b1d4d59e91d6144') in 0.055919 seconds
-  Import took 0.062467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017071 seconds.
-  path: Assets/Resources/Prefabs/SayPCDialog.prefab
-  artifactKey: Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/SayPCDialog.prefab using Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b4374b72bc90850b1d4d59e91d6144') in 0.112483 seconds
-  Import took 0.118268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.467596 seconds.
-  path: Assets/Resources/Prefabs/PlayDialog.prefab
-  artifactKey: Guid(56483aff07e2ef34b980860e0798cd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/PlayDialog.prefab using Guid(56483aff07e2ef34b980860e0798cd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3eaa964c10ccd5ca2c6ae4fd9bda00') in 0.032533 seconds
-  Import took 0.043724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.729447 seconds.
-  path: Assets/Resources/Prefabs/ConvDialog.prefab
-  artifactKey: Guid(58f203ef3105b2b4b8e8d349da69a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/ConvDialog.prefab using Guid(58f203ef3105b2b4b8e8d349da69a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cb9418c5dc0968fbb51d4e1538b902') in 0.024158 seconds
-  Import took 0.030546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Resources/Prefabs/ConvDialog.prefab
-  artifactKey: Guid(58f203ef3105b2b4b8e8d349da69a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/ConvDialog.prefab using Guid(58f203ef3105b2b4b8e8d349da69a62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cb9418c5dc0968fbb51d4e1538b902') in 0.097978 seconds
-  Import took 0.113352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.712222 seconds.
-  path: Assets/Resources/Prefabs/UI_Canvas.prefab
-  artifactKey: Guid(dea5a211a975a7845b63043607f238c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/UI_Canvas.prefab using Guid(dea5a211a975a7845b63043607f238c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c995c5a7b833314ec44a781700cd85f9') in 0.101058 seconds
-  Import took 0.109427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.207325 seconds.
-  path: Assets/FungusExamples/TheFacility/Fonts/aleo/Aleo-Regular.otf
-  artifactKey: Guid(43bce127d27b74a66a29b68d0de90ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FungusExamples/TheFacility/Fonts/aleo/Aleo-Regular.otf using Guid(43bce127d27b74a66a29b68d0de90ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a5ea71b98e1a7170847b11149f4ff7') in 0.373590 seconds
-  Import took 0.379525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005808 seconds.
-  path: Assets/FungusExamples/TheFacility/Fonts/aleo/Aleo-Regular.otf
-  artifactKey: Guid(43bce127d27b74a66a29b68d0de90ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FungusExamples/TheFacility/Fonts/aleo/Aleo-Regular.otf using Guid(43bce127d27b74a66a29b68d0de90ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a5ea71b98e1a7170847b11149f4ff7') in 0.016042 seconds
-  Import took 0.022096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.675710 seconds.
-  path: Assets/Resources/Prefabs/SayPCDialog.prefab
-  artifactKey: Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/SayPCDialog.prefab using Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc52844761bfe81a92709fa56c54d6b') in 0.010589 seconds
-  Import took 0.016935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058220 seconds.
-  path: Assets/Resources/Prefabs/SayPCDialog.prefab
-  artifactKey: Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/SayPCDialog.prefab using Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc52844761bfe81a92709fa56c54d6b') in 0.012775 seconds
-  Import took 0.018564 seconds .
+  Time since last request: 70.457800 seconds.
+  path: Assets/Resources/Scenes/Intro.unity
+  artifactKey: Guid(4be1b390baabeb54c8a43a7533c8b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Intro.unity using Guid(4be1b390baabeb54c8a43a7533c8b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6362f61149e19a44e98fe479bcb2e47') in 0.016094 seconds
+  Import took 0.024869 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012616 seconds.
+Registered in 0.009687 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -584,30 +529,30 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
 
-Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.413 seconds
+- Completed reload, in  1.529 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 123.8 MB.
 System memory in use after: 123.9 MB.
 
-Unloading 121 unused Assets to reduce memory usage. Loaded Objects now: 3335.
-Total: 4.349800 ms (FindLiveObjects: 0.405500 ms CreateObjectMapping: 0.276100 ms MarkObjects: 3.492400 ms  DeleteObjects: 0.174700 ms)
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3331.
+Total: 4.167000 ms (FindLiveObjects: 0.361200 ms CreateObjectMapping: 0.259700 ms MarkObjects: 3.375100 ms  DeleteObjects: 0.169400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009550 seconds.
+Registered in 0.018682 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -623,12 +568,12 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
 
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.446 seconds
+- Completed reload, in  6.311 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -636,33 +581,17 @@ Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 123.2 MB.
 System memory in use after: 123.3 MB.
 
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3339.
-Total: 4.181100 ms (FindLiveObjects: 0.384100 ms CreateObjectMapping: 0.324700 ms MarkObjects: 3.289400 ms  DeleteObjects: 0.181400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.334687 seconds.
-  path: Assets/Resources/Prefabs/SayPCDialog.prefab
-  artifactKey: Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/SayPCDialog.prefab using Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfbc4ef1a84b144813a638320324e14') in 0.059687 seconds
-  Import took 0.065779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029680 seconds.
-  path: Assets/Resources/Prefabs/SayPCDialog.prefab
-  artifactKey: Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/SayPCDialog.prefab using Guid(7b433dcde03490c44884c0f59ec05171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfbc4ef1a84b144813a638320324e14') in 0.010799 seconds
-  Import took 0.018116 seconds .
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3335.
+Total: 4.202100 ms (FindLiveObjects: 0.431200 ms CreateObjectMapping: 0.398700 ms MarkObjects: 3.142200 ms  DeleteObjects: 0.228200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010777 seconds.
+Registered in 0.032617 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -678,30 +607,30 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
 
-Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.409 seconds
+- Completed reload, in  1.591 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.5 MB.
-System memory in use after: 123.6 MB.
+System memory in use before: 123.6 MB.
+System memory in use after: 123.7 MB.
 
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3343.
-Total: 3.701900 ms (FindLiveObjects: 0.356200 ms CreateObjectMapping: 0.246100 ms MarkObjects: 2.918100 ms  DeleteObjects: 0.180300 ms)
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3339.
+Total: 3.718700 ms (FindLiveObjects: 0.445900 ms CreateObjectMapping: 0.309900 ms MarkObjects: 2.793800 ms  DeleteObjects: 0.167400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009522 seconds.
+Registered in 0.015485 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -717,30 +646,38 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
 
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.341 seconds
+- Completed reload, in  1.731 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 123.8 MB.
-System memory in use after: 123.9 MB.
+System memory in use after: 124.0 MB.
 
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3347.
-Total: 4.129800 ms (FindLiveObjects: 0.464600 ms CreateObjectMapping: 0.331300 ms MarkObjects: 3.160500 ms  DeleteObjects: 0.171900 ms)
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3343.
+Total: 4.063400 ms (FindLiveObjects: 0.362000 ms CreateObjectMapping: 0.442100 ms MarkObjects: 3.089600 ms  DeleteObjects: 0.168200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 286.757770 seconds.
+  path: Assets/Resources/Scenes/Intro.unity
+  artifactKey: Guid(4be1b390baabeb54c8a43a7533c8b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Intro.unity using Guid(4be1b390baabeb54c8a43a7533c8b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1e4dfbc2ede9e8f92d6be28cecde78') in 0.017086 seconds
+  Import took 0.024840 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014708 seconds.
+Registered in 0.027911 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -756,27 +693,208 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
 
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.229 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.6 MB.
+System memory in use after: 123.7 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3347.
+Total: 5.495700 ms (FindLiveObjects: 0.500800 ms CreateObjectMapping: 0.279400 ms MarkObjects: 4.501100 ms  DeleteObjects: 0.212300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015086 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.372 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.0 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3351.
+Total: 13.584200 ms (FindLiveObjects: 0.516600 ms CreateObjectMapping: 0.264900 ms MarkObjects: 12.371600 ms  DeleteObjects: 0.429200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.472092 seconds.
+  path: Assets/Resources/Scenes/Intro.unity
+  artifactKey: Guid(4be1b390baabeb54c8a43a7533c8b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Intro.unity using Guid(4be1b390baabeb54c8a43a7533c8b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e21932e798eca4ca20602d8e1308364') in 0.020161 seconds
+  Import took 0.030577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.184941 seconds.
+  path: Assets/Resources/Scripts/AkMusicEmitter.cs
+  artifactKey: Guid(67e04baf61412f747a7d44e2cf360251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/AkMusicEmitter.cs using Guid(67e04baf61412f747a7d44e2cf360251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33adb98fa94aa66c3dfde4fab02381e') in 0.013118 seconds
+  Import took 0.022540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011301 seconds.
+  path: Assets/Resources/Scripts/AkMusicEmitter.cs
+  artifactKey: Guid(67e04baf61412f747a7d44e2cf360251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/AkMusicEmitter.cs using Guid(67e04baf61412f747a7d44e2cf360251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33adb98fa94aa66c3dfde4fab02381e') in 0.006251 seconds
+  Import took 0.012364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.584970 seconds.
+  path: Assets/Resources/Scenes/Start.unity
+  artifactKey: Guid(9a5ae8ed798b8bf4a853589ca7d23dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scenes/Start.unity using Guid(9a5ae8ed798b8bf4a853589ca7d23dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc420d96fd65c9814a503e2c0bcdedf8') in 0.009770 seconds
+  Import took 0.016056 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.492 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.3 MB.
+System memory in use after: 123.5 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3355.
+Total: 4.977000 ms (FindLiveObjects: 0.366200 ms CreateObjectMapping: 0.278200 ms MarkObjects: 3.970400 ms  DeleteObjects: 0.360100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011172 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.0 MB.
+
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3359.
+Total: 4.458000 ms (FindLiveObjects: 0.375400 ms CreateObjectMapping: 0.565800 ms MarkObjects: 3.343800 ms  DeleteObjects: 0.170800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010162 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WwiseUnity: Unable to load asset at <F:/Dev/Unity/GGJ21/Unityproj/PCBuild/Assets\Wwise\Editor\ProjectData\AkWwiseProjectData.asset>.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+AkWwiseProjectInfo:GetData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs:46)
+AkWwiseWWUBuilder:GatherModifiedFiles () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:376)
+AkWwiseWWUBuilder:InitializeWwiseProjectData () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:69)
+AkWwiseWWUBuilder:.cctor () (at Assets/Wwise/Editor/WwiseWindows/AkWwiseWWUBuilder.cs:285)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Wwise/Editor/WwiseWindows/AkWwiseProjectInfo.cs Line: 46)
+
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.414 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2904 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.0 MB.
-System memory in use after: 123.1 MB.
+System memory in use before: 123.2 MB.
+System memory in use after: 123.3 MB.
 
-Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3351.
-Total: 3.651000 ms (FindLiveObjects: 0.346100 ms CreateObjectMapping: 0.236600 ms MarkObjects: 2.907600 ms  DeleteObjects: 0.159300 ms)
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3363.
+Total: 5.178100 ms (FindLiveObjects: 1.308900 ms CreateObjectMapping: 0.293500 ms MarkObjects: 3.395900 ms  DeleteObjects: 0.177500 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 153.087319 seconds.
-  path: Assets/Resources/Scenes/Intro.unity
-  artifactKey: Guid(4be1b390baabeb54c8a43a7533c8b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Scenes/Intro.unity using Guid(4be1b390baabeb54c8a43a7533c8b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8127ecc387488c3edc8fdaf4a7cc2bb1') in 0.023300 seconds
-  Import took 0.029020 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

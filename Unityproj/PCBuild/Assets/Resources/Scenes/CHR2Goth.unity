@@ -467,7 +467,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1148000725
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -477,14 +477,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9232e9295ed476a8cfb707b5c242b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 325
+  itemId: 332
   indentLevel: 0
   frameCount:
     integerRef: {fileID: 0}
     integerVal: 1
 --- !u!114 &1148000726
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -494,7 +494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 324
+  itemId: 333
   indentLevel: 0
   anyVar:
     variable: {fileID: 1527115604}
@@ -636,7 +636,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000727
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -646,14 +646,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9232e9295ed476a8cfb707b5c242b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 323
+  itemId: 334
   indentLevel: 0
   frameCount:
     integerRef: {fileID: 0}
     integerVal: 1
 --- !u!114 &1148000728
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -663,7 +663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 322
+  itemId: 335
   indentLevel: 0
   anyVar:
     variable: {fileID: 1527115604}
@@ -805,7 +805,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000729
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -815,14 +815,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9232e9295ed476a8cfb707b5c242b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 321
+  itemId: 336
   indentLevel: 0
   frameCount:
     integerRef: {fileID: 0}
     integerVal: 1
 --- !u!114 &1148000730
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -832,7 +832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 320
+  itemId: 337
   indentLevel: 0
   anyVar:
     variable: {fileID: 1527115604}
@@ -974,7 +974,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000731
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -984,14 +984,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9232e9295ed476a8cfb707b5c242b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 319
+  itemId: 338
   indentLevel: 0
   frameCount:
     integerRef: {fileID: 0}
     integerVal: 1
 --- !u!114 &1148000732
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1001,7 +1001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 318
+  itemId: 339
   indentLevel: 0
   anyVar:
     variable: {fileID: 1527115604}
@@ -1143,7 +1143,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000733
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1153,14 +1153,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9232e9295ed476a8cfb707b5c242b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 317
+  itemId: 340
   indentLevel: 0
   frameCount:
     integerRef: {fileID: 0}
     integerVal: 1
 --- !u!114 &1148000734
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1170,7 +1170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 316
+  itemId: 341
   indentLevel: 0
   anyVar:
     variable: {fileID: 1527115604}
@@ -1312,7 +1312,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000735
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1322,14 +1322,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9232e9295ed476a8cfb707b5c242b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 315
+  itemId: 342
   indentLevel: 0
   frameCount:
     integerRef: {fileID: 0}
     integerVal: 1
 --- !u!114 &1148000736
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1339,7 +1339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 314
+  itemId: 343
   indentLevel: 0
   anyVar:
     variable: {fileID: 1527115604}
@@ -1535,7 +1535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 313
+  itemId: 344
   indentLevel: 0
   storyText: 
   description: 
@@ -2061,6 +2061,14 @@ PrefabInstance:
       propertyPath: nodeRect.y
       value: 950.28864
       objectReference: {fileID: 0}
+    - target: {fileID: 2261893938961812468, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 590.7599
+      objectReference: {fileID: 0}
+    - target: {fileID: 2261893938961812468, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 1109.169
+      objectReference: {fileID: 0}
     - target: {fileID: 2784646941685137240, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character
       value: 
@@ -2226,6 +2234,10 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 603476539}
+    - target: {fileID: 5153888111130377382, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
     - target: {fileID: 5318334156647351104, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2316,7 +2328,7 @@ PrefabInstance:
       objectReference: {fileID: 1527115600}
     - target: {fileID: 5318334156647351111, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5318334156647351113, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
@@ -2378,6 +2390,10 @@ PrefabInstance:
       propertyPath: nodeRect.x
       value: 384.18182
       objectReference: {fileID: 0}
+    - target: {fileID: 5318334156647351162, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.x
+      value: 189.66936
+      objectReference: {fileID: 0}
     - target: {fileID: 5318334156647351163, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: nodeRect.y
       value: 218.15346
@@ -2435,6 +2451,10 @@ PrefabInstance:
       propertyPath: storyText
       value: My faithful friend fills my lungs with life when I need it most.
       objectReference: {fileID: 0}
+    - target: {fileID: 7888366695766362513, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 603476539}
     - target: {fileID: 8307394415926793618, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: nodeRect.y
       value: 1174.378
@@ -2545,7 +2565,17 @@ PrefabInstance:
       propertyPath: commandList.Array.data[7]
       value: 
       objectReference: {fileID: 1527115610}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4498484864459082287, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+    - {fileID: 1148000727, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+    - {fileID: 6515464452731242350, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+    - {fileID: 7721185009075063010, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+    - {fileID: 1148000731, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+    - {fileID: 1148000732, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+    - {fileID: 7508602287519962080, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+    - {fileID: 1148000734, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+    - {fileID: 1148000740, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+    - {fileID: 3229305725626090779, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
 --- !u!114 &1527115597 stripped
 MonoBehaviour:
