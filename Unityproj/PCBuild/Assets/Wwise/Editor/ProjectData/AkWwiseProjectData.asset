@@ -331,7 +331,11 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fb55b826d4cf474399223a6c268ade90
     GuidInternal: 
+<<<<<<< Updated upstream
     m_lastTime: -8585895037333477404
+=======
+    m_lastTime: -8585895012784280895
+>>>>>>> Stashed changes
     List:
     - name: Character
       guid: cfe8b12d9fb6544490d61897b50246cf

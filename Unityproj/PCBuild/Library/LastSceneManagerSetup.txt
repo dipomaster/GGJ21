@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: Assets/Resources/Scenes/CHR4Penguin.unity
+=======
+- path: Assets/Resources/Scenes/Intro.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0
