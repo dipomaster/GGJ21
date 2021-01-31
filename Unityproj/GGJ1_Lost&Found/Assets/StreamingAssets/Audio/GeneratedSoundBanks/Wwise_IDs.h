@@ -15,11 +15,15 @@ namespace AK
     {
         static const AkUniqueID ALERT = 721787521U;
         static const AkUniqueID INVENTORY_SCROLL = 1144759537U;
+        static const AkUniqueID PLAY_GECKO_THEME = 2554633949U;
+        static const AkUniqueID PLAY_GOTH_THEME = 3465190198U;
         static const AkUniqueID PLAY_MAGIC_THEME = 229385869U;
         static const AkUniqueID PLAY_MAIN_THEME = 3568813383U;
+        static const AkUniqueID PLAY_MUM_THEME = 3422868443U;
         static const AkUniqueID START_AMBIENCE = 3626999974U;
         static const AkUniqueID START_TALKING = 1672006336U;
         static const AkUniqueID STOP_AMBIENCE = 2477713992U;
+        static const AkUniqueID STOP_MUSIC = 2837384057U;
         static const AkUniqueID STOP_TALKING = 2173668446U;
         static const AkUniqueID UI_CLICK = 2249769530U;
     } // namespace EVENTS

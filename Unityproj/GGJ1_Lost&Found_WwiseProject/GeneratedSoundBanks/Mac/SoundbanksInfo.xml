@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>F:\Dev\Unity\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>I:\GGJ 2021\GGJ21\Unityproj\GGJ1_Lost&amp;Found_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Language="SFX" Hash="600962024">
+		<SoundBank Id="393239870" Language="SFX" Hash="3634410114">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -416,6 +416,7 @@
 						<Switch Id="670611050" Name="Neutral" ObjectPath="\Switches\Default Work Unit\Emotion\Neutral"/>
 						<Switch Id="1206605712" Name="Angry" ObjectPath="\Switches\Default Work Unit\Emotion\Angry"/>
 						<Switch Id="1717373301" Name="Nervous" ObjectPath="\Switches\Default Work Unit\Emotion\Nervous"/>
+						<Switch Id="1427264549" Name="Happy" ObjectPath="\Switches\Default Work Unit\Emotion\Happy"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
@@ -424,6 +425,86 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="3120697984">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2554633949" Name="Play_Gecko_Theme" ObjectPath="\Events\Default Work Unit\Music\Play_Gecko_Theme" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2105215962" Name="Gecko" ObjectPath="\Switches\Default Work Unit\Character_Music\Gecko"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="3465190198" Name="Play_Goth_Theme" ObjectPath="\Events\Default Work Unit\Music\Play_Goth_Theme" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="786076171" Name="Goth" ObjectPath="\Switches\Default Work Unit\Character_Music\Goth"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="229385869" Name="Play_Magic_Theme" ObjectPath="\Events\Default Work Unit\Music\Play_Magic_Theme" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="246862642" Language="SFX">
+							<ShortName>penguin-mum_loop-01.wav</ShortName>
+							<Path>SFX\penguin-mum_loop-01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="697243679" Language="SFX">
+							<ShortName>magic-girl_loop-01.wav</ShortName>
+							<Path>SFX\magic-girl_loop-01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="711847975" Language="SFX">
+							<ShortName>soft-gecko_loop-01.wav</ShortName>
+							<Path>SFX\soft-gecko_loop-01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="848558604" Language="SFX">
+							<ShortName>goth_loop-01.wav</ShortName>
+							<Path>SFX\goth_loop-01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="1880439950" Name="Magic" ObjectPath="\Switches\Default Work Unit\Character_Music\Magic"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="3568813383" Name="Play_Main_Theme" ObjectPath="\Events\Default Work Unit\Music\Play_Main_Theme" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="729006369" Language="SFX">
+							<ShortName>menu-theme_intro-01.wav</ShortName>
+							<Path>SFX\menu-theme_intro-01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1061643460" Language="SFX">
+							<ShortName>menu-theme_loop-02.wav</ShortName>
+							<Path>SFX\menu-theme_loop-02_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3422868443" Name="Play_Mum_Theme" ObjectPath="\Events\Default Work Unit\Music\Play_Mum_Theme" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="712897236" Name="Mum" ObjectPath="\Switches\Default Work Unit\Character_Music\Mum"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Music\Stop_Music" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="712897236" Name="Mum" ObjectPath="\Switches\Default Work Unit\Character_Music\Mum">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="786076171" Name="Goth" ObjectPath="\Switches\Default Work Unit\Character_Music\Goth">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="1880439950" Name="Magic" ObjectPath="\Switches\Default Work Unit\Character_Music\Magic">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="2105215962" Name="Gecko" ObjectPath="\Switches\Default Work Unit\Character_Music\Gecko">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="3213252866" Name="Character_Music" ObjectPath="\Switches\Default Work Unit\Character_Music">
+					<Switches>
+						<Switch Id="1880439950" Name="Magic" ObjectPath="\Switches\Default Work Unit\Character_Music\Magic"/>
+						<Switch Id="786076171" Name="Goth" ObjectPath="\Switches\Default Work Unit\Character_Music\Goth"/>
+						<Switch Id="2105215962" Name="Gecko" ObjectPath="\Switches\Default Work Unit\Character_Music\Gecko"/>
+						<Switch Id="712897236" Name="Mum" ObjectPath="\Switches\Default Work Unit\Character_Music\Mum"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

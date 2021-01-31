@@ -1980,6 +1980,10 @@ PrefabInstance:
       propertyPath: emotion_state
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7035111259918604173, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
+      propertyPath: SelectCharacter.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 27e1984ef8a4b6a4bad4ca745539b296, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
 --- !u!1 &1480939636

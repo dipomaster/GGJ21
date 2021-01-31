@@ -493,7 +493,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1148000726
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -510,7 +510,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000727
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -662,7 +662,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000728
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -679,7 +679,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000729
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -831,7 +831,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000730
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -852,7 +852,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1148000731
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -869,7 +869,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000732
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1021,7 +1021,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000733
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1038,7 +1038,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000734
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1190,7 +1190,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000735
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1207,7 +1207,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000736
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1359,7 +1359,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000737
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1387,7 +1387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &1148000739
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1980,22 +1980,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AkSoundEmitter
       objectReference: {fileID: 0}
-    - target: {fileID: 7035111259918604173, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
-      propertyPath: flowchrt
-      value: 
-      objectReference: {fileID: 1148000724}
-    - target: {fileID: 7035111259918604173, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
-      propertyPath: emotion_state
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035111259918604173, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
-      propertyPath: SelectEmotion.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035111259918604173, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
-      propertyPath: SelectEmotion.Array.data[3].WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: 2fc32b96da84419458d32460cc8ce408, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
 --- !u!1 &1480939636

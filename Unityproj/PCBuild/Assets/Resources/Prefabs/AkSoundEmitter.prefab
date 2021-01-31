@@ -73,3 +73,10 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2fc32b96da84419458d32460cc8ce408, type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24e8c202f327934409c9070bfb34f8f6, type: 2}
+  flowchrt: {fileID: 0}
+  emotion_state: 0

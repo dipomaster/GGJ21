@@ -1668,13 +1668,9 @@ PrefabInstance:
       value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 7035111259918604173, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
-      propertyPath: flowchrt
+      propertyPath: SelectCharacter.WwiseObjectReference
       value: 
-      objectReference: {fileID: 1148000724}
-    - target: {fileID: 7035111259918604173, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
-      propertyPath: emotion_state
-      value: 2
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 993273ee0d489a440938c2ad1a6d3b8a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
 --- !u!1 &1480939636

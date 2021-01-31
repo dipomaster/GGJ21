@@ -1,5 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	229385869	Play_Magic_Theme			\Default Work Unit\Music\Play_Magic_Theme	
+	2554633949	Play_Gecko_Theme			\Default Work Unit\Music\Play_Gecko_Theme	
+	2837384057	Stop_Music			\Default Work Unit\Music\Stop_Music	
+	3422868443	Play_Mum_Theme			\Default Work Unit\Music\Play_Mum_Theme	
+	3465190198	Play_Goth_Theme			\Default Work Unit\Music\Play_Goth_Theme	
 	3568813383	Play_Main_Theme			\Default Work Unit\Music\Play_Main_Theme	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
