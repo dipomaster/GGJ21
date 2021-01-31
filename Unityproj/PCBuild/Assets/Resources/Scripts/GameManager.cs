@@ -1,13 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 
 public class GameManager : MonoBehaviour
 {
+    public int totKarma;
+    public GameObject flowchrt;
+
+    void Awake()
+    {     
+
+        if (GameObject.FindGameObjectsWithTag("GM").Length>1)
+        {
+            Destroy(this.gameObject);
+        }
+
+        DontDestroyOnLoad(this.gameObject);
+    }
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (flowchrt == null)
+        {
+            flowchrt = GameObject.Find("A_interaction");
+        }
     }
 
     // Update is called once per frame
@@ -16,14 +33,14 @@ public class GameManager : MonoBehaviour
         
     }
 
-    void Awake()
-    {     
+   
 
-        if (GameObject.Find("GM")!=null)
-        {
-            Destroy(this.gameObject);
-        }
 
-        DontDestroyOnLoad(this.gameObject);
+    public void updateKarma()
+    {
+        totKarma+= flowchrt.GetComponent<Flowchart>().GetIntegerVariable("karma");
     }
+
+
+
 }

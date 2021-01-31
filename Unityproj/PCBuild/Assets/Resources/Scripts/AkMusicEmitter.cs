@@ -10,18 +10,31 @@ public class AkMusicEmitter : MonoBehaviour
     public int currentMusic;
     public GameObject flowchrt;
 
-    // Start is called before the first frame update
-    void Start()
+
+
+    void Awake()
     {
 
+        if (GameObject.Find("GM") != null)
+        {
+            Destroy(this.gameObject);
+        }
+
+        DontDestroyOnLoad(this.gameObject);
     }
 
-    private void Update()
+
+    // Start is called before the first frame update
+    void Start()
     {
         if (flowchrt == null)
         {
             flowchrt = GameObject.Find("A_interaction");
         }
+    }
+
+    private void Update()
+    {        
         currentMusic = flowchrt.GetComponent<Flowchart>().GetIntegerVariable("currentMusic");
     }
 
