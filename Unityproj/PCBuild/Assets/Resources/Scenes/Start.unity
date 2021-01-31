@@ -1448,5 +1448,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuDialog
       objectReference: {fileID: 0}
+    - target: {fileID: 8845343777329332583, guid: 44acf8882ddaa2c44b17df9dab021cbf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 722d67f400cc82946b3b8fa2ec44186c, type: 3}
+    - target: {fileID: 8845343777329332593, guid: 44acf8882ddaa2c44b17df9dab021cbf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 722d67f400cc82946b3b8fa2ec44186c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44acf8882ddaa2c44b17df9dab021cbf, type: 3}
