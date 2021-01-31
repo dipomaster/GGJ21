@@ -20,11 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 4b6be930bb54c64f8dbefdcd8635fe50
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585895783620549212
-=======
-    m_lastTime: -8585895681322465559
->>>>>>> Stashed changes
+    m_lastTime: -8585896715502689883
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -34,11 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 5ac70ec509e31a4cbdec23609f8a126c
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585895783622135321
-=======
-    m_lastTime: -8585895681324045438
->>>>>>> Stashed changes
+    m_lastTime: -8585896715506963465
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -57,11 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: dbcd0dfda64dec4aa21b03e49abcb8df
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585895783620559182
-=======
-    m_lastTime: -8585895166648704173
->>>>>>> Stashed changes
+    m_lastTime: -8585895133028583701
     List:
     - name: Music
       guid: 0b33efbd0181ad41be955c3438c2be35
@@ -91,12 +79,20 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Ambience
     guid: b407c0ce6cd5f746831b9ca7bcfd2856
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585895783622963163
-=======
-    m_lastTime: -8585895527830171176
->>>>>>> Stashed changes
+    m_lastTime: -8585895873637233790
     List:
+    - name: Alert
+      guid: 71e5084bccff194c841681c6e98428cd
+      id: 721787521
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Alert
+        ObjectType: 3
+      Path: Default Work Unit\Alert
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Start_Ambience
       guid: 91d9a5e630e6434d911d9976e2e90401
       id: 3626999974
@@ -123,8 +119,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Ambience\Stop_Ambience
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -132,24 +128,8 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3914592c5c1ec041ba19db5432f12040
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585895204990629057
-=======
-    m_lastTime: -8585895527293995920
->>>>>>> Stashed changes
-    List:
-    - name: Alert
-      guid: 71e5084bccff194c841681c6e98428cd
-      id: 721787521
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Alert
-        ObjectType: 3
-      Path: Default Work Unit\Alert
-      maxAttenuation: 0
-      maxDuration: 2.696833
-      minDuration: 2.696833
+    m_lastTime: -8585895531945240368
+    List: []
   - PhysicalPath: Events\Dialogue.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -159,11 +139,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Dialogue
     guid: 467942f352406d4182d4f5503c56c8e7
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585895783622953192
-=======
-    m_lastTime: -8585895681325015553
->>>>>>> Stashed changes
+    m_lastTime: -8585895873637163814
     List:
     - name: Start_Talking
       guid: 0b15382fdccf1d43abbcea18bc1bbf91
@@ -191,8 +167,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Dialogue\Stop_Talking
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
     - ElementName: Default Work Unit
@@ -202,11 +178,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\Music
     guid: 2bc0fd40b19ef741bcc67e89432c4e29
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585895204990619079
-=======
-    m_lastTime: -8585895527293935794
->>>>>>> Stashed changes
+    m_lastTime: -8585895133029293478
     List:
     - name: Play_Gecko_Theme
       guid: 8a7aaabf2c6e9a42834268bab663d1c4
@@ -301,11 +273,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit\UI
     guid: d7533f6b014d8441a3d03fbc99fa31b6
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585895783622953192
-=======
-    m_lastTime: -8585895527830171176
->>>>>>> Stashed changes
+    m_lastTime: -8585895873637083840
     List:
     - name: Inventory_Scroll
       guid: f5ab782101ca144fa323f19ea51fcd81
@@ -319,8 +287,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\UI\Inventory_Scroll
       maxAttenuation: 0
-      maxDuration: 0.349181
-      minDuration: 0.26159
+      maxDuration: -1
+      minDuration: -1
     - name: UI_Click
       guid: 82375c51b071c74fa146f119c2d28559
       id: 2249769530
@@ -333,8 +301,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\UI\UI_Click
       maxAttenuation: 0
-      maxDuration: 0.142146
-      minDuration: 0.142146
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -343,11 +311,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fc1c117247a7944e8a0fe9037f13f05a
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585895783622933248
-=======
-    m_lastTime: -8585895681324985161
->>>>>>> Stashed changes
+    m_lastTime: -8585896715507414163
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -357,11 +321,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 49318894f7b9534a997789defaca71f0
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585895783620549212
-=======
-    m_lastTime: -8585895681322475552
->>>>>>> Stashed changes
+    m_lastTime: -8585896715502759865
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -371,11 +331,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fb55b826d4cf474399223a6c268ade90
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585895204980974712
-=======
-    m_lastTime: -8585895527282947962
->>>>>>> Stashed changes
+    m_lastTime: -8585895531942911107
     List:
     - name: Character
       guid: cfe8b12d9fb6544490d61897b50246cf
@@ -490,16 +446,12 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 09999f6f123d8f4383631193a84bc548
     GuidInternal: 
-<<<<<<< Updated upstream
-    m_lastTime: -8585895783620549212
-=======
-    m_lastTime: -8585895681322465559
->>>>>>> Stashed changes
+    m_lastTime: -8585896715502699882
     List: []
   ExpandedItems:
   - /GGJ1_Lost&Found_WwiseProject
   - /GGJ1_Lost&Found_WwiseProject/Events
   - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit
-  - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit/Music
+  - /GGJ1_Lost&Found_WwiseProject/Events/Default Work Unit/Ambience
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
