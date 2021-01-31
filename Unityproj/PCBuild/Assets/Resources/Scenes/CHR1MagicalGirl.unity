@@ -1980,6 +1980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AkSoundEmitter
       objectReference: {fileID: 0}
+    - target: {fileID: 7035111259918604173, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
+      propertyPath: flowchrt
+      value: 
+      objectReference: {fileID: 1148000724}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
 --- !u!1 &1480939636

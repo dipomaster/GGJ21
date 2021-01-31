@@ -2050,6 +2050,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1001624462, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001624463, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
     - target: {fileID: 1001624469, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character
       value: 
@@ -2063,6 +2071,14 @@ PrefabInstance:
       propertyPath: anyVar.data.integerData.integerVal
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1148000741, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000749, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
     - target: {fileID: 1148000750, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character
       value: 
@@ -2071,6 +2087,10 @@ PrefabInstance:
       propertyPath: storyText
       value: "Right, enough chit chat. I\u2019m looking for a pair of Lobster Patrol
         Lobster claw wings. My daughter lost them in the ball pit yesterday."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000758, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 1148000759, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
@@ -2257,6 +2277,10 @@ PrefabInstance:
       value: I do like your adorable little cap, it suits you. I hope you are allowed
         to keep it after the convention ends.
       objectReference: {fileID: 0}
+    - target: {fileID: 1148000812, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
     - target: {fileID: 1148000813, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
       value: 
@@ -2268,6 +2292,10 @@ PrefabInstance:
     - target: {fileID: 1148000872, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: anyVar.data.integerData.integerVal
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4469907805512487, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 357749325369980693, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
@@ -2349,6 +2377,14 @@ PrefabInstance:
       propertyPath: nodeRect.x
       value: 376.91943
       objectReference: {fileID: 0}
+    - target: {fileID: 3226271428781883120, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: nodeRect.y
+      value: 393.76202
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362633039911298136, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
     - target: {fileID: 3586750567422329849, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
       value: 
@@ -2410,6 +2446,10 @@ PrefabInstance:
       value: "Speaking of which, I hope you have been staying hydrated on the job.
         Would you like a bottle of water? Don\u2019t worry about it, I have lots
         of spares."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033757850341744597, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 4087428414050189399, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
@@ -2673,6 +2713,14 @@ PrefabInstance:
     - target: {fileID: 6557662766426555174, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: nodeRect.x
       value: 378.76117
+      objectReference: {fileID: 0}
+    - target: {fileID: 7405314708562707866, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 7528058709622450757, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 7671066541159838012, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character

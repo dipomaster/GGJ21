@@ -494,7 +494,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1148000726
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -511,7 +511,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000727
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -663,7 +663,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000728
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -680,7 +680,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000729
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -832,7 +832,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000730
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -849,7 +849,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000731
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1001,7 +1001,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000732
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1018,7 +1018,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000733
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1170,7 +1170,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000734
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1187,7 +1187,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000735
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1339,7 +1339,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000736
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1356,7 +1356,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000737
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1508,7 +1508,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000738
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1525,7 +1525,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000739
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1677,7 +1677,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000740
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1694,7 +1694,7 @@ MonoBehaviour:
     integerVal: 1
 --- !u!114 &1148000741
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2050,6 +2050,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1001624462, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001624463, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
     - target: {fileID: 1001624469, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character
       value: 
@@ -2057,6 +2065,14 @@ PrefabInstance:
     - target: {fileID: 1001624469, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: storyText
       value: Agent Soft Gecko, reporting for duty. Pleasure to meet you, over.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000741, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000749, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 1148000750, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character
@@ -2066,6 +2082,10 @@ PrefabInstance:
       propertyPath: storyText
       value: 'Back to the objective. I was on a confidential mission, deep under
         enemies lines, over. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000758, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 1148000759, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
@@ -2296,6 +2316,10 @@ PrefabInstance:
       value: "I am here on a... personal assignment. I hope you understand. No-one
         knows I\u2019m here, not even my commanding officer, over."
       objectReference: {fileID: 0}
+    - target: {fileID: 1148000812, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
     - target: {fileID: 1148000813, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
       value: 
@@ -2311,6 +2335,10 @@ PrefabInstance:
     - target: {fileID: 1148000872, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: anyVar.data.integerData.integerVal
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4469907805512487, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 357749325369980693, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
@@ -2351,6 +2379,10 @@ PrefabInstance:
       propertyPath: storyText
       value: "Your couch is broken? Well, no matter, I have other potential safehouses
         lined up, maybe. It\u2019s fine, over."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362633039911298136, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 3586750567422329849, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
@@ -2416,6 +2448,10 @@ PrefabInstance:
       propertyPath: storyText
       value: "You have already helped me greatly. I hate to impose, but I don\u2019t
         have a bunk for the night. Can you help out a brother-in-arms, over?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033757850341744597, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 4087428414050189399, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
@@ -2666,6 +2702,14 @@ PrefabInstance:
     - target: {fileID: 6374173009692248320, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: _sceneName.stringVal
       value: CHR4Penguin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7405314708562707866, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 7528058709622450757, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 7671066541159838012, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character

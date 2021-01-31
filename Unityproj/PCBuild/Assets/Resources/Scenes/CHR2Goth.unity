@@ -1668,6 +1668,10 @@ PrefabInstance:
       value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 7035111259918604173, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
+      propertyPath: flowchrt
+      value: 
+      objectReference: {fileID: 1148000724}
+    - target: {fileID: 7035111259918604173, guid: 7ffe6817fa618b840af1d864c70a98b1, type: 3}
       propertyPath: SelectCharacter.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 993273ee0d489a440938c2ad1a6d3b8a, type: 2}
@@ -1738,9 +1742,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1001624462, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001624462, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 2134823477}
+    - target: {fileID: 1001624463, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
     - target: {fileID: 1001624463, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: targetObject
       value: 
@@ -1763,6 +1775,18 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1148000741, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000741, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: targetObject
+      value: 
+      objectReference: {fileID: 2134823477}
+    - target: {fileID: 1148000749, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000749, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 2134823477}
@@ -1779,6 +1803,14 @@ PrefabInstance:
         My
         plastic warden'
       objectReference: {fileID: 0}
+    - target: {fileID: 1148000758, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000758, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: targetObject
+      value: 
+      objectReference: {fileID: 2134823477}
     - target: {fileID: 1148000759, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
       value: 
@@ -1969,6 +2001,10 @@ PrefabInstance:
         go where I please'
       objectReference: {fileID: 0}
     - target: {fileID: 1148000812, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148000812, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 2134823477}
@@ -1992,6 +2028,10 @@ PrefabInstance:
       propertyPath: anyVar.data.integerData.integerVal
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4469907805512487, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
     - target: {fileID: 357749325369980693, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
       value: 
@@ -2013,6 +2053,10 @@ PrefabInstance:
         If
         not lost and found'
       objectReference: {fileID: 0}
+    - target: {fileID: 1741489497685166212, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: targetObject
+      value: 
+      objectReference: {fileID: 2134823477}
     - target: {fileID: 1774651112942920118, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: nodeRect.y
       value: 950.28864
@@ -2048,6 +2092,14 @@ PrefabInstance:
       propertyPath: nodeRect.y
       value: 387.02582
       objectReference: {fileID: 0}
+    - target: {fileID: 3362633039911298136, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362633039911298136, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: targetObject
+      value: 
+      objectReference: {fileID: 2134823477}
     - target: {fileID: 3586750567422329849, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
       value: 
@@ -2117,6 +2169,14 @@ PrefabInstance:
         But good
         memories'
       objectReference: {fileID: 0}
+    - target: {fileID: 4033757850341744597, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033757850341744597, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: targetObject
+      value: 
+      objectReference: {fileID: 2134823477}
     - target: {fileID: 4087428414050189399, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
       value: 
@@ -2158,6 +2218,10 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 603476539}
+    - target: {fileID: 4955251242209532639, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: targetObject
+      value: 
+      objectReference: {fileID: 2134823477}
     - target: {fileID: 4997771860906259478, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character
       value: 
@@ -2343,9 +2407,21 @@ PrefabInstance:
         A medical
         aid'
       objectReference: {fileID: 0}
+    - target: {fileID: 6404404523109751794, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: targetObject
+      value: 
+      objectReference: {fileID: 2134823477}
     - target: {fileID: 6557662766426555174, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: nodeRect.x
       value: 380.59943
+      objectReference: {fileID: 0}
+    - target: {fileID: 7405314708562707866, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 7528058709622450757, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: GOname
+      value: AkSoundEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 7528058709622450757, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: targetObject
