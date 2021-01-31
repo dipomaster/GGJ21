@@ -868,6 +868,7 @@ GameObject:
   - component: {fileID: 1823673786}
   - component: {fileID: 1823673785}
   - component: {fileID: 1823673784}
+  - component: {fileID: 1823673790}
   m_Layer: 0
   m_Name: A_Interaction
   m_TagString: Untagged
@@ -1502,6 +1503,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1823673771}
   commandList:
   - {fileID: 1823673788}
+  - {fileID: 1823673790}
   - {fileID: 1823673767}
   - {fileID: 1823673770}
   - {fileID: 1823673763}
@@ -1541,9 +1543,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1823673772}
-  selectedCommands:
-  - {fileID: 1823673787}
+  - {fileID: 1823673764}
+  selectedCommands: []
   variables:
   - {fileID: 1823673761}
   - {fileID: 1823673789}
@@ -2692,6 +2693,23 @@ MonoBehaviour:
   scope: 0
   key: currentMusic
   value: 0
+--- !u!114 &1823673790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823673753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de9232e9295ed476a8cfb707b5c242b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  indentLevel: 0
+  frameCount:
+    integerRef: {fileID: 0}
+    integerVal: 1
 --- !u!1 &2095857227
 GameObject:
   m_ObjectHideFlags: 0
