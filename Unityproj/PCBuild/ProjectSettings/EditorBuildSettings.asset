@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resources/Scenes/CHR2Goth.unity
     guid: b162fae2f6f04c645961960ce183cd3a
+  - enabled: 1
+    path: Assets/Resources/Scenes/CHR3Gecko.unity
+    guid: cb8825e313cc34a48b1b848a823a397a
+  - enabled: 1
+    path: Assets/Resources/Scenes/CHR4Penguin.unity
+    guid: 3b024dbc51a080c47b4b3334284df75b
+  - enabled: 1
+    path: Assets/Resources/Scenes/End.unity
+    guid: e148864244fe60e4a9b1cbbe7d8b36fe
   m_configObjects: {}

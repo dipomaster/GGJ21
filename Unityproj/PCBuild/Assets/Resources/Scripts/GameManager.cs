@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public int totKarma;
     public GameObject flowchrt;
+    private bool pause=false;
 
     void Awake()
     {     

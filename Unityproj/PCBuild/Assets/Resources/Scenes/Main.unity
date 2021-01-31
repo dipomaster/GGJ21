@@ -795,7 +795,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: A_interaction
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3408217097061417759, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
 --- !u!224 &1556923164 stripped
 RectTransform:
@@ -1275,6 +1276,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3162420832556320315, guid: dea5a211a975a7845b63043607f238c5, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242470792764099199, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242470792764099199, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242470792764099199, guid: dea5a211a975a7845b63043607f238c5, type: 3}
+      propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5242470792913896693, guid: dea5a211a975a7845b63043607f238c5, type: 3}

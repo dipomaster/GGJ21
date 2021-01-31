@@ -15,17 +15,19 @@ namespace Fungus
     public class SetMenuDialog : Command 
     {
         [Tooltip("The Menu Dialog to use for displaying menu buttons")]
-        [SerializeField] protected MenuDialog menuDialog;
+        [SerializeField] protected GameObject menuDialog;
 
         #region Public members
 
         public override void OnEnter()
         {
             if (menuDialog != null)
-            {
-                MenuDialog.ActiveMenuDialog = menuDialog;
+            {   
+                
+                GameObject go= Instantiate(menuDialog);
+                MenuDialog.ActiveMenuDialog = go.GetComponent<MenuDialog>();
             }
-
+           
             Continue();
         }
 

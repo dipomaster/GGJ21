@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Resources/Scenes/Start.unity
+- path: Assets/Resources/Scenes/CHR1MagicalGirl.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
