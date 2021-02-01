@@ -2346,8 +2346,7 @@ PrefabInstance:
     - target: {fileID: 3140889618867473551, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: storyText
       value: "What do you mean \u2018costume\u2019? This is my standard casual wear,
-        do you believe me to be a wood elf with a magical staff? I am embarrassed
-        on your behalf."
+        I\u2019m not a wood elf with a magical staff. How embarrassing for you."
       objectReference: {fileID: 0}
     - target: {fileID: 3226271428781883120, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: nodeRect.x
@@ -2637,7 +2636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5318334156647351111, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: selectedCommands.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5318334156647351111, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: selectedBlocks.Array.data[0]

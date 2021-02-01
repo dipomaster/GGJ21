@@ -396,10 +396,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -651,6 +651,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1354743009}
+  - component: {fileID: 1354743010}
   m_Layer: 0
   m_Name: ChangeKarma
   m_TagString: Untagged
@@ -672,6 +673,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1354743010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354743008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 181a150b3c591cb479cd459ede8abca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GM: {fileID: 0}
+  flowchrt: {fileID: 1823673773}
 --- !u!1 &1701129599
 GameObject:
   m_ObjectHideFlags: 1
@@ -771,6 +786,7 @@ GameObject:
   - component: {fileID: 1823673800}
   - component: {fileID: 1823673799}
   - component: {fileID: 1823673797}
+  - component: {fileID: 1823673801}
   m_Layer: 0
   m_Name: A_interaction
   m_TagString: Untagged
@@ -969,7 +985,7 @@ MonoBehaviour:
   indentLevel: 1
   images:
   - {fileID: 457193115}
-  sprite: {fileID: 21300000, guid: 8f94503345905e04ca2c70ad2440e801, type: 3}
+  sprite: {fileID: 21300000, guid: 3a07c108d11852347ae39ea6429ec3b3, type: 3}
 --- !u!114 &1823673763
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1459,9 +1475,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1823673792}
-  selectedCommands:
-  - {fileID: 1823673757}
+  - {fileID: 1823673764}
+  selectedCommands: []
   variables:
   - {fileID: 1823673761}
   - {fileID: 1823673789}
@@ -1525,7 +1540,7 @@ MonoBehaviour:
   indentLevel: 1
   images:
   - {fileID: 457193115}
-  sprite: {fileID: 21300000, guid: 2572b4898ee52e9449173072893091fe, type: 3}
+  sprite: {fileID: 21300000, guid: bbc334846c11e2c43aa5f5da8feb5707, type: 3}
 --- !u!114 &1823673777
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1595,7 +1610,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 10
+          integerVal: 7
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -1825,7 +1840,7 @@ MonoBehaviour:
   indentLevel: 1
   images:
   - {fileID: 457193115}
-  sprite: {fileID: 21300000, guid: bbc334846c11e2c43aa5f5da8feb5707, type: 3}
+  sprite: {fileID: 21300000, guid: 2572b4898ee52e9449173072893091fe, type: 3}
 --- !u!114 &1823673781
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1895,7 +1910,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 15
+          integerVal: 12
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -2444,6 +2459,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1823673801}
   - {fileID: 1823673757}
   suppressAllAutoSelections: 0
 --- !u!114 &1823673793
@@ -2482,7 +2498,7 @@ MonoBehaviour:
   indentLevel: 1
   images:
   - {fileID: 457193115}
-  sprite: {fileID: 21300000, guid: 3a07c108d11852347ae39ea6429ec3b3, type: 3}
+  sprite: {fileID: 21300000, guid: 8f94503345905e04ca2c70ad2440e801, type: 3}
 --- !u!114 &1823673795
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2552,7 +2568,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 22
+          integerVal: 16
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -2830,6 +2846,24 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &1823673801
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823673753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 105
+  indentLevel: 0
+  targetObject: {fileID: 0}
+  GOname: AkMusicEmitter
+  methodName: StopMusic
+  delay: 0
 --- !u!1 &2095857227
 GameObject:
   m_ObjectHideFlags: 0

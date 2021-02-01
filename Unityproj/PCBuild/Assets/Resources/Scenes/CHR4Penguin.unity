@@ -2372,7 +2372,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1148000750
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2400,6 +2400,24 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &1148000751
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148000724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 364
+  indentLevel: 0
+  targetObject: {fileID: 0}
+  GOname: GM
+  methodName: updateKarma
+  delay: 0
 --- !u!114 &1148000756 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5318334156647351111, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
@@ -3073,9 +3091,8 @@ PrefabInstance:
       objectReference: {fileID: 603476539}
     - target: {fileID: 4274014572459960017, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: storyText
-      value: "What\u2019s a furry? Is that like one of those computer game Bytomon
-        creatures? I\u2019m dressed as a regular penguin, I thought it would be pretty
-        obvious."
+      value: "What\u2019s a furry? Is that like one of those Bytomon creatures? I\u2019m
+        just dressed as a penguin, it should be pretty obvious..."
       objectReference: {fileID: 0}
     - target: {fileID: 4322241620023908674, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: portrait
@@ -3095,7 +3112,7 @@ PrefabInstance:
       objectReference: {fileID: 603476539}
     - target: {fileID: 5117494900058185444, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5117494900058185444, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[2]
@@ -3115,6 +3132,10 @@ PrefabInstance:
       objectReference: {fileID: 1148000742}
     - target: {fileID: 5117494900058185444, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 1148000751}
+    - target: {fileID: 5117494900058185444, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
+      propertyPath: commandList.Array.data[7]
       value: 
       objectReference: {fileID: 1527115648}
     - target: {fileID: 5153888111130377382, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}

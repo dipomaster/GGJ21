@@ -18,6 +18,9 @@ public class AkMusicEmitter : MonoBehaviour
             Destroy(this.gameObject);
         }
         DontDestroyOnLoad(this.gameObject);
+
+        if(flowchrt==null)
+        flowchrt = GameObject.Find("Menu");
     }
 
     // Start is called before the first frame update
@@ -34,8 +37,9 @@ public class AkMusicEmitter : MonoBehaviour
             flowchrt = GameObject.Find("A_interaction");
             else if(GameObject.Find("A_interaction") == null)
                 flowchrt = GameObject.Find("intro");
-            else
-            flowchrt = GameObject.Find("Menu");
+           else 
+                flowchrt = GameObject.Find("Menu");
+
         }
         currentMusic = flowchrt.GetComponent<Flowchart>().GetIntegerVariable("currentMusic");
     }

@@ -2057,7 +2057,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1148000746
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2489,7 +2489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1148000793, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: nodeRect.y
-      value: 647.55896
+      value: 645.9196
       objectReference: {fileID: 0}
     - target: {fileID: 1148000797, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: character
@@ -3021,7 +3021,7 @@ PrefabInstance:
     - target: {fileID: 6115969676342864269, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: storyText
       value: I had to join a party of revellers to escape detection. I may have over-indulged
-        in their liquor and gotten carried away when discarding my armour, over.
+        in their liquor and lost my armour, over.
       objectReference: {fileID: 0}
     - target: {fileID: 6374173009692248320, guid: 7b35464a1fc5b0f4ca7f46016f115d6c, type: 3}
       propertyPath: _sceneName.stringVal
